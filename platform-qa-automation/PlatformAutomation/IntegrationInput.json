@@ -1,0 +1,26 @@
+{
+	"Juno-Platform": {
+		"agentID": "80c6d631-2ae2-4ed1-9e9a-cd332eaa0d75",
+		"clientID": "50109539",
+		"legacyRegID": "53752096",
+		"sysInfo": {
+			"motherboardAdapter": "None",
+			"hostName": "Juno-win7-32",
+			"memory": "",
+			"processorType": "3",
+			"hardDriveSerialNumber": "",
+			"logicalDiskVolumeSerialNumber": "D2D87D09",
+			"cdromSerial": "",
+			"osName": "Microsoft Windows 7 Professional ",
+			"osSerialNumber": "00371-222-6812146-86505",
+			"macAddress": "00:50:56:A7:43:B7",
+			"processorid": "0FABFBFF000306F2",
+			"timestamp_utc": "2017-08-28T12:12:43.411Z",
+			"osVersion": "6.1.7601",
+			"biosSerial": "VMware-42 27 28 c5 09 ce 3a a2-9e 3b c0 25 1f fb e5 db"
+		},
+		"endpointID": "80c6d631-2ae2-4ed1-9e9a-cd332eaa0d75",
+		"siteID": "50109539",
+		"partnerID": "50001794"
+	}
+}

@@ -1,0 +1,36 @@
+{
+	"AgentMicroService": {
+		"ApiURL": "https://integration.agent.exec.itsupport247.net",
+		"ApiPort": "",
+		"ApiBasePath": "agent",
+		"ApiVersion": "v1"
+	},
+	"Kafka": {
+		"ConsumerProperties": "/environments/INT/Kafka/kafkaConsumer.properties",
+		"ProducerProperties": "/environments/INT/Kafka/kafkaProducer.properties",
+		"SSHSettings": {
+			"RemoteAddress": "172.28.48.164",
+			"UserName": "enggawsuser",
+			"UserPassword": "conti@123",
+			"PrivateKeyLocation": "",
+			"PortLForwardingEnabled": true,
+			"LocalAddress": "172.28.48.164",
+			"LocalPort": 9092,
+			"TargetPort": 9092
+		}
+	},
+	"Cassandra": {
+		"CassandraNode": "127.0.0.1",
+		"CassandraPort": 9042,
+		"SSHSettings": {
+			"RemoteAddress": "172.28.48.6",
+			"UserName": "ubuntu",
+			"UserPassword": "",
+			"PrivateKeyLocation": "/AWSAutomation-Int-APAC.ppk",
+			"PortLForwardingEnabled": true,
+			"LocalAddress": "172.28.48.6",
+			"LocalPort": 9042,
+			"TargetPort": 9042
+		}
+	}
+}

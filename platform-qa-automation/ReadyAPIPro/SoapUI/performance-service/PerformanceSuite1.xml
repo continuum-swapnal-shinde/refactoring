@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="bbcccad0-572a-41f8-bdb1-df23ce30f488" activeEnvironment="Default environment" name="PerformanceSuite1" lastOpened="2017-07-24T11:30:52.904+05:30" resourceRoot="" soapui-version="6.0.0" xmlns:con="http://eviware.com/soapui/config"><con:description>Memory and Network Peformance API</con:description><con:settings><con:setting id="bbcccad0-572a-41f8-bdb1-df23ce30f488fileName">Performance-soapui-project</con:setting><con:setting id="IncludeOverview">true</con:setting><con:setting id="IncludeResults">true</con:setting><con:setting id="FlowLayout">false</con:setting><con:setting id="ErrorDetails">true</con:setting><con:setting id="IncludeCoverage">true</con:setting><con:setting id="GeneratableJUnitReport@Style">Multiple Pages</con:setting><con:setting id="GeneratableJUnitReport@Folder">C:\Users\sampada.phadke\Desktop\Soap_report</con:setting></con:settings><con:vcsConfiguration><con:vcsName>Git</con:vcsName><con:repositoryIdentifier>https://github.com/ContinuumLLC/platform-qa-automation.git</con:repositoryIdentifier></con:vcsConfiguration><con:savedRecentRuns>1</con:savedRecentRuns><con:requirements/><con:properties><con:property><con:name>ServerHost</con:name><con:value>http://internal-continuum-perf-service-elb-int-603463992.ap-south-1.elb.amazonaws.com/performance/v1/endpoint/3bfcebb3-8a26-49c0-9fd9-66ffd4ae0ae5</con:value></con:property></con:properties><con:wssContainer/><con:databaseConnectionContainer/><con:oAuth2ProfileContainer/><con:reporting><con:xmlTemplates xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/><con:xmlTemplates/><con:parameters/><con:parameters/></con:reporting><con:authRepository/><con:tags/><con:interface xsi:type="con:RestService" id="df987497-d3e3-4d53-b8d1-42230c2af44e" wadlVersion="http://wadl.dev.java.net/2009/02" name="Memory" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings><con:setting id="df987497-d3e3-4d53-b8d1-42230c2af44efileName">http%3A%2F%2Flocalhost%3A8082</con:setting></con:settings><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>${#Project#ServerHost}</con:endpoint></con:endpoints><con:resource name="Memory" path="/memory" id="68ab0eff-8758-4020-82f6-5b662e1ba16a"><con:settings><con:setting id="68ab0eff-8758-4020-82f6-5b662e1ba16afileName">Memory</con:setting></con:settings><con:parameters/><con:method name="Memory" id="9b118b6f-9da5-4c38-9475-c92237fb2cd0" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element>Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/plain; charset=utf-8</con:mediaType><con:status>404 400</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="/performance/v1/endpoint/{endpointId}/memory" id="7f2084ac-2606-4756-ae7b-a493ed597d4d" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#ServerHost}</con:endpoint><con:request/><con:originalUri>http://localhost/</con:originalUri><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/><con:parameterOrder/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="741761db-db40-4f4d-ab36-0b8cd9cad65b" wadlVersion="http://wadl.dev.java.net/2009/02" name="REST Service 1" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>${#Project#ServerHost}</con:endpoint></con:endpoints><con:resource name="Network" path="/network" id="c36d8d2a-d13f-43ef-b394-e8fbe5be7ea0"><con:settings/><con:parameters/><con:method name="GET - GetNetworkPerfByEndpointId" id="3fcb2975-b518-45bb-bf4a-f904bcd255c1" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element>Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/plain; charset=utf-8</con:mediaType><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="GET Request" id="daa4f91e-84d1-40fe-8fb8-3ead1753a31d" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#ServerHost}</con:endpoint><con:request/><con:originalUri>http://localhost/</con:originalUri><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/><con:parameterOrder/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="ea24f55f-80e9-4e96-b6d5-ea0d198e672f" wadlVersion="http://wadl.dev.java.net/2009/02" name="REST Service 2" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints/><con:resource name="Process" path="/process" id="dccc9a03-d500-4eb1-a51a-4ed2e84f0b50"><con:settings/><con:parameters/><con:method name="GET - GetProcessPerfByEndpointId" id="d026c648-de66-4471-9cbb-a4602c6bad2f" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element>Response</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/plain; charset=utf-8</con:mediaType><con:status>400</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="GET Request" id="dde7effe-2547-4243-ba8d-7932a2aa750b" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#ServerHost}</con:endpoint><con:request/><con:originalUri>http://10.2.42.148/performance/v1/endpoint/b1436ea1-0d5d-46e5-a5f1-0e42b530fef3/process</con:originalUri><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/><con:parameterOrder/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="9117073d-4888-4aaf-a1fd-7dec28a9eb64" wadlVersion="http://wadl.dev.java.net/2009/02" name="ProcessorMicroService" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints/><con:resource name="processor" path="/performance/v1/endpoint/{machineId}/processor" id="72e47ddc-d65e-451e-b09f-410325d6673f"><con:settings/><con:parameters><con:parameter><con:name>machineId</con:name><con:value/><con:style>QUERY</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="GET - GetProcessorPerfByAgentId" id="396e0549-036d-4123-803e-0ca816293d7a" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element>Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/plain; charset=utf-8</con:mediaType><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="GET Request" id="d1c9518f-b9d5-47f1-995b-56fd56bc591e" mediaType="application/json"><con:settings/><con:endpoint>http://localhost:8082</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters><entry key="machineId" value="1" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>machineId</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:testSuite id="4e138df4-370c-4a09-aa4e-82f407664aae" name="Memory API Response Format Validation TestSuite"><con:description>This section contains test cases related to validation of response format for Memory Performance API</con:description><con:settings><con:setting id="4e138df4-370c-4a09-aa4e-82f407664aaefileName">Memory-API-Response-Format-Validation-TestSuite</con:setting></con:settings><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:properties/><con:reportParameters/><con:testCase id="8b8355df-7500-4e65-8e37-9aca75cdc1cd" discardOkResults="true" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="C816735-Validate REST endpoint for Memory Performance API" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings><con:setting id="47953583-8c1b-4468-a8a0-220cefa737ddfileName">C816735-Validate-REST-endpoint-for-Memory-Performance-API</con:setting><con:setting id="8b8355df-7500-4e65-8e37-9aca75cdc1cdfileName">C816735-Validate-REST-endpoint-for-Memory-Performance-API</con:setting></con:settings><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="delay" name="Delay" id="cd354ed8-6a73-46f5-9b68-734c9c173aff"><con:settings/><con:config><delay>10000</delay></con:config></con:testStep><con:testStep type="restrequest" name="Step1_GetMemoryPerformance_Request" id="12ad2ef8-de4c-4c8b-b58d-6dadea62fe43"><con:settings/><con:config service="Memory" resourcePath="/memory" methodName="Memory" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetMemoryPerformance_Request" id="5b9f4287-9d5b-42ae-825d-0b3f25212711" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#ServerHost}</con:endpoint><con:request/><con:originalUri>http://localhost/performance/v1/endpoint/1/memory</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="d5742dd8-45a9-4afc-856f-e3698de6761d" name="Valid HTTP Status Codes"><con:settings/><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/><con:parameterOrder/><con:environmentSpec><con:entry environmentId="8eef0a7c-3706-4628-b66b-dc2fb662e155"><con:authProfile>Inherit From Parent</con:authProfile></con:entry><con:entry environmentId="7021bd04-bcf4-458e-b990-05d6a8a5d6e1"><con:authProfile>Inherit From Parent</con:authProfile></con:entry></con:environmentSpec></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>12ad2ef8-de4c-4c8b-b58d-6dadea62fe43</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="8bd64f02-91a5-48dc-9c53-e672c30ca457" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C816738-Validate REST response for Memory Performance API" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:description>TestCase generated for REST Resource [Memory] located at [/performance/v1/endpoint/{machineId}/memory]</con:description><con:settings><con:setting id="4c624683-9d69-4b2b-8dff-90dd01a62d40fileName">C816738-Validate-REST-response-for-Memory-Performance-API</con:setting><con:setting id="8bd64f02-91a5-48dc-9c53-e672c30ca457fileName">C816738-Validate-REST-response-for-Memory-Performance-API</con:setting></con:settings><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate JSON Response Format" id="58dbd0bd-78e6-423f-ade4-605dcc6997c6"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+//def response = context.expand( '${Step1_GetMemoryPerformance_Request#Response}' ).toString()
+def response = context.expand( '${#[Memory API Response Format Validation TestSuite#C816735-Validate REST endpoint for Memory Performance API#Step1_GetMemoryPerformance_Request]#Response}' )
+//log.info(response+"memory")
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+if(jsonResponse.size() > 0)
+{
+
+log.info(jsonResponse.size())
+log.info("Verifying Memory Performance API Response")
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	log.info("hi")
+	assert jsonObj.size() == 19,"Memory API size not equal to 16"
+	assert jsonObj.containsKey("createTimeUTC"), "createTimeUTC not found in response"
+	assert jsonObj.containsKey("createdBy"), "createdBy not found in response"
+	assert jsonObj.containsKey("index"), "index not found in response"
+	assert jsonObj.containsKey("name"), "name not found in response"
+	assert jsonObj.containsKey("type"), "type not found in response"
+	assert jsonObj.containsKey("physicalTotalBytes"), "physicalTotalBytes not found in response"
+	assert jsonObj.containsKey("physicalInUseBytes"), "physicalInUseBytes not found in response"
+	assert jsonObj.containsKey("physicalAvailableBytes"), "physicalAvailableBytes not found in response"
+	assert jsonObj.containsKey("virtualTotalBytes"), "virtualTotalBytes not found in response"
+	assert jsonObj.containsKey("virtualInUseBytes"), "virtualInUseBytes not found in response"
+	assert jsonObj.containsKey("virtualAvailableBytes"), "virtualAvailableBytes not found in response"
+	assert jsonObj.containsKey("percentCommittedInUseBytes"), "percentCommittedInUseBytes not found in response"
+	assert jsonObj.containsKey("committedBytes"), "committedBytes not found in response"
+	assert jsonObj.containsKey("freeSystemPageTableEntriesBytes"), "freeSystemPageTableEntriesBytes not found in response"
+	assert jsonObj.containsKey("poolNonPagedBytes"), "poolNonPagedBytes not found in response"
+	assert jsonObj.containsKey("pagesPerSecondBytes"), "pagesPerSecondBytes not found in response"
+     assert jsonObj.containsKey("swapinPerSecondBytes"), "swapinPerSecondBytes not found in response"
+     assert jsonObj.containsKey("swapoutPerSecondBytes"), "swapoutPerSecondBytes not found in response"
+     assert jsonObj.containsKey("pagesOutputPerSec"), "pagesOutputPerSec not found in response"
+	}
+
+	log.info("Verified Memory Performance API response")
+}
+else
+{
+	testRunner.fail("Memory performance API Response is empty")
+}
+}
+else
+{
+	testRunner.fail("Memory performance API Response is null")
+}
+</script></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>dfb5142c-896b-43cf-9b7e-7f4d8db8b6aa</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>517c65af-c38c-4266-94d5-6e18211fdc58</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>89ece29a-f4d9-476a-ac82-ce30dfafb8bb</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:environmentSpec><con:entry environmentId="8eef0a7c-3706-4628-b66b-dc2fb662e155"><con:authProfile>Inherit From Parent</con:authProfile></con:entry></con:environmentSpec></con:testCase></con:testSuite><con:testSuite id="7ff3ce03-aa93-49a4-8302-678767c17580" name="Memory API Response Data Validation TestSuite"><con:description>This section contains test cases related to validation of response data for Memory Performance API</con:description><con:settings><con:setting id="7ff3ce03-aa93-49a4-8302-678767c17580fileName">Memory-API-Response-Data-Validation-TestSuite</con:setting></con:settings><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:properties/><con:reportParameters/><con:testCase id="ae0757bb-ea40-4f69-a70f-f0b6cd0fe963" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C819311-Verify &quot;name&quot; field data in REST response for Memory Performance API" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings><con:setting id="a1d7b4c6-0d1c-4dc0-aa8b-a0a5daa885a6fileName">C819311-Verify-%22name%22-field-data-in-REST-response-for-Memory-Performance-API</con:setting><con:setting id="ae0757bb-ea40-4f69-a70f-f0b6cd0fe963fileName">C819311-Verify-%22name%22-field-data-in-REST-response-for-Memory-Performance-API</con:setting></con:settings><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="properties" name="Step2_Get value for name from Properties" id="f3024946-8c75-42da-a143-9b95181e85e6"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>name</con:name><con:value>memory</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="groovy" name="Step3_Verify &quot;name&quot; field data" id="5c7abea3-e729-43a4-9001-fcb2c6cb1214"><con:settings/><con:config><script>nameProperty = context.expand( '${Step2_Get value for name from Properties#name}')
+import groovy.json.JsonSlurper 
+def response = context.expand( '${#[Memory API Response Format Validation TestSuite#C816735-Validate REST endpoint for Memory Performance API#Step1_GetMemoryPerformance_Request]#Response}' ).toString()
+//log.info(response+"memory")
+if(response != "")
+{
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+if(jsonResponse.size() > 0)
+{
+
+log.info("Verifying name field in JSON response")
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	 def jsonObj = jsonResponse[i]
+ assert (jsonObj.name != null)
+ assert jsonObj.containsKey("name"), "Name property not found in JSON response"
+ assert jsonObj.name == nameProperty, "Name property in JSON response is incorrect"
+}
+log.info("Verified name field in JSON response")
+
+}
+else
+{
+	testRunner.fail("Memory performance API Response is empty")
+}
+}
+else
+{
+	testRunner.fail("Memory performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="10820f26-7fda-4191-8a0e-a0bf146b69c6" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C819331-Verify &quot;type&quot; field data in REST response for Memory Performance API" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings><con:setting id="c87b8f8b-682f-4985-98f1-1dfd4da2179efileName">C819331-Verify-%22type%22-field-data-in-REST-response-for-Memory-Performance-API</con:setting><con:setting id="10820f26-7fda-4191-8a0e-a0bf146b69c6fileName">C819331-Verify-%22type%22-field-data-in-REST-response-for-Memory-Performance-API</con:setting></con:settings><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="properties" name="Step2_Get value for type from Properties" id="13758d47-b7ef-4123-93f4-4c0fa534d9ad"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>type</con:name><con:value>performanceMemory</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="groovy" name="Step3_Verify &quot;type&quot; field data" id="4d3c73c1-a663-4790-bc16-e8be2234df43"><con:settings/><con:config><script>typeProperty = context.expand( '${Step2_Get value for type from Properties#type}')
+import groovy.json.JsonSlurper 
+def response = context.expand( '${#[Memory API Response Format Validation TestSuite#C816735-Validate REST endpoint for Memory Performance API#Step1_GetMemoryPerformance_Request]#Response}' ).toString()
+if(response != "")
+{
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+if(jsonResponse.size() > 0)
+{
+
+log.info("Verifying type field in JSON response")
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	 def jsonObj = jsonResponse[i]
+assert jsonObj.containsKey("type"), "Name property not found in JSON response"
+ assert jsonObj.type == typeProperty, "Name property in JSON response is incorrect"
+}
+log.info("Verified type field in JSON response")
+}
+else
+{
+	testRunner.fail("Memory performance API Response is empty")
+}
+}
+else
+{
+	testRunner.fail("Memory performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="4806598a-ecaf-404b-94c7-75aaef60c17e" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C934578-Validate &quot;index&quot; field in REST response for Memory Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;index&quot; field in REST response" id="6d838d8a-3544-4bc3-ba03-60a29f63ccc5"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+def response = context.expand( '${#[Memory API Response Format Validation TestSuite#C816735-Validate REST endpoint for Memory Performance API#Step1_GetMemoryPerformance_Request]#Response}' ).toString()
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+if(jsonResponse.size() > 0)
+{
+log.info("Verifying index field in JSON response")
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("index"), "Index property not found in JSON response"
+	
+	String indexStr = jsonObj.index
+	assert indexStr.isInteger(), "index value is not of integer data-type"
+			int index = indexStr as int
+			assert index >= 0, "index is negative"
+			assert index == i
+			//log.info(index)
+	}
+
+	log.info("Verified index field in JSON response")
+}
+else
+{
+	testRunner.fail("Memory performance API Response is empty")
+}
+}
+else
+{
+	testRunner.fail("Memory performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="3a6b029e-8d47-4967-a864-6ce0ef624cd4" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C819096-Validate &quot;physicalTotalBytes&quot; field data in REST response for Memory Performance API" searchProperties="true" timeout="0"><con:settings><con:setting id="41ecafaa-c4d7-430b-a66a-2a5c1f0b5cf9fileName">C819096-Validate-%22physicalTotalBytes%22-field-data-in-REST-response-for-Memory-Performance-API</con:setting><con:setting id="3a6b029e-8d47-4967-a864-6ce0ef624cd4fileName">C819096-Validate-%22physicalTotalBytes%22-field-data-in-REST-response-for-Memory-Performance-API</con:setting></con:settings><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;physicalTotalBytes&quot; field in REST response" id="4e56b4ce-09ee-484b-afb2-0de139b4605b"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Memory API Response Format Validation TestSuite#C816735-Validate REST endpoint for Memory Performance API#Step1_GetMemoryPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+if(jsonResponse.size() > 0)
+{
+log.info("Verifying physicalTotalBytes field in JSON response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("physicalTotalBytes"), "physicalTotalBytes not found in response"
+     String physicalTotalBytes = jsonObj.physicalTotalBytes
+	assert physicalTotalBytes.isLong(), "physicalTotalBytes value is not of data-type long"
+  
+     long physicalTotalBytesLength = physicalTotalBytes as long
+	assert physicalTotalBytesLength >= 0, "physicalTotalBytes is negative"
+	
+		
+	}
+	log.info("Verified physicalTotalBytes field in JSON response")
+}
+else
+{
+	testRunner.fail("Memory performance API Response is empty")
+}
+}
+else
+{
+	testRunner.fail("Memory performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="82912590-0108-448d-a510-e5e35b7db911" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C819099-Validate &quot;virtualTotalBytes&quot; field data in REST response for Memory Performance API" searchProperties="true" timeout="0"><con:settings><con:setting id="e7e7cb17-8bb5-486c-a650-2aaffb318f10fileName">C819099-Validate-%22virtualTotalBytes%22-field-data-in-REST-response-for-Memory-Performance-API</con:setting><con:setting id="82912590-0108-448d-a510-e5e35b7db911fileName">C819099-Validate-%22virtualTotalBytes%22-field-data-in-REST-response-for-Memory-Performance-API</con:setting></con:settings><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;virtualTotalBytes&quot; field in REST response" id="8c207541-841f-424f-a7b9-771975e79183"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Memory API Response Format Validation TestSuite#C816735-Validate REST endpoint for Memory Performance API#Step1_GetMemoryPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+if(jsonResponse.size() > 0)
+{
+log.info("Verifying virtualTotalBytes field in JSON response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("virtualTotalBytes"), "virtualTotalBytes not found in response"
+     String virtualTotalBytes = jsonObj.virtualTotalBytes
+	assert virtualTotalBytes.isLong(), "virtualTotalBytes value is not of data-type long"
+  
+     long virtualTotalBytesLength = virtualTotalBytes as long
+	assert virtualTotalBytesLength >= 0, "virtualTotalBytes is negative"
+	
+		
+	}
+	log.info("Verified virtualTotalBytes field in JSON response")
+}
+else
+{
+	testRunner.fail("Memory performance API Response is empty")
+}
+}
+else
+{
+	testRunner.fail("Memory performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="239b00b9-83b8-4235-992b-3fa6b3ecf995" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C819310-Verify &quot;createTimeUTC&quot; field in REST response for Memory Performance API" searchProperties="true" timeout="0"><con:settings><con:setting id="239b00b9-83b8-4235-992b-3fa6b3ecf995fileName">C819310-Verify-%22createTimeUTC%22-field-in-REST-response-for-Memory-Performance-API</con:setting></con:settings><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate &quot;createdTimeUTC&quot; field of REST API response is a proper datetime" id="c7b9249d-d872-4afa-983d-bb0d3a4ba110"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+import java.text.SimpleDateFormat
+import org.joda.time.format.ISODateTimeFormat
+import org.joda.time.DateTime
+def response = context.expand( '${#[Memory API Response Format Validation TestSuite#C816735-Validate REST endpoint for Memory Performance API#Step1_GetMemoryPerformance_Request]#Response}' )
+if(response != "")
+{
+log.info("Verifying createTimeUTC field in JSON response")
+def jsonResponse = new JsonSlurper().parseText(response)
+if(jsonResponse.size() > 0)
+{
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+ def createTimeUTC = jsonResponse[i].createTimeUTC
+ assert jsonResponse[i].containsKey('createTimeUTC'), "createTimeUTC field not found"
+ assert createTimeUTC.trim() != "", "createTimeUTC field is empty"
+def dateTimeFormatStr = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
+ assert(ISODateTimeFormat.dateTimeParser().parseDateTime(createTimeUTC)),"createTimeUTC is not in format: " + dateTimeFormatStr
+ }
+
+ log.info("Verified createTimeUTC field in JSON Heartbeat response")
+}
+else
+{
+	testRunner.fail("Memory performance API Response is empty")
+}
+}
+else
+{
+	testRunner.fail("Memory performance API Response is null")
+}
+
+
+</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="f363a125-4353-4cfc-9605-e15878bb262e" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C912723-Validate &quot;createdBy&quot; field in REST response for Memory Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;createdBy&quot; field in REST response" id="985741b9-5135-4293-b512-b443fc96b30e"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Memory API Response Format Validation TestSuite#C816735-Validate REST endpoint for Memory Performance API#Step1_GetMemoryPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+if(jsonResponse.size() > 0)
+{
+log.info("Verifying createdBy field in JSON response")
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("createdBy"), "createdBy property not found in JSON response"
+
+	assert jsonObj.createdBy != null, "createdBy property in JSON response is null"
+
+	}
+	log.info("Verified createdBy field in JSON response")
+}
+else
+{
+	testRunner.fail("Memory performance API Response is empty")
+}
+}
+else
+{
+	testRunner.fail("Memory performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="f0ebc6b3-6095-466b-98ae-4b541b1c7b3c" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C912714-Validate &quot;physicalInUseBytes&quot; field in REST response for Memory Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;physicalInUseBytes&quot; field in REST response" id="d1996870-05b0-48f6-bb36-3cffbc1747f1"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Memory API Response Format Validation TestSuite#C816735-Validate REST endpoint for Memory Performance API#Step1_GetMemoryPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+if(jsonResponse.size() > 0)
+{
+	log.info("Verifying physicalInUseBytes field in JSON response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("physicalInUseBytes"), "physicalInUseBytes not found in response"
+     String physicalInUseBytes = jsonObj.physicalInUseBytes
+	assert physicalInUseBytes.isLong(), "physicalInUseBytes value is not of data-type long"
+  
+     long physicalInUseBytesLength = physicalInUseBytes as long
+	assert physicalInUseBytesLength >= 0, "physicalInUseBytes is negative"
+	
+		
+	}
+	log.info("Verified physicalInUseBytes field in JSON response")
+}
+else
+{
+	testRunner.fail("Memory performance API Response is empty")
+}
+}
+else
+{
+	testRunner.fail("Memory performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="9a1f9b99-ae65-4ccc-91dc-683f502be27f" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C912715-Validate &quot;physicalAvailableBytes&quot; field in REST response for Memory Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;physicalAvailableBytes&quot; field in REST response" id="ae7d0a39-6583-495d-9d51-e6d10490ac18"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Memory API Response Format Validation TestSuite#C816735-Validate REST endpoint for Memory Performance API#Step1_GetMemoryPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+if(jsonResponse.size() > 0)
+{
+	log.info("Verifying physicalAvailableBytes field in JSON response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("physicalAvailableBytes"), "physicalAvailableBytes not found in response"
+     String physicalAvailableBytes = jsonObj.physicalAvailableBytes
+	assert physicalAvailableBytes.isLong(), "physicalAvailableBytes value is not of data-type long"
+  
+     long physicalAvailableBytesLength = physicalAvailableBytes as long
+	assert physicalAvailableBytesLength >= 0, "physicalAvailableBytes is negative"
+	
+		
+	}
+		log.info("Verified physicalAvailableBytes field in JSON response")
+}
+else
+{
+	testRunner.fail("Memory performance API Response is empty")
+}
+}
+else
+{
+	testRunner.fail("Memory performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="81f9de3c-d09d-4060-b2d4-97c0d4679483" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C912716-Validate &quot;virtualInUseBytes&quot; field in REST response for Memory Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;virtualInUseBytes&quot; field in REST response" id="1c3aabdb-c69c-4f7c-a068-43cd92fa558c"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Memory API Response Format Validation TestSuite#C816735-Validate REST endpoint for Memory Performance API#Step1_GetMemoryPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+if(jsonResponse.size() > 0)
+{
+	log.info("Verifying virtualInUseBytes field in JSON response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("virtualInUseBytes"), "virtualInUseBytes not found in response"
+     String virtualInUseBytes = jsonObj.virtualInUseBytes
+	assert virtualInUseBytes.isLong(), "virtualInUseBytes value is not of data-type long"
+  
+     long virtualInUseBytesLength = virtualInUseBytes as long
+	assert virtualInUseBytesLength >= 0, "virtualInUseBytes is negative"
+	
+		
+	}
+	log.info("Verified virtualInUseBytes field in JSON response")
+}
+else
+{
+	testRunner.fail("Memory performance API Response is empty")
+}
+}
+else
+{
+	testRunner.fail("Memory performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="c7db4e73-5e5e-45e5-a2b2-c6f2c95c60ba" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C912717-Validate &quot;virtualAvailableBytes&quot; field in REST response for Memory Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;virtualAvailableBytes&quot; field in REST response" id="72282b0a-2638-4e09-bcbd-d70cdd4bc581"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Memory API Response Format Validation TestSuite#C816735-Validate REST endpoint for Memory Performance API#Step1_GetMemoryPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+if(jsonResponse.size() > 0)
+{
+log.info("Verifying virtualAvailableBytes field in JSON response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("virtualAvailableBytes"), "virtualAvailableBytes not found in response"
+     String virtualAvailableBytes = jsonObj.virtualAvailableBytes
+	assert virtualAvailableBytes.isLong(), "virtualAvailableBytes value is not of data-type long"
+  
+     long virtualAvailableBytesLength = virtualAvailableBytes as long
+	assert virtualAvailableBytesLength >= 0, "virtualAvailableBytes is negative"
+	
+		
+	}
+	log.info("Verified virtualAvailableBytes field in JSON response")
+}
+else
+{
+	testRunner.fail("Memory performance API Response is empty")
+}
+}
+else
+{
+	testRunner.fail("Memory performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="83f1cba9-0bb4-4f71-8770-47acc6ac8589" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C912718-Validate &quot;percentCommittedInUseBytes&quot; field in REST response for Memory Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;percentCommittedInUseBytes&quot; field in REST response" id="2f352b34-7156-4d62-9fea-692000a92648"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Memory API Response Format Validation TestSuite#C816735-Validate REST endpoint for Memory Performance API#Step1_GetMemoryPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+if(jsonResponse.size() > 0)
+{
+log.info("Verifying percentCommittedInUseBytes field in JSON response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("percentCommittedInUseBytes"), "percentCommittedInUseBytes not found in response"
+     String percentCommittedInUseBytes = jsonObj.percentCommittedInUseBytes
+	assert percentCommittedInUseBytes.isLong(), "percentCommittedInUseBytes value is not of data-type long"
+  
+     long percentCommittedInUseBytesLength = percentCommittedInUseBytes as long
+	assert percentCommittedInUseBytesLength >= 0, "percentCommittedInUseBytes is negative"
+	
+		
+	}
+	log.info("Verified percentCommittedInUseBytes field in JSON response")
+}
+else
+{
+	testRunner.fail("Memory performance API Response is empty")
+}
+}
+else
+{
+	testRunner.fail("Memory performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="c7f4aee8-96cf-487c-a8ae-1cdf741401d8" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C912719-Validate &quot;committedBytes&quot; field in REST response for Memory Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;committedBytes&quot; field in REST response" id="0e6d87e6-5297-41b3-aeaa-1bcbc56cc7ea"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Memory API Response Format Validation TestSuite#C816735-Validate REST endpoint for Memory Performance API#Step1_GetMemoryPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+if(jsonResponse.size() > 0)
+{
+log.info("Verifying committedBytes field in JSON response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("committedBytes"), "committedBytes not found in response"
+     String committedBytes = jsonObj.committedBytes
+	assert committedBytes.isLong(), "committedBytes value is not of data-type long"
+  
+     long committedBytesLength = committedBytes as long
+	assert committedBytesLength >= 0, "committedBytes is negative"
+	
+		
+	}
+	log.info("Verified committedBytes field in JSON response")
+}
+else
+{
+	testRunner.fail("Memory performance API Response is empty")
+}
+}
+else
+{
+	testRunner.fail("Memory performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="81737e30-27f8-4447-9662-176532565dda" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C912720-Validate &quot;freeSystemPageTableEntriesBytes&quot; field in REST response for Memory Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;freeSystemPageTableEntriesBytes&quot; field in REST response" id="51439feb-7ab9-4427-9dc8-717381705bf3"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Memory API Response Format Validation TestSuite#C816735-Validate REST endpoint for Memory Performance API#Step1_GetMemoryPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+if(jsonResponse.size() > 0)
+{
+log.info("Verifying freeSystemPageTableEntriesBytes field in JSON response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("pagesPerSecondBytes"), "freeSystemPageTableEntriesBytes not found in response"
+     String freeSystemPageTableEntriesBytes = jsonObj.freeSystemPageTableEntriesBytes
+	assert freeSystemPageTableEntriesBytes.isLong(), "freeSystemPageTableEntriesBytes value is not of data-type long"
+  
+     long freeSystemPageTableEntriesBytesLength = freeSystemPageTableEntriesBytes as long
+	assert freeSystemPageTableEntriesBytesLength >= 0, "freeSystemPageTableEntriesBytes is negative"
+	
+		
+	}
+
+	log.info("Verified freeSystemPageTableEntriesBytes field in JSON response")
+}
+else
+{
+	testRunner.fail("Memory performance API Response is empty")
+}
+}
+else
+{
+	testRunner.fail("Memory performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="fd1ed94a-0e31-4fb2-b300-983a015477ce" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C912721-Validate &quot;poolNonPagedBytes&quot; field in REST response for Memory Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;poolNonPagedBytes&quot; field in REST response" id="e6456f13-dce7-42e7-90fd-ed82a304bda9"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Memory API Response Format Validation TestSuite#C816735-Validate REST endpoint for Memory Performance API#Step1_GetMemoryPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+if(jsonResponse.size() > 0)
+{
+log.info("Verifying poolNonPagedBytes field in JSON response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("poolNonPagedBytes"), "poolNonPagedBytes not found in response"
+     String poolNonPagedBytes = jsonObj.poolNonPagedBytes
+	assert poolNonPagedBytes.isLong(), "pagesPerSecondBytes value is not of data-type long"
+  
+     long poolNonPagedBytesLength = poolNonPagedBytes as long
+	assert poolNonPagedBytesLength >= 0, "poolNonPagedBytes is negative"
+	
+		
+	}
+	log.info("Verified poolNonPagedBytes field in JSON response")
+}
+else
+{
+	testRunner.fail("Memory performance API Response is empty")
+}
+}
+else
+{
+	testRunner.fail("Memory performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="c5b6b983-457c-4b40-b12f-487e6cf6fd91" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C912722-Validate &quot;pagesPerSecondBytes&quot; field in REST response for Memory Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;pagesPerSecondBytes&quot; field in REST response" id="c47b2f54-09cc-44b9-8ca3-a30c336c3a88"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Memory API Response Format Validation TestSuite#C816735-Validate REST endpoint for Memory Performance API#Step1_GetMemoryPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+if(jsonResponse.size() > 0)
+{
+log.info("Verifying pagesPerSecondBytes field in JSON response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("pagesPerSecondBytes"), "pagesPerSecondBytes not found in response"
+     String pagesPerSecondBytes = jsonObj.pagesPerSecondBytes
+	assert pagesPerSecondBytes.isLong(), "pagesPerSecondBytes value is not of data-type long"
+  
+     long pagesPerSecondBytesLength = pagesPerSecondBytes as long
+	assert pagesPerSecondBytesLength >= 0, "pagesPerSecondBytesLength is negative"
+	
+		
+	}
+	log.info("Verified pagesPerSecondBytes field in JSON response")
+}
+else
+{
+	testRunner.fail("Memory performance API Response is empty")
+}
+}
+else
+{
+	testRunner.fail("Memory performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="588f4b43-166b-4189-a184-c407c48f41bc" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C1753339-Validate &quot;swapinPerSecondBytes and swapoutPersecondBytes&quot; for Memory Performance" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;swapinSecondaryBytes and &quot;swapoutSecondaryBytes&quot; in REST Response" id="93419228-f0e6-4071-84ff-8d2837b3cfad"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+import java.text.SimpleDateFormat
+import org.joda.time.format.ISODateTimeFormat
+import org.joda.time.DateTime
+
+def response = context.expand( '${#[Memory API Response Format Validation TestSuite#C816735-Validate REST endpoint for Memory Performance API#Step1_GetMemoryPerformance_Request]#Response}' )
+
+if(response != "")
+{
+	def jsonResponse = new JsonSlurper().parseText(response)
+	def assertionList = []
+	log.info("Verfiying Response of Memory API")
+assert jsonResponse.size() > 0, "Response is empty"
+for(int i=0; i&lt;jsonResponse.size;i++)
+{
+if(!(jsonResponse[i].containsKey("swapinPerSecondBytes"))) {assertionList.add("swapinPerSecondBytes not present")}
+if(!((jsonResponse[i].swapinPerSecondBytes != null) || (jsonResponse.swapinPerSecondBytes != ""))) {assertionList.add("swapinPerSecondBytes is null or spaces")}
+
+if(!(jsonResponse[i].containsKey("swapoutPerSecondBytes"))) {assertionList.add("swapoutPerSecondBytes not present")}
+if(!((jsonResponse[i].swapoutPerSecondBytes != null) || (jsonResponse.swapoutPerSecondBytes != ""))) {assertionList.add("swapoutPerSecondBytes is null or spaces")}
+}
+assert assertionList.isEmpty() : assertionList.toString()
+}
+else
+{
+	testRunner.fail("Memory performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase></con:testSuite><con:testSuite id="0191e946-b556-45e3-b114-4e6a09c030d6" name="Network API Response Format Validation TestSuite"><con:description>This section contains test cases related to validation of response format for Network Performance API</con:description><con:settings><con:setting id="IncludeOverview">true</con:setting><con:setting id="IncludeResults">true</con:setting><con:setting id="FlowLayout">false</con:setting><con:setting id="ErrorDetails">true</con:setting><con:setting id="IncludeCoverage">true</con:setting><con:setting id="GeneratableJUnitReport@Style">Multiple Pages</con:setting><con:setting id="GeneratableJUnitReport@Folder"/></con:settings><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:testCase id="fbf628b1-1a58-4be6-801d-7364566034df" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C893201-Validate REST endpoint for Network Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetNetworkPerformance_Request" id="e5c9b8ff-354f-470a-9716-c7ffda186fe8"><con:settings/><con:config service="REST Service 1" resourcePath="/network" methodName="GET - GetNetworkPerfByEndpointId" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetNetworkPerformance_Request" id="daa4f91e-84d1-40fe-8fb8-3ead1753a31d" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#ServerHost}</con:endpoint><con:request/><con:originalUri>http://localhost/performance/v1/endpoint/1/network</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="313e3d6b-5b81-407a-b5bd-755cba58a2d0" name="Valid HTTP Status Codes"><con:settings/><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="delay" name="Delay" id="53c1e93b-9ae2-4cd9-bda4-e2aa1f798432"><con:settings/><con:config><delay>10000</delay></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="4b50a044-9fc6-415b-b29c-30811b416ed8" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C893202-Validate REST response for Network Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="properties" name="Step2_GetNoOfFieldsOfNetworkJSONArray" id="f4fc6fb6-2765-400a-8bf4-dc995346047d"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>expJSONObjSize</con:name><con:value>6</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="groovy" name="Step3_ValidateJSONResponseFormat" id="2813da67-3414-4993-810a-066d1623dfee"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+//def response = context.expand( '${Step1_GetNetworkPerformance_Request#Response}' ) 
+def response = context.expand( '${#[Network API Response Format Validation TestSuite#C893201-Validate REST endpoint for Network Performance API#Step1_GetNetworkPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Network API Response is empty"
+def expJSONObjSize = context.expand( '${Step2_GetNoOfFieldsOfNetworkJSONArray#expJSONObjSize}' )
+
+
+log.info("Verifying Response")
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	String acualJSONObjSize = jsonObj.size()
+	assert acualJSONObjSize == expJSONObjSize,"Actual Network API object  size not equal to expected at "+i
+	assert jsonObj.containsKey("createTimeUTC"), "createTimeUTC not found in response at "+i
+	assert jsonObj.containsKey("createdBy"), "createdBy not found in response at "+i
+	assert jsonObj.containsKey("index"), "index not found in response at "+i
+	assert jsonObj.containsKey("name"), "name not found in response at "+i
+	assert jsonObj.containsKey("type"), "type not found in response at "+i
+	assert jsonObj.containsKey("interface"), "interface not found in response at "+i
+
+	}
+}
+else
+{
+	testRunner.fail("Network performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>f4fc6fb6-2765-400a-8bf4-dc995346047d</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="4b0c3904-8af1-40cd-9363-a2c6b28bf1fb" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C907306-Validate &quot;interface&quot; array  of REST response - Should contain all the fields" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="properties" name="Step2_GetNetworkArraySize" id="3ce53d7e-7e23-4c97-ba93-a93613503796"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>expArraySize</con:name><con:value>9</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="groovy" name="Step3_Validate_interface_Field_Format" id="cf43d67e-5266-4a29-9656-10bec4012622"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Network API Response Format Validation TestSuite#C893201-Validate REST endpoint for Network Performance API#Step1_GetNetworkPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+
+def expArraySize = context.expand( '${Step2_GetNetworkArraySize#expArraySize}' )
+
+assert jsonResponse.size() > 0, "Network API Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("interface"), "interface not found in response at "+i
+	def interfaceJsonArr = jsonObj.interface
+
+	assert interfaceJsonArr.size() > 0, "interface array in response is empty at "+i
+	for (int j = 0; j &lt; interfaceJsonArr.size(); j++) {
+			String actualArraySize  = interfaceJsonArr[j].size()
+		     assert actualArraySize == expArraySize,"actual interface array size not equal to expected  array size at "+i + " > " + j
+			assert interfaceJsonArr[j].containsKey("createTimeUTC"), "createTimeUTC not found at "+i + " > " + j
+			assert interfaceJsonArr[j].containsKey("createdBy"), "createdBy not found at "+i + " > " + j
+			assert interfaceJsonArr[j].containsKey("index"), "index not found at "+i + " > " + j
+			assert interfaceJsonArr[j].containsKey("name"), "name not found at "+i + " > " + j
+			assert interfaceJsonArr[j].containsKey("type"), "type not found at "+i + " > " + j
+			assert interfaceJsonArr[j].containsKey("receivedBytes"), "receivedBytes not found at "+i + " > " + j
+			assert interfaceJsonArr[j].containsKey("transmittedBytes"), "transmittedBytes not found at "+i + " > " + j
+			assert interfaceJsonArr[j].containsKey("txQueueLength"), "txQueueLength not found at "+i + " > " + j
+			assert interfaceJsonArr[j].containsKey("rxQueueLength"), "rxQueueLength not found at "+i + " > " + j
+		}
+	}
+}
+else
+{
+	testRunner.fail("Network performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>3ce53d7e-7e23-4c97-ba93-a93613503796</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:testSuite id="1c72e5dd-0483-4963-85d6-a5f229f9760c" name="Network API Response Data Validation TestSuite"><con:description>This section contains test cases related to validation of response data for Network Performance API</con:description><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:testCase id="2e1f4599-4400-4169-b8f9-5e0bdd38cf18" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C907307-Validate &quot;createTimeUTC&quot; field in REST response for Network Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;createTimeUTC&quot; field in REST response" id="93e8226a-e344-4f57-987a-17bda0479755"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+import java.text.SimpleDateFormat
+import org.joda.time.format.ISODateTimeFormat
+import org.joda.time.DateTime
+def response = context.expand( '${#[Network API Response Format Validation TestSuite#C893201-Validate REST endpoint for Network Performance API#Step1_GetNetworkPerformance_Request]#Response}' )
+if(response != "")
+{
+
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Network API Response is empty"
+log.info("Verifying createTimeUTC field in JSON response")
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def createTimeUTC = jsonResponse[i].createTimeUTC
+	assert jsonResponse[i].containsKey('createTimeUTC'), "createTimeUTC field not found"
+	assert createTimeUTC != null, "createTimeUTC field is null at position " + i
+	assert createTimeUTC.trim() != "", "createTimeUTC field is empty at position  " + i
+	def dateTimeFormatStr = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
+ assert(ISODateTimeFormat.dateTimeParser().parseDateTime(createTimeUTC)),"createTimeUTC is not in format: " + dateTimeFormatStr
+	}
+	 log.info("Verified createTimeUTC field in JSON Heartbeat response")
+}
+else
+{
+	testRunner.fail("Network performance API Response is null")
+}
+	
+
+
+
+
+
+
+</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="90db6fad-a745-40f6-9efe-c7e1b8061798" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C912570-Validate &quot;createdBy&quot; field in REST response for Network Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;createdBy&quot; field in REST response" id="014e844e-4f99-462c-bd5b-23cd129654a8"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Network API Response Format Validation TestSuite#C893201-Validate REST endpoint for Network Performance API#Step1_GetNetworkPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Network API Response is empty"
+log.info("Verifying createdBy property in JSON response")
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("createdBy"), "createdBy property not found in JSON response at "+i
+
+	assert jsonObj.createdBy != null, "createdBy property in JSON response is null at "+i
+
+	}
+	log.info("Verified createdBy property in JSON response")
+}
+else
+{
+	testRunner.fail("Network performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="be2ecf4e-373a-4853-9c49-a0aa2d583b9a" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C912571-Validate &quot;index&quot; field in REST response for Network Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;index&quot; field in REST response" id="73579ca2-f177-4c0f-984d-df5dfac9d939"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Network API Response Format Validation TestSuite#C893201-Validate REST endpoint for Network Performance API#Step1_GetNetworkPerformance_Request]#Response}' )
+//log.info(response+"network")
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Network API Response is empty"
+log.info("Verifying index property in JSON response")
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("index"), "Index property not found in JSON response at "+i
+	
+	String indexStr = jsonObj.index
+	assert indexStr.isInteger(), "index value is not of integer data-type at "+i
+			int index = indexStr as int
+			assert index >= 0, "index is negative at "+i
+	}
+	log.info("Verified index property in JSON responseabcd")
+}
+else
+{
+	testRunner.fail("Network performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="0ea6c6de-739e-4945-8993-02bcdf498841" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C907308-Validate &quot;name&quot; field in REST response for Network Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;name&quot; field in REST response" id="dac5c234-1e94-4fcb-bd78-96db00f1dd5d"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Network API Response Format Validation TestSuite#C893201-Validate REST endpoint for Network Performance API#Step1_GetNetworkPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Network API Response is empty"
+log.info("Verifying name property in JSON response")
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("name"), "Name property not found in JSON response at "+i
+	assert jsonObj.name == "network", "Name property in JSON response is incorrect at "+i
+	}
+	log.info("Verified name property in JSON response")
+}
+else
+{
+	testRunner.fail("Network performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="678dc1b5-8412-418b-9bd6-25306c4a0f2a" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C907309-Validate &quot;type&quot; field in REST response for Network Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;type&quot; field in REST response" id="1b8de9b6-f19b-4b4d-9eb9-4b6eff39ee74"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Network API Response Format Validation TestSuite#C893201-Validate REST endpoint for Network Performance API#Step1_GetNetworkPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Network API Response is empty"
+log.info("Verifying type property in JSON response")
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("type"), "type property not found in JSON response at "+i
+	assert jsonObj.type == "performanceNetwork", "type field is incorrect at "+i
+	}
+	log.info("Verified type property in JSON response")
+}
+else
+{
+	testRunner.fail("Network performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="818e3a21-1d96-4cee-86c8-9c7941791bfc" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C907311-Validate &quot;interface > createTimeUTC&quot; field of REST response for Network Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;interface>createTimeUTC&quot; field in REST response" id="6f1d5f5e-1d03-455f-a303-9ed1fba11c20"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+import java.text.SimpleDateFormat
+import org.joda.time.format.ISODateTimeFormat
+import org.joda.time.DateTime
+def response = context.expand( '${#[Network API Response Format Validation TestSuite#C893201-Validate REST endpoint for Network Performance API#Step1_GetNetworkPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Network API Response is empty"
+	 log.info("Verifying interface > interfaceCreateTimeUTC field in JSON  response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("interface"), "interface not found in response at "+i
+	def interfaceJsonArr = jsonObj.interface
+
+	assert interfaceJsonArr.size() > 0, "interface array in response is empty at "+i
+	for (int j = 0; j &lt; interfaceJsonArr.size(); j++) {
+			assert interfaceJsonArr[j].containsKey("createTimeUTC"), "createTimeUTC not found at "+ i + " > " + j
+			def interfaceCreateTimeUTC = interfaceJsonArr[j].createTimeUTC
+			assert interfaceCreateTimeUTC != null, "interface > createTimeUTC field not found"
+			assert interfaceCreateTimeUTC.trim() != "", "interface > createTimeUTC field is empty at "+ i + " > " + j
+		
+			def dateTimeFormatStr = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
+		 assert(ISODateTimeFormat.dateTimeParser().parseDateTime(interfaceCreateTimeUTC)),"DcDateTimeUTC is not in format: " + dateTimeFormatStr
+
+		}
+	}
+	 log.info("Verified interface > interfaceCreateTimeUTC field in JSON  response")
+}
+else
+{
+	testRunner.fail("Network performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="b63186b6-a9bf-4de1-9266-ccca837041b5" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C907312-Validate &quot;interface > createdBy&quot; field of REST response for Network Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;interface>createdBy&quot; field in REST response" id="61e48b04-98b6-4113-824c-572a7c31cc0e"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+def response = context.expand( '${#[Network API Response Format Validation TestSuite#C893201-Validate REST endpoint for Network Performance API#Step1_GetNetworkPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+
+assert jsonResponse.size() > 0, "Network API Response is empty"
+log.info("Verifying interface > createdBy field in JSON response")
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("interface"), "interface not found in response at "+i
+	def interfaceJsonArr = jsonObj.interface
+
+	assert interfaceJsonArr.size() > 0, "interface array in response is empty at "+i
+	for (int j = 0; j &lt; interfaceJsonArr.size(); j++) {
+			assert interfaceJsonArr[j].containsKey("createdBy"), "interface > createdBy property not found in JSON response at "+i + " > " + j
+			assert interfaceJsonArr[j].createdBy != null, "interface > createdBy property in JSON response is null at "+i + " > " + j
+		}
+	}
+	log.info("Verified interface > createdBy field in JSON response")
+}
+else
+{
+	testRunner.fail("Network performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="a789d1c3-bb01-4a6b-a401-beebff7ebd7a" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C907313-Validate &quot;interface > index&quot; field of REST response for Network Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;interface > index&quot; field in REST response" id="c82de605-628a-4215-936b-c7061a3c403b"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Network API Response Format Validation TestSuite#C893201-Validate REST endpoint for Network Performance API#Step1_GetNetworkPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Network API Response is empty"
+log.info("Verifying interface > index field in JSON response")
+
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("interface"), "interface not found in response at "+i
+	def interfaceJsonArr = jsonObj.interface
+
+	assert interfaceJsonArr.size() > 0, "interface array in response is empty at "+i
+	for (int j = 0; j &lt; interfaceJsonArr.size(); j++) {
+			assert interfaceJsonArr[j].containsKey("index"), "interface > index not found in JSON response at "+i + " > " + j
+			String interfaceIndexStr = interfaceJsonArr[j].index
+			assert interfaceIndexStr.isInteger(), "interface > index is not an integer value at "+i + " > " + j
+			int interfaceIndex = interfaceIndexStr as int
+			assert interfaceIndex == j, "interface > index is incorrect at "+i + " > " + j
+		}
+	}
+
+	log.info("Verified interface > index field in JSON response")
+}
+else
+{
+	testRunner.fail("Network performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="fa98dd73-80d6-4201-bbaf-958d162ac8d1" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C907314-Validate &quot;interface > name&quot; field of REST response for Network Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;interface > name&quot; field in REST response" id="e58ed840-c75d-4374-82fc-bc16bc89bafc"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+def response = context.expand( '${#[Network API Response Format Validation TestSuite#C893201-Validate REST endpoint for Network Performance API#Step1_GetNetworkPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Network API Response is empty"
+log.info("Verifying interface > name field in JSON response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("interface"), "interface not found in response at "+i
+	def interfaceJsonArr = jsonObj.interface
+
+	assert interfaceJsonArr.size() > 0, "interface array in response is empty at "+i
+	for (int j = 0; j &lt; interfaceJsonArr.size(); j++) {
+			assert interfaceJsonArr[j].containsKey("name"), "interface > name property not found in JSON response at "+i + " > " + j
+			assert interfaceJsonArr[j].name != null, "interface > name property in JSON response is null at "+i + " > " + j
+		}
+	}
+	log.info("Verified interface > name field in JSON response")
+}
+else
+{
+	testRunner.fail("Network performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="e906b5df-a8d2-4bd0-9ce4-d6922d4750f1" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C907315-Validate &quot;interface > type&quot; field of REST response for Network Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;interface > type&quot; field in REST response" id="abdc8433-093c-48b1-8460-0243ad48efe5"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+def response = context.expand( '${#[Network API Response Format Validation TestSuite#C893201-Validate REST endpoint for Network Performance API#Step1_GetNetworkPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Network API Response is empty"
+log.info("Verifying interface > type field in JSON response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("interface"), "interface not found in response at "+i
+	def interfaceJsonArr = jsonObj.interface
+
+	assert interfaceJsonArr.size() > 0, "interface array in response is empty at "+i
+	for (int j = 0; j &lt; interfaceJsonArr.size(); j++) {
+			assert interfaceJsonArr[j].containsKey("type"), "interface > type not found"
+			def interfaceType = interfaceJsonArr[j].type
+			assert interfaceType != null, "interface > type is null at "+i + " > " + j
+			assert interfaceType == "performanceNetworkInterface", "interface > type property is incorrect at"+i + " > " + j
+		}
+	}
+	log.info("Verified interface > type field in JSON response")
+}
+else
+{
+	testRunner.fail("Network performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="017519cb-c44a-41fb-8900-0036efb5541c" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C912566-Validate &quot;interface > receivedBytes&quot; field of REST response for Network Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;interface > receivedBytes&quot; field in REST response" id="384d5eb2-bc44-4b7b-b857-ce1b0e2a7c1a"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Network API Response Format Validation TestSuite#C893201-Validate REST endpoint for Network Performance API#Step1_GetNetworkPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Network API Response is empty"
+log.info("Verifying interface > receivedBytes field in JSON response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("interface"), "interface not found in response at "+i
+	def interfaceJsonArr = jsonObj.interface
+
+	assert interfaceJsonArr.size() > 0, "interface array in response is empty at"+i
+	for (int j = 0; j &lt; interfaceJsonArr.size(); j++) {
+			assert interfaceJsonArr[j].containsKey("receivedBytes"), "interface > receivedBytes not found in JSON response at position  "+i + " > " + j
+			assert interfaceJsonArr[j].receivedBytes != null, "interface > receivedBytes is null at position "+i + " > " + j
+			String interfaceReceivedBytesStr = interfaceJsonArr[j].receivedBytes
+			assert interfaceReceivedBytesStr.isLong(), "interface > receivedBytes value is not of data-type long at position  "+i + " > " + j
+			long interfaceReceivedBytes = interfaceReceivedBytesStr as long
+			assert interfaceReceivedBytes >= 0, "interface > receivedBytes is negative at position  "+i + " > " + j
+			assert interfaceReceivedBytes != "", "interface > receivedBytes field is empty at position  "+i + " > " + j
+		}
+	}
+	log.info("Verified interface > receivedBytes field in JSON response")
+}
+else
+{
+	testRunner.fail("Network performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="998373e4-8b92-4ff6-a4ad-1c8891fda431" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C912567-Validate &quot;interface> transmittedBytes&quot; field in REST response for Network Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;interface > transmittedBytes&quot; field in REST response" id="642ae201-4622-4ef2-b68a-16a193461bff"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Network API Response Format Validation TestSuite#C893201-Validate REST endpoint for Network Performance API#Step1_GetNetworkPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Network API Response is empty"
+log.info("Verifying interface > transmittedBytes field in JSON response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("interface"), "interface not found in response at "+i
+	def interfaceJsonArr = jsonObj.interface
+
+	assert interfaceJsonArr.size() > 0, "interface array in response is empty at "+i
+	for (int j = 0; j &lt; interfaceJsonArr.size(); j++) {
+			assert interfaceJsonArr[j].containsKey("transmittedBytes"), "interface > transmittedBytes not found in JSON response at position  "+i + " > " + j
+			assert interfaceJsonArr[j].transmittedBytes != null, "interface > transmittedBytes is null at position "+i + " > " + j
+			String interfaceTransmittedBytesStr = interfaceJsonArr[j].transmittedBytes
+			assert interfaceTransmittedBytesStr.isLong(), "interface > transmittedBytes value is not of data-type long at position  "+i + " > " + j
+			long interfaceTransmittedBytes = interfaceTransmittedBytesStr as long
+			assert interfaceTransmittedBytes >= 0, "interface > transmittedBytes is negative at position  "+i + " > " + j
+			assert interfaceTransmittedBytes != "", "interface > transmittedBytes field is empty at position  "+i + " > " + j
+		}
+	}
+	log.info("Verified interface > transmittedBytes field in JSON response")
+}
+else
+{
+	testRunner.fail("Network performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="43307fc3-aeab-455e-8953-9c27f8f38be2" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C912568-Validate &quot;interface > txQueueLength&quot; field in REST response for Network Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;interface > txQueueLength&quot; field in REST response" id="9553dbca-d6bd-4abd-96a8-2b94c1ad6e53"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Network API Response Format Validation TestSuite#C893201-Validate REST endpoint for Network Performance API#Step1_GetNetworkPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Network API Response is empty"
+log.info("Verifying interface > txQueueLength field in JSON response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("interface"), "interface not found in response at "+i
+	def interfaceJsonArr = jsonObj.interface
+
+	assert interfaceJsonArr.size() > 0, "interface array in response is empty at "+i
+	for (int j = 0; j &lt; interfaceJsonArr.size(); j++) {
+			assert interfaceJsonArr[j].containsKey("txQueueLength"), "interface > txQueueLength not found in JSON response at position  "+i + " > " + j
+			assert interfaceJsonArr[j].txQueueLength != null, "interface > txQueueLength is null at position "+i + " > " + j
+			String interfaceTxQueueLengthStr = interfaceJsonArr[j].txQueueLength
+		     assert interfaceTxQueueLengthStr.isLong(), "interface > txQueueLength value is not of data-type long at position  "+i + " > " + j 
+			long interfaceTxQueueLength = interfaceTxQueueLengthStr as long
+			assert interfaceTxQueueLength >= 0, "interface > txQueueLength is negative at position  "+i + " > " + j
+			assert interfaceTxQueueLength != "", "interface > txQueueLength field is empty at position  "+i + " > " + j
+			
+		}
+	}
+	log.info("Verified interface > txQueueLength field in JSON response")
+}
+else
+{
+	testRunner.fail("Network performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="0e5b9312-c315-4f3a-ad2d-7482bd6295e5" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C912569-Validate &quot;interface > rxQueueLength&quot; field in REST response for Network Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;interface > rxQueueLength&quot; field in REST response" id="59f41776-6d09-4456-9c80-9d18af9104b4"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Network API Response Format Validation TestSuite#C893201-Validate REST endpoint for Network Performance API#Step1_GetNetworkPerformance_Request]#Response}' )
+
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Network API Response is empty"
+log.info("Verifying interface > rxQueueLength array in JSON response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("interface"), "interface not found in response at "+i
+	def interfaceJsonArr = jsonObj.interface
+
+	assert interfaceJsonArr.size() > 0, "interface array in response is empty at "+i
+	for (int j = 0; j &lt; interfaceJsonArr.size(); j++) {
+			assert interfaceJsonArr[j].containsKey("rxQueueLength"), "interface > rxQueueLength not found in JSON response at position "+i + " > " + j
+			assert interfaceJsonArr[j].rxQueueLength != null, "interface > rxQueueLength is null at position "+i + " > " + j
+			String interfaceRxQueueLengthStr = interfaceJsonArr[j].rxQueueLength
+			assert interfaceRxQueueLengthStr.isLong(), "interface > rxQueueLength value is not of data-type long at position "+i + " > " + j
+			long interfaceRxQueueLength = interfaceRxQueueLengthStr as long
+			assert interfaceRxQueueLength >= 0, "interface > rxQueueLength is negative at position "+i + " > " + j
+			assert interfaceRxQueueLength != "", "interface > rxQueueLength field is empty at position  "+i + " > " + j
+		}
+	}
+	log.info("Verified interface > rxQueueLength array in JSON response")
+}
+else
+{
+	testRunner.fail("Network performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:testSuite id="04fbb0bf-cb3c-401c-9cec-65ad0479fcea" name="Process API Response Format Validation TestSuite"><con:description>This section contains test cases related to validation of response format for Process Performance API</con:description><con:settings><con:setting id="IncludeOverview">true</con:setting><con:setting id="IncludeResults">true</con:setting><con:setting id="FlowLayout">false</con:setting><con:setting id="ErrorDetails">true</con:setting><con:setting id="IncludeCoverage">true</con:setting><con:setting id="GeneratableJUnitReport@Style">Single Page (Print)</con:setting><con:setting id="GeneratableJUnitReport@Folder">C:\Users\sampada.phadke\Desktop\Soap_report</con:setting></con:settings><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:testCase id="8fb74b76-3e96-4183-86c6-2b90f8871a38" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C934568-Validate REST endpoint for Process Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="delay" name="Delay" id="29ea1f99-eafb-4490-b81b-1402dc015021"><con:settings/><con:config><delay>10000</delay></con:config></con:testStep><con:testStep type="restrequest" name="Step1_GetProcessPerformance_Request" id="7ce5d332-258c-4cf5-ab99-b53a94458e28"><con:settings/><con:config service="REST Service 2" resourcePath="/process" methodName="GET - GetProcessPerfByEndpointId" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetProcessPerformance_Request" id="dde7effe-2547-4243-ba8d-7932a2aa750b" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#ServerHost}</con:endpoint><con:request/><con:originalUri>http://localhost/performance/v1/endpoint/1/process</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="b1120c27-900c-4f76-bec9-ea8cfed6c189" name="Valid HTTP Status Codes"><con:settings/><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>7ce5d332-258c-4cf5-ab99-b53a94458e28</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>29ea1f99-eafb-4490-b81b-1402dc015021</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="69622c93-db21-4e53-9f83-2e304f15cd6f" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C934569-Validate REST response for Process Performance API" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="properties" name="Step2_GetNoOfFieldsOfProcessJSONArray" id="c82b7cf2-74c6-4a57-ac81-159ecf5c6b4c"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>expJSONObjSize</con:name><con:value>5</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="groovy" name="Step3_ValidateJSONResponseFormat" id="ecaa4c0d-24ea-432d-94d7-ac5ba5fbf03b"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+def response = context.expand( '${#[Process API Response Format Validation TestSuite#C934568-Validate REST endpoint for Process Performance API#Step1_GetProcessPerformance_Request]#Response}' )
+//log.info(response+"process")
+if(response != "")
+{
+
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Process API Response is empty"
+def expJSONObjSize = context.expand( '${Step2_GetNoOfFieldsOfProcessJSONArray#expJSONObjSize}' )
+log.info("Verifying Process JSON Response")
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	String actualProcessesObjSize = jsonObj.size()
+	assert actualProcessesObjSize == expJSONObjSize,"Process JSON Object has some missing fields at index "+i
+	assert jsonObj.containsKey("createTimeUTC"), "createTimeUTC not found in response at position "+i
+	assert jsonObj.containsKey("createdBy"), "createdBy not found in response at position "+i
+	assert jsonObj.containsKey("name"), "name not found in response at position "+i
+	assert jsonObj.containsKey("type"), "type not found in response at position "+i
+	assert jsonObj.containsKey("processes"), "processes not found in response at position "+i
+
+
+	}
+log.info("Verified Process JSON Response")
+}
+else
+{
+	testRunner.fail("Process performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>c82b7cf2-74c6-4a57-ac81-159ecf5c6b4c</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>ecaa4c0d-24ea-432d-94d7-ac5ba5fbf03b</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="b309ff0e-72cf-40e4-bce1-1ad8bd6bfe2c" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C934570-Validate &quot;processes&quot; array  of REST response - Should contain all the fields" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="properties" name="Step2_GetProcessArraySize" id="4abe4a71-ed43-4da8-92c7-52d853261496"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>expArraySize</con:name><con:value>10</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="groovy" name="Step3_Validate_processes_Field_Format" id="2a2cfcc0-41ac-46b0-9c60-bc205b39dd8c"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Process API Response Format Validation TestSuite#C934568-Validate REST endpoint for Process Performance API#Step1_GetProcessPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Process API Response is empty"
+def expArraySize = context.expand( '${Step2_GetProcessArraySize#expArraySize}' )
+
+log.info("Verifying Process JSON Response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("processes"), "processes not found in response"
+	def processesJsonArr = jsonObj.processes
+
+	assert processesJsonArr.size() > 0, "processes array in response is empty"
+	
+	for (int j = 0; j &lt; processesJsonArr.size(); j++) {
+		String actualArraySize = processesJsonArr[j].size()
+		  	assert actualArraySize  == expArraySize,"processes array actual size is not equal to expected at index "+i+" > "+j
+			assert processesJsonArr[j].containsKey("createTimeUTC"), "createTimeUTC not found in processes array at position "+i+" > "+j
+			assert processesJsonArr[j].containsKey("createdBy"), "createdBy not found in processes array at position "+i+" > "+j
+			assert processesJsonArr[j].containsKey("index"), "index not found in processes array at position "+i+" > "+j
+			assert processesJsonArr[j].containsKey("name"), "name not found in processes array at position "+i+" > "+j
+			assert processesJsonArr[j].containsKey("processID"), "processID not found in processes array at position "+i+" > "+j
+			assert processesJsonArr[j].containsKey("type"), "type not found in processes array at position "+i+" > "+j
+			assert processesJsonArr[j].containsKey("percentCPUUsage"), "percentCPUUsage not found in processes array at position "+i+" > "+j
+			assert processesJsonArr[j].containsKey("handleCount"), "handleCount not found in processes array at position "+i+" > "+j
+			assert processesJsonArr[j].containsKey("threadCount"), "threadCount not found in processes array at position "+i+" > "+j
+			assert processesJsonArr[j].containsKey("privateBytes"), "privateBytes not found in processes array at position "+i+" > "+j
+		}
+	}
+	log.info("Verified Process JSON Response")
+}
+else
+{
+	testRunner.fail("Process performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>4abe4a71-ed43-4da8-92c7-52d853261496</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:testSuite id="c3cea98e-8d92-462f-9edc-6cf85663498e" name="Process API Response Data Validation TestSuite"><con:description>This section contains test cases related to validation of response data for Process Performance API</con:description><con:settings><con:setting id="GeneratableJUnitReport@Folder">C:\Users\sampada.phadke\Desktop\Soap_report\Process-API-Response-Data-Validation-TestSuite</con:setting></con:settings><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:testCase id="1e1857c3-d2df-4bb6-a88e-d4a5b628a4d7" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C934571-Validate &quot;createTimeUTC&quot; field in REST response for Process Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate &quot;createTimeUTC&quot; field in REST response" id="1ff9b120-3d16-4988-9900-b3b6a40bf9bf"><con:settings/><con:config><script>import org.joda.time.DateTime
+import org.joda.time.format.ISODateTimeFormat
+import groovy.json.JsonSlurper
+import java.text.SimpleDateFormat
+
+def response = context.expand( '${#[Process API Response Format Validation TestSuite#C934568-Validate REST endpoint for Process Performance API#Step1_GetProcessPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Process API Response is empty"
+log.info("Verifying createTimeUTC in Response")
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def createTimeUTC = jsonResponse[i].createTimeUTC
+
+	def dateTimeFormatStr = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
+ assert(ISODateTimeFormat.dateTimeParser().parseDateTime(createTimeUTC)),"createTimeUTC is not in format: " + dateTimeFormatStr
+
+}
+ log.info("Verified createTimeUTC field in JSON response")
+}
+else
+{
+	testRunner.fail("Process performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="615e9a70-443e-4ede-a8af-401d7fc71a61" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C934572-Validate &quot;createdBy&quot; field in REST response for Process Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate &quot;createdBy&quot; field in REST response" id="6e37601e-02e3-486d-af4b-d7e5dad71646"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Process API Response Format Validation TestSuite#C934568-Validate REST endpoint for Process Performance API#Step1_GetProcessPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Process API Response is empty"
+log.info("Verifying createdBy in Response")
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("createdBy"), "createdBy property not found in JSON response"
+
+	assert jsonObj.createdBy != null, "createdBy property in JSON response is null"
+	
+
+	}
+log.info("Verified createdBy in Response")
+}
+else
+{
+	testRunner.fail("Process performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="f5057314-8a4b-468c-bdd3-d3484e3b56f9" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C934573-Validate &quot;name&quot; field in REST response for Process Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate &quot;name&quot; field in REST response" id="90c350be-c147-44b9-9508-e3375f6c5bae"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Process API Response Format Validation TestSuite#C934568-Validate REST endpoint for Process Performance API#Step1_GetProcessPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Process API Response is empty"
+log.info("Verifying name in Response")
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("name"), "name property not found in JSON response at position "
+	assert jsonObj.name == "processes", "name property in JSON response is incorrect at position "
+	assert jsonObj.name.trim() != "", "name field is empty at position  " + i
+	assert jsonObj.name != null, "name field is null at position " + i
+
+	}
+log.info("Verified name in Response")
+}
+else
+{
+	testRunner.fail("Process performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>90c350be-c147-44b9-9508-e3375f6c5bae</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="9dc48b64-1bd5-4573-9928-f4a1a30a84b4" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C934574-Validate &quot;type&quot; field in REST response for Process Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate &quot;type&quot; field in REST response" id="57e9348b-7ade-4b3b-b234-46380009df76"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Process API Response Format Validation TestSuite#C934568-Validate REST endpoint for Process Performance API#Step1_GetProcessPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Process API Response is empty"
+log.info("Verifying type in Response")
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("type"), "type property not found in JSON response at position " + i
+	assert jsonObj.type == "performanceProcesses", "type field is not 'performanceProcesses' at position " + i
+		assert jsonObj.name.trim() != "", "type field is empty at position " + i
+	assert jsonObj.name != null, "type field is null at position " + i
+	}
+	log.info("Verified type in Response")
+}
+else
+{
+	testRunner.fail("Process performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="83ebeadc-bf0c-44b0-b00e-189a7bc1d330" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C934580-Validate &quot;processes > createTimeUTC&quot; field of REST response for Process Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate &quot;processes >createTimeUTC&quot; field in REST response" id="530d01a0-8e74-475d-8bde-46822fa7db37"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+import java.text.SimpleDateFormat
+import org.joda.time.format.ISODateTimeFormat
+import org.joda.time.DateTime
+def response = context.expand( '${#[Process API Response Format Validation TestSuite#C934568-Validate REST endpoint for Process Performance API#Step1_GetProcessPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Process API Response is empty"
+	 log.info("Verifying processes > createTimeUTC field in JSON response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("processes"), "processes not found in response"
+	def processesJsonArr = jsonObj.processes
+
+	assert processesJsonArr.size() > 0, "processes array in response is empty"
+	for (int j = 0; j &lt; processesJsonArr.size(); j++) {
+			assert processesJsonArr[j].containsKey("createTimeUTC"), "createTimeUTC not found at position "+i + " > " + j
+			def processesCreateTimeUTC = processesJsonArr[j].createTimeUTC
+			assert processesCreateTimeUTC != null, "processes > createTimeUTC field not found at position "+i + " > " + j
+			assert processesCreateTimeUTC.trim() != "", "processes > createTimeUTC field is empty at position "+i + " > " + j
+		def dateTimeFormatStr = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
+ assert(ISODateTimeFormat.dateTimeParser().parseDateTime(processesCreateTimeUTC)),"processes > createTimeUTC is not in format: " + dateTimeFormatStr
+
+			
+		}
+	}
+	 log.info("Verified processes > createTimeUTC field in JSON response")
+}
+else
+{
+	testRunner.fail("Process performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="093dfe0d-1ec8-49a5-a6b1-8600df8a6a00" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C934581-Validate &quot;processes > createdBy&quot; field of REST response for Process Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate &quot;processes >createdBy&quot; field in REST response" id="9c3f1b01-5594-4dea-8438-7a4a8b8464c0"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Process API Response Format Validation TestSuite#C934568-Validate REST endpoint for Process Performance API#Step1_GetProcessPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Process API Response is empty"
+ log.info("Verifying processes > createdBy field in JSON response")
+
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("processes"), "processes not found in response"
+	def processesJsonArr = jsonObj.processes
+
+	assert processesJsonArr.size() > 0, "processes array in response is empty"
+	for (int j = 0; j &lt; processesJsonArr.size(); j++) {
+			assert processesJsonArr[j].containsKey("createdBy"), "processes > createdBy property not found in JSON response at position "+i + " > " + j
+			assert processesJsonArr[j].createdBy != null, "processes > createdBy property in JSON response is null at position "+i + " > " + j
+              
+	}
+}
+ log.info("Verified processes > createdBy field in JSON response")
+}
+else
+{
+	testRunner.fail("Process performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="799e019a-e6f6-4a0a-b17c-af35902e4ce2" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C934582-Validate &quot;processes > index&quot; field of REST response for Process Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate &quot;processes > index&quot; field in REST response" id="34d22aeb-1d7b-47d8-8235-9d35411d2f23"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Process API Response Format Validation TestSuite#C934568-Validate REST endpoint for Process Performance API#Step1_GetProcessPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Process API Response is empty"
+ log.info("Verifying processes > index field in JSON response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("processes"), "processes not found in response at "+i
+	def processesJsonArr = jsonObj.processes
+
+	assert processesJsonArr.size() > 0, "processes array in response is empty at "+i
+	for (int j = 0; j &lt; processesJsonArr.size(); j++) {
+			assert processesJsonArr[j].containsKey("index"), "processes > index not found in JSON response at position "+i + " > " + j
+			String processesIndexStr = processesJsonArr[j].index
+
+			assert processesIndexStr != null, "processes > index is null at position "+i + " > " + j
+
+			assert processesIndexStr.isInteger(), "processes > index is not an integer value at position "+i + " > " + j
+			int processesIndex = processesIndexStr as int
+			assert processesIndex == j, "processes > index is incorrect at position "+i + " > " + j
+		}
+	}
+	 log.info("Verified processes > index field in JSON response")
+}
+else
+{
+	testRunner.fail("Process performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>34d22aeb-1d7b-47d8-8235-9d35411d2f23</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="ae4f019f-6063-4f69-b480-f48066131cc3" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C934583-Validate &quot;processes > name&quot; field of REST response for Process Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate &quot;processes > name&quot; field in REST response" id="bf50011b-546c-49da-adac-5d4f9b259b0b"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Process API Response Format Validation TestSuite#C934568-Validate REST endpoint for Process Performance API#Step1_GetProcessPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Process API Response is empty"
+ log.info("Verifying processes > name field in JSON response")
+assert jsonResponse.size() > 0, "JSON Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("processes"), "processes not found in response at "+i
+	def processesJsonArr = jsonObj.processes
+
+	assert processesJsonArr.size() > 0, "processes array in response is empty at"+i
+	for (int j = 0; j &lt; processesJsonArr.size(); j++) {
+			assert processesJsonArr[j].containsKey("name"), "processes > name property not found in JSON response at position "+i + " > " + j
+			assert processesJsonArr[j].name != null, "processes > name property in JSON response is null at position "+i + " > " + j
+			assert processesJsonArr[j].name.trim() != "", "processes > name field is empty at position  "+i + " > " + j
+		
+		}
+	}
+	 log.info("Verified processes > name field in JSON response")
+}
+else
+{
+testRunner.fail("Process performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="66de9f15-c14c-49c7-92b2-fdd86c8588c2" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C934587-Validate &quot;processes > type&quot; field of REST response for Process Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate &quot;processes > type&quot; field in REST response" id="460fe753-3dd9-4e7f-941d-11ed9ba1bd67"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Process API Response Format Validation TestSuite#C934568-Validate REST endpoint for Process Performance API#Step1_GetProcessPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Process API Response is empty"
+ log.info("Verifying processes > type field in JSON response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("processes"), "processes not found in response at "+i
+	def processesJsonArr = jsonObj.processes
+
+	assert processesJsonArr.size() > 0, "processes array in response is empty at "+i
+	for (int j = 0; j &lt; processesJsonArr.size(); j++) {
+			assert processesJsonArr[j].containsKey("type"), "processes > type not found at position "+i + " > " + j
+			def processesType = processesJsonArr[j].type
+			assert processesType != null, "processes > type is null at position "+i + " > " + j
+			assert processesType == "performanceProcess", "processes > type field is not 'performanceProcess' at position "+i + " > " + j
+			assert processesType.trim() != "", "processes > type field is empty at position  "+i + " > " + j
+		}
+	}
+	 log.info("Verified processes > type field in JSON response")
+}
+else
+{
+	testRunner.fail("Process performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="5137b598-5a0b-49e3-842f-c6df0f7df8d0" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C934586-Validate &quot;processes > processID&quot; field of REST response for Process Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Validate &quot;processes > processID&quot; field in REST response" id="a6b3b80a-439d-4749-ad3d-6cb6d3d7fe82"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Process API Response Format Validation TestSuite#C934568-Validate REST endpoint for Process Performance API#Step1_GetProcessPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Process API Response is empty"
+ log.info("Verifying processes > processID field in JSON response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("processes"), "processes not found in response at "+i
+	def processesJsonArr = jsonObj.processes
+
+	assert processesJsonArr.size() > 0, "processes array in response is empty at "+i
+	for (int j = 0; j &lt; processesJsonArr.size(); j++) {
+			assert processesJsonArr[j].containsKey("processID"), "processes > processID not found in JSON response at position "+i + " > " + j
+			assert processesJsonArr[j].processID != null, "processes > processID is null at position "+i + " > " + j
+			String processesprocessIDStr = processesJsonArr[j].processID
+			assert processesprocessIDStr.isInteger(), "processes > processID value is not of data-type long at position "+i + " > " + j
+			int processesprocessID = processesprocessIDStr as int
+			assert processesprocessID >= 0, "processes > processID is negative at position "+i + " > " + j
+			assert processesprocessID != "", "processes > processID field is empty at position  "+i + " > " + j
+		}
+	}
+	 log.info("Verified processes > processID field in JSON response")
+}
+else
+{
+	testRunner.fail("Process performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="55205c5d-c6ed-487e-a6f4-e98268f51fbe" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C934589-Validate &quot;processes> percentCPUUsage&quot; field in REST response for Process Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate &quot;processes > percentCPUUsage&quot; field in REST response" id="0ce12b3d-f095-46d9-bfac-db17d3a8dcf0"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Process API Response Format Validation TestSuite#C934568-Validate REST endpoint for Process Performance API#Step1_GetProcessPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Process API Response is empty"
+ log.info("Verifying processes > percentCPUUsage field in JSON response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("processes"), "processes not found in response at "+i
+	def processesJsonArr = jsonObj.processes
+
+	assert processesJsonArr.size() > 0, "processes array in response is empty at "+i
+	for (int j = 0; j &lt; processesJsonArr.size(); j++) {
+			assert processesJsonArr[j].containsKey("percentCPUUsage"), "processes > percentCPUUsage not found in JSON response at position "+i + " > " + j
+			assert processesJsonArr[j].percentCPUUsage != null, "processes > percentCPUUsage is null at position "+i + " > " + j
+			String processespercentCPUUsageStr = processesJsonArr[j].percentCPUUsage
+			assert processespercentCPUUsageStr.isDouble(), "processes > percentCPUUsage value is not of data-type long at position "+i + " > " + j
+			double processespercentCPUUsage = processespercentCPUUsageStr as double
+			assert processespercentCPUUsage >= 0, "processes > percentCPUUsage is negative at position "+i + " > " + j
+			assert processespercentCPUUsage != "", "processes > percentCPUUsage field is empty at position  "+i + " > " + j
+		}
+	}
+	 log.info("Verified processes > percentCPUUsage field in JSON response")
+}
+else
+{
+	testRunner.fail("Process performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="ea1bca49-4518-4c05-a130-57bc658126e1" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C934590-Validate &quot;processes > handleCount&quot; field in REST response for Process Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate &quot;processes > handleCount&quot; field in REST response" id="00e02e8f-e9de-4704-8406-d08e2864dd2f"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Process API Response Format Validation TestSuite#C934568-Validate REST endpoint for Process Performance API#Step1_GetProcessPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Process API Response is empty"
+ log.info("Verifying processes > handleCount field in JSON response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("processes"), "processes not found in response at "+i
+	def processesJsonArr = jsonObj.processes
+
+	assert processesJsonArr.size() > 0, "processes array in response is empty at "+i
+	for (int j = 0; j &lt; processesJsonArr.size(); j++) {
+			assert processesJsonArr[j].containsKey("handleCount"), "processes > handleCount not found in JSON response at position "+i + " > " + j
+			assert processesJsonArr[j].handleCount != null, "processes > handleCount is null at position "+i + " > " + j
+			String processeshandleCountStr = processesJsonArr[j].handleCount
+		     assert processeshandleCountStr.isLong(), "processes > handleCount value is not of data-type long at position "+i + " > " + j
+			long processeshandleCount = processeshandleCountStr as long
+			assert processeshandleCount >= 0, "processes > handleCount is negative at position "+i + " > " + j
+			assert processeshandleCount != "", "processes > handleCount field is empty at position  "+i + " > " + j
+		}
+	}
+	 log.info("Verified processes > handleCount field in JSON response")
+}
+else
+{
+	testRunner.fail("Process performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>00e02e8f-e9de-4704-8406-d08e2864dd2f</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="98cccf76-16f5-438c-b03e-7dbae15a6f32" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C934591-Validate &quot;processes > threadCount&quot; field in REST response for Process Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate &quot;processes > threadCount&quot; field in REST response" id="45a1539e-4700-46c3-9d6f-dc3b869c4eb7"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Process API Response Format Validation TestSuite#C934568-Validate REST endpoint for Process Performance API#Step1_GetProcessPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Process API Response is empty"
+ log.info("Verifying processes > threadCount field in JSON response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("processes"), "processes not found in response at position "+i
+	def processesJsonArr = jsonObj.processes
+
+	assert processesJsonArr.size() > 0, "processes array in response is empty at position "+i
+	for (int j = 0; j &lt; processesJsonArr.size(); j++) {
+			assert processesJsonArr[j].containsKey("threadCount"), "processes > threadCount not found in JSON response at position  "+i + " > " + j
+			assert processesJsonArr[j].threadCount != null, "processes > threadCount is null at position "+i + " > " + j
+			String processesthreadCountStr = processesJsonArr[j].threadCount
+			assert processesthreadCountStr.isLong(), "processes > threadCount value is not of data-type long at position  "+i + " > " + j
+			long processesthreadCount = processesthreadCountStr as long
+			assert processesthreadCount >= 0, "processes > threadCount is negative at position  "+i + " > " + j
+			assert processesthreadCount != "", "processes > threadCount field is empty at position  "+i + " > " + j
+		}
+	}
+
+	 log.info("Verified processes > threadCount field in JSON response")
+}
+else
+{
+	testRunner.fail("Process performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="ac9ed8ca-2072-4f42-8208-1a88cb0fef2b" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C934592-Validate &quot;processes > privateBytes&quot; field in REST response for Process Performance API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate &quot;processes > privateBytes&quot; field in REST response" id="dc87f85a-f985-41f1-b448-588dd388ea93"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[Process API Response Format Validation TestSuite#C934568-Validate REST endpoint for Process Performance API#Step1_GetProcessPerformance_Request]#Response}' )
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+assert jsonResponse.size() > 0, "Process API Response is empty"
+ log.info("Verifying processes > privateBytes field in JSON response")
+assert jsonResponse.size() > 0, "Response is empty"
+for (int i = 0; i &lt; jsonResponse.size(); i++) {
+	def jsonObj = jsonResponse[i]
+	assert jsonObj.containsKey("processes"), "processes not found in response at "+i
+	def processesJsonArr = jsonObj.processes
+
+	assert processesJsonArr.size() > 0, "processes array in response is empty at "+i
+	for (int j = 0; j &lt; processesJsonArr.size(); j++) {
+			assert processesJsonArr[j].containsKey("privateBytes"), "processes > privateBytes not found in JSON response at position  "+i + " > " + j
+			assert processesJsonArr[j].privateBytes != null, "processes > privateBytes is null at position "+i + " > " + j
+			String processesprivateBytesStr = processesJsonArr[j].privateBytes
+			assert processesprivateBytesStr.isLong(), "processes > privateBytes value is not of data-type long at position  "+i + " > " + j
+			long processesprivateBytes = processesprivateBytesStr as long
+			assert processesprivateBytes >= 0, "processes > privateBytes is negative at position  "+i + " > " + j
+			assert processesprivateBytes != "", "processes > privateBytes field is empty at position  "+i + " > " + j
+		}
+	}
+	 log.info("Verified processes > privateBytes field in JSON response")
+}
+else
+{
+	testRunner.fail("Process performance API Response is null")
+}</script></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>5f662b38-1705-47b3-bc35-fa4436eaa429</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:properties/><con:reportParameters/></con:testSuite></con:soapui-project>

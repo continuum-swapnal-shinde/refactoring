@@ -1,0 +1,130 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 68547294,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.readScenario(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Validation of information returned by version plugin-C3685604",
+        "description": "",
+        "id": "versionplugintoams-validation;validation-of-information-returned-by-version-plugin-c3685604;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 17003127,
+              "status": "passed"
+            },
+            "match": {
+              "location": "CommonSteps.cleanup()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "output": [
+              "\u003cfont color\u003d\"blue\"\u003e\u003cb\u003eConnection Establish for : 10.2.114.113:22\u003c/b\u003e\u003c/font\u003e\u003cbr/\u003e"
+            ],
+            "result": {
+              "duration": 678032469,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "SSH connection establishes with remote test machine from tag",
+            "match": {
+              "location": "CommonSteps.sshConnectionEstablishedWithRemoteTestMachineFromTag()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5324598,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User read data from excel with rowIndex \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 41
+                }
+              ],
+              "location": "CommonSteps.i_read_data_from_excel_with_rowIndex(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "User fetch EndPointID of the machine from tag",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User fetch version Information from the system",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User fetch plugin payload from console for windows as \"versionTrigger.bat\" for \"version\"",
+            "match": {},
+            "matchedColumns": [
+              1,
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "User validate system information with version plugin information",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@platformSanity"
+          },
+          {
+            "line": 3,
+            "name": "@swa"
+          }
+        ]
+      }
+    ],
+    "name": "VersionPluginToAMS Validation",
+    "description": "",
+    "id": "versionplugintoams-validation",
+    "keyword": "Feature",
+    "uri": "platform/versionPlugin.feature"
+  }
+]

@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="9d932b99-71ae-4902-9586-b1d62eca635a" activeEnvironment="Default environment" name="Agent-service" lastOpened="2017-08-10T13:32:49.657+05:30" resourceRoot="" soapui-version="6.0.0" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="ee96b484-7a15-4775-a04f-6733e7f0325a" wadlVersion="http://wadl.dev.java.net/2009/02" name="ProcessorMicroService" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings><con:setting id="com.eviware.soapui.impl.rest.actions.service.Wadl2JavaAction@values-local"><![CDATA[<xml-fragment xmlns:con="http://eviware.com/soapui/config">
+  <con:entry key="Automatic Package Names" value="false"/>
+  <con:entry key="Output Directory" value="/home/vishal/Desktop/wadl2java"/>
+  <con:entry key="JAXB Customization File(s)" value=""/>
+  <con:entry key="Java Args" value=""/>
+  <con:entry key="Package" value="com.girnarsoft"/>
+  <con:entry key="Tool Args" value=""/>
+</xml-fragment>]]></con:setting><con:setting id="39c661a8-34ec-4e0a-a637-105a12f619fafileName">ProcessorAPI</con:setting></con:settings><con:definitionCache type="TEXT" rootPart=""/><con:endpoints><con:endpoint>http://localhost:8082</con:endpoint><con:endpoint>http://localhost:8088/</con:endpoint><con:endpoint>http://localhost:8089/</con:endpoint></con:endpoints><con:environmentSpec><con:entry environmentId="8eef0a7c-3706-4628-b66b-dc2fb662e155"><con:authProfile>Inherit From Parent</con:authProfile></con:entry></con:environmentSpec><con:resource name="Processor" path="/processor" id="774586c5-7128-47f6-8c14-f80c01466ad3"><con:settings><con:setting id="f9d41304-f313-4254-8eb1-4aee3b93cac3fileName">Processor</con:setting></con:settings><con:parameters/><con:method name="GET - GetProcessorPerfByAgentId" id="07553e28-b929-480c-9245-ae6820ffd8ab" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element>Response</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/xml</con:mediaType><con:status>500</con:status><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>504</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>504</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>504</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>504</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>504</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>504</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType xsi:nil="true"/><con:status>504</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="Request 1" id="84531270-b113-4251-a0c0-907241669702" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#ServerHost}</con:endpoint><con:request/><con:originalUri>http://localhost/performance/v1/endpoint/1/processor</con:originalUri><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/><con:parameterOrder/><con:environmentSpec><con:entry environmentId="8eef0a7c-3706-4628-b66b-dc2fb662e155"><con:authProfile>Inherit From Parent</con:authProfile></con:entry><con:entry environmentId="7021bd04-bcf4-458e-b990-05d6a8a5d6e1"><con:authProfile>No Authorization</con:authProfile></con:entry></con:environmentSpec></con:request><con:environmentSpec><con:entry environmentId="8eef0a7c-3706-4628-b66b-dc2fb662e155"><con:authProfile>Inherit From Parent</con:authProfile></con:entry></con:environmentSpec></con:method><con:environmentSpec><con:entry environmentId="8eef0a7c-3706-4628-b66b-dc2fb662e155"><con:authProfile>Inherit From Parent</con:authProfile></con:entry></con:environmentSpec></con:resource></con:interface><con:interface xsi:type="con:RestService" id="3af54785-2383-4cf4-88a6-b7587811faf0" wadlVersion="http://wadl.dev.java.net/2009/02" name="Smoke_storage" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints/><con:resource name="/performance/v1/endpoint/f6d990e6-bf7e-4f50-b465-66564dd8502c/storage" path="/storage" id="9f71e2ef-a85e-4e0b-8897-bfff2472ad86"><con:settings/><con:parameters/><con:method name="GET" id="2414e56e-ac3f-4b11-8c22-37c998f6f9d5" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element>Response</con:element></con:representation><con:request name="GET Request" id="656e10c6-da2e-41f6-b0a2-a5903a302d1d" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#TestSuite#ServerHost}</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="86d75f81-0bba-4969-8ada-edf8082647a4" wadlVersion="http://wadl.dev.java.net/2009/02" name="Smoke_memory" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints/><con:resource name="/performance/v1/endpoint/f6d990e6-bf7e-4f50-b465-66564dd8502c/memory" path="/memory" id="27f7b6cf-8f87-4912-a4c7-a0bc1ff7b709"><con:settings/><con:parameters/><con:method name="GET" id="a1cb38cb-a893-424b-a8fa-1441ca6e0d66" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element>Response</con:element></con:representation><con:request name="GET Request" id="10025ba0-1f38-4cc2-aa39-a5a7791bb874" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#TestSuite#ServerHost}</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="0b22af36-a967-43ed-9828-33a86e651d47" wadlVersion="http://wadl.dev.java.net/2009/02" name="REST Service 1" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints/><con:resource name="/performance/v1/endpoint/f6d990e6-bf7e-4f50-b465-66564dd8502c/network" path="/network" id="b1584237-2d87-44ff-8fb2-5448c57d2d80"><con:settings/><con:parameters/><con:method name="GET" id="8baa041f-3820-49c1-9563-963769a86913" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element>Response</con:element></con:representation><con:request name="GET Request" id="a77b08bb-8e67-47e7-ad24-32ee92738c10" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#TestSuite#ServerHost}</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="adcebc3c-ae77-4b77-b7be-21af292a099c" wadlVersion="http://wadl.dev.java.net/2009/02" name="REST Service 2" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints/><con:resource name="/performance/v1/endpoint/f6d990e6-bf7e-4f50-b465-66564dd8502c/process" path="/process" id="a6b3f52a-4384-4054-adb0-689e053425ac"><con:settings/><con:parameters/><con:method name="GET" id="0b5458cd-48ea-4657-bf13-25dd06db756b" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element>Response</con:element></con:representation><con:request name="GET Request" id="962197eb-cf88-42ec-88af-b11a924b4441" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#TestSuite#ServerHost}</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="76125ac3-1f21-4db7-872e-ae1d4cef2f67" wadlVersion="http://wadl.dev.java.net/2009/02" name="REST Service 3" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints/><con:resource name="/agent/v1/f6d990e6-bf7e-4f50-b465-66564dd8502c/heartbeat" path="/heartbeat" id="35dc8bc1-510b-4e6b-9c66-9fd75bd93cf1"><con:settings/><con:parameters/><con:method name="GET" id="5104fac9-4dc3-4a85-94b1-52e1b30a0c8c" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:hear="http://internal-continuum-agent-service-elb-int-1915575479.us-east-1.elb.amazonaws.com/agent/v1/f6d990e6-bf7e-4f50-b465-66564dd8502c/heartbeat">hear:Response</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/plain; charset=utf-8</con:mediaType><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="GET Request" id="c58e8380-bb16-4a97-a683-c277ee95ffc1" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#TestSuite#ServerHost}</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="b84a32ac-9b81-48a4-8c72-1bd877c8224e" wadlVersion="http://wadl.dev.java.net/2009/02" name="REST Service 4" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints/><con:resource name="/agent/version" path="/agent/version" id="ad1f45ac-8d95-4c72-a4dd-6d90e41ccc8f"><con:settings/><con:parameters/><con:method name="GET" id="ac9bac63-5f4c-4b99-a5f6-03d5fd95f0e2" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:ver="http://internal-continuum-agent-service-elb-int-1915575479.us-east-1.elb.amazonaws.com/agent/version">ver:Response</con:element></con:representation><con:request name="GET Request" id="77c32877-5b9e-424d-9726-a09572463d77" mediaType="application/json"><con:settings/><con:endpoint>http://internal-continuum-agent-service-elb-int-1915575479.us-east-1.elb.amazonaws.com</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="bb63b403-8d97-4963-8570-d6834e1a1140" wadlVersion="http://wadl.dev.java.net/2009/02" name="REST Service 5" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints/><con:resource name="/agent/healthCheck" path="/agent/healthCheck" id="30dc24b5-ce16-4a2b-8cea-55d5f707542b"><con:settings/><con:parameters/><con:method name="GET" id="e5ff8321-06b9-4753-ba74-8a72564381eb" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:heal="http://internal-continuum-agent-service-elb-int-1915575479.us-east-1.elb.amazonaws.com/agent/healthCheck">heal:Response</con:element></con:representation><con:request name="GET Request" id="56820f17-01eb-4677-a24f-d5843da1c95e" mediaType="application/json"><con:settings/><con:endpoint>http://internal-continuum-agent-service-elb-int-1915575479.us-east-1.elb.amazonaws.com</con:endpoint><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:request></con:method></con:resource></con:interface><con:testSuite id="c647164f-6567-494c-bbd1-2063c9e18630" name="Version API Response Format Validation TestSuite"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:testCase id="7c29a8d9-9537-4b63-8ed3-f02143b21c89" discardOkResults="true" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="C1225543-Validate REST endpoint for Version API" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetAgentServiceVersion_Request" id="f483d33b-f085-42e1-a77b-ad53e6362571"><con:settings/><con:config service="REST Service 4" resourcePath="/agent/version" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetAgentServiceVersion_Request" id="77c32877-5b9e-424d-9726-a09572463d77" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#TestSuite#ServerHost}</con:endpoint><con:request/><con:originalUri>http://internal-continuum-agent-service-elb-int-1915575479.us-east-1.elb.amazonaws.com/agent/version</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="1f47b041-89a4-4de6-999f-c1a35d45ee94" name="Valid HTTP Status Codes"><con:settings/><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="86ebd002-092b-4c42-b8f0-e47bd13ada0e" discardOkResults="true" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="C1225544-Validate REST response for Version API" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetAgentServiceVersion_Request" id="9c33a32b-0cbf-41b5-9f79-356c0047c766"><con:settings/><con:config service="REST Service 4" resourcePath="/agent/version" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetAgentServiceVersion_Request" id="77c32877-5b9e-424d-9726-a09572463d77" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#TestSuite#ServerHost}</con:endpoint><con:request/><con:originalUri>http://internal-continuum-agent-service-elb-int-1915575479.us-east-1.elb.amazonaws.com/agent/version</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="845c1f60-2077-4875-9f89-756f47e9b369" name="Valid HTTP Status Codes"><con:settings/><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Step2_Validate JSON Response Format" id="5e697bdc-82c4-4fb1-95cf-84106e7395e6"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${Step1_GetAgentServiceVersion_Request#Response}' ) 
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+
+log.info("Verifying Version API Response")
+
+	assert jsonResponse.containsKey("timeStampUTC"), "timeStampUTC not found in response"
+	assert jsonResponse.containsKey("name"), "name not found in response"
+	assert jsonResponse.containsKey("type"), "type not found in response"
+	assert jsonResponse.containsKey("serviceName"), "serviceName not found in response"
+	assert jsonResponse.containsKey("serviceProvider"), "serviceProvider not found in response"
+	assert jsonResponse.containsKey("serviceVersion"), "serviceVersion not found in response"
+	assert jsonResponse.containsKey("buildNumber"), "buildNumber not found in response"
+
+log.info("Verified Version API Response")
+}
+else
+	{
+		testRunner.fail("Version API Response is null")
+	}
+	</script></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>9c33a32b-0cbf-41b5-9f79-356c0047c766</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:properties><con:property><con:name>ServerHost</con:name><con:value>https://agent.service.itsupport247.net</con:value></con:property></con:properties><con:reportParameters/></con:testSuite><con:testSuite id="c01b4527-80f0-45c1-9c27-e9bf1c5786e2" name="Version API Response Data Validation TestSuite"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:testCase id="64155beb-83a8-4439-9aa2-168550cc5cce" discardOkResults="true" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="C1225547-Validate &quot;timeStampUTC&quot; field" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate_timeStampUTC_Field" id="53eb3963-4081-4d4a-916e-b80b6bfc432f"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+import java.text.SimpleDateFormat
+import org.joda.time.format.ISODateTimeFormat
+import org.joda.time.DateTime
+def response = context.expand( '${#[Version API Response Format Validation TestSuite#C1225543-Validate REST endpoint for Version API#Step1_GetAgentServiceVersion_Request]#Response}' )
+if(response != "")
+{
+log.info("Verifying timeStampUTC field in JSON response")
+def jsonResponse = new JsonSlurper().parseText(response)
+def timeStampUTC = jsonResponse.timeStampUTC
+assert jsonResponse.containsKey('timeStampUTC'), "timeStampUTC field not found"
+assert timeStampUTC.trim() != "", "timeStampUTC field is empty"
+def dateTimeFormatStr = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
+ assert(ISODateTimeFormat.dateTimeParser().parseDateTime(timeStampUTC)),"timeStampUTC is not in format: " + dateTimeFormatStr
+ log.info("Verified timeStampUTC field in JSON Heartbeat response")
+}
+
+else
+	{
+		testRunner.fail("Version API Response is null")
+	}
+
+</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="4f70f2fb-c440-4f0b-910c-b905694b9b21" discardOkResults="true" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="C1225548-Validate &quot;name&quot; field" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate_name_Field" id="130783e8-5e15-4b4e-9f88-8aeda48c904e"><con:settings/><con:config><script>import groovy.json.JsonSlurper 
+def response = context.expand( '${#[Version API Response Format Validation TestSuite#C1225543-Validate REST endpoint for Version API#Step1_GetAgentServiceVersion_Request]#Response}' )
+if(response != "")
+{
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+//def name = context.expand( '${#TestSuite#name}' )
+log.info("Verifying name field in JSON response")
+assert (jsonResponse.name != null)
+assert (jsonResponse.name != "")
+assert jsonResponse.containsKey("name"), "Name property not found in JSON response"
+assert(jsonResponse.name == "AgentServiceSolution"),"Name property is not same as AgentServiceSolution"
+log.info("Verified name field in JSON response")
+}
+else
+	{
+		testRunner.fail("Version API Response is null")
+	}
+</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="07b7029f-34d9-4565-a209-32fc7462e129" discardOkResults="true" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="C1225549-Validate &quot;type&quot; field" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate_type_Field" id="492efcdf-ea2a-415d-aded-aa1ce273e038"><con:settings/><con:config><script>import groovy.json.JsonSlurper 
+def response = context.expand( '${#[Version API Response Format Validation TestSuite#C1225543-Validate REST endpoint for Version API#Step1_GetAgentServiceVersion_Request]#Response}' )
+if(response != "")
+{
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+//def type = context.expand( '${#TestSuite#type}' )
+log.info("Verifying type field in JSON response")
+assert (jsonResponse.type != null)
+assert (jsonResponse.type != "")
+assert jsonResponse.containsKey("type"), "type property not found in JSON response"
+assert(jsonResponse.type == "Version"),"type property is not same as Version"
+log.info("Verified type field in JSON response")
+}
+else
+	{
+		testRunner.fail("Version API Response is null")
+	}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="1eebcc96-ea6d-4246-b7c1-149f8226c238" discardOkResults="true" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="C1225550-Validate &quot;serviceName&quot; field" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate &quot;serviceName&quot; field" id="7cce564f-a819-450d-b906-dd7e3cf938e2"><con:settings/><con:config><script>import groovy.json.JsonSlurper 
+def response = context.expand( '${#[Version API Response Format Validation TestSuite#C1225543-Validate REST endpoint for Version API#Step1_GetAgentServiceVersion_Request]#Response}' )
+if(response != "")
+{
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+//def serviceName = context.expand( '${#TestSuite#serviceName}' )
+log.info("Verifying serviceName field in JSON response")
+assert (jsonResponse.serviceName != null)
+assert (jsonResponse.serviceName != "")
+assert jsonResponse.containsKey("serviceName"), "serviceName property not found in JSON response"
+assert(jsonResponse.serviceName == "Agent Micro-Service"),"serviceName property is not same as Agent Micro-Service"
+log.info("Verified serviceName field in JSON response")
+}
+else
+	{
+		testRunner.fail("Version API Response is null")
+	}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="d763ba85-071d-46f2-b39d-323b0c813b62" discardOkResults="true" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="C1225551-Validate &quot;serviceProvider&quot; field" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate &quot;serviceProvider&quot; field" id="ea455d24-53be-478c-bea7-07b6d08f1438"><con:settings/><con:config><script>import groovy.json.JsonSlurper 
+def response = context.expand( '${#[Version API Response Format Validation TestSuite#C1225543-Validate REST endpoint for Version API#Step1_GetAgentServiceVersion_Request]#Response}' )
+if(response != "")
+{
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+//def serviceProvider = context.expand( '${#TestSuite#serviceProvider}' )
+log.info("Verifying serviceProvider field in JSON response")
+assert (jsonResponse.serviceProvider != null)
+assert (jsonResponse.serviceProvider != "")
+assert jsonResponse.containsKey("serviceProvider"), "serviceProvider property not found in JSON response"
+assert(jsonResponse.serviceProvider == "Continuum LLC"),"serviceProvider property is not same as Agent Micro-Service"
+log.info("Verified serviceProvider field in JSON response")
+}
+else
+	{
+		testRunner.fail("Version API Response is null")
+	}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="9bdfa19a-2c16-4242-b2c8-d74a14299cc4" discardOkResults="true" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="C1225552-Validate &quot;serviceVersion&quot; field" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate &quot;serviceVersion&quot; field" id="af88f8d0-bf6c-4e0d-a13d-dcee9e92310c"><con:settings/><con:config><script>import groovy.json.JsonSlurper 
+def response = context.expand( '${#[Version API Response Format Validation TestSuite#C1225543-Validate REST endpoint for Version API#Step1_GetAgentServiceVersion_Request]#Response}' )
+if(response != "")
+{
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+//def serviceVersion = context.expand( '${#TestSuite#serviceVersion}' )
+
+log.info("Verifying serviceVersion field in JSON response")
+assert (jsonResponse.serviceVersion != null)
+assert (jsonResponse.serviceVersion != "")
+assert jsonResponse.containsKey("serviceVersion"), "serviceVersion property not found in JSON response"
+
+
+
+//def agentServiceConfig_fileContent = new File('//opt//continuum//config//ctm_agentmicroservice_cfg.json').text
+
+//def fileContentAsJsonObject = slurper.parseText agentServiceConfig_fileContent
+//log.info(fileContentAsJsonObject)
+//def Major = fileContentAsJsonObject.Version.Major.toString()
+//def Minor = fileContentAsJsonObject.Version.Minor.toString()
+//def Patch = fileContentAsJsonObject.Version.Patch.toString()
+//def val = Major+"."+Minor+"."+Patch
+//log.info(def string = jsonResponse.serviceVersion
+//def sub[] = string.substring(string.indexOf("."))
+//String servversion = jsonResponse.serviceVersion as String
+
+//assert (servversion == val),"serviceVersion does not match with Major.Minor.Patch"
+log.info("Verified serviceVersion field in JSON response.")
+}
+else
+	{
+		testRunner.fail("Version API Response is null")
+	}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="fdd47536-a6f8-4d1c-9e7e-837b3f1bc5cb" discardOkResults="true" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="C1225553-Validate &quot;buildNumber&quot; field" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate &quot;buildNumber&quot; field" id="f591a483-8788-46bd-b497-2bf48bac1f4e"><con:settings/><con:config><script>import groovy.json.JsonSlurper 
+def response = context.expand( '${#[Version API Response Format Validation TestSuite#C1225543-Validate REST endpoint for Version API#Step1_GetAgentServiceVersion_Request]#Response}' )
+if(response != "")
+{
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+//def buildNumber = context.expand( '${#TestSuite#buildNumber}' )
+log.info("Verifying buildNumber field in JSON response")
+assert (jsonResponse.buildNumber != null)
+//assert (jsonResponse.buildNumber != "")
+assert jsonResponse.containsKey("buildNumber"), "buildNumber property not found in JSON response"
+
+}
+else
+	{
+		testRunner.fail("Version API Response is null")
+	}</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:testSuite id="1a9bd5c7-9e2c-44ed-9977-dd5acbb9d062" name="HealthCheck API Response Format Validation TestSuite"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:testCase id="ae8f0d5c-7571-4616-99a1-bc28404df160" discardOkResults="true" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="C1227422-Validate REST endpoint for HealthCheck API" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetAgentServiceHealthCheck_Request" id="eed4bd82-4588-4161-bdcb-d1aaeff9c86e"><con:settings/><con:config service="REST Service 5" resourcePath="/agent/healthCheck" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetAgentServiceHealthCheck_Request" id="56820f17-01eb-4677-a24f-d5843da1c95e" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#TestSuite#ServerHost}</con:endpoint><con:request/><con:originalUri>http://internal-continuum-agent-service-elb-int-1915575479.us-east-1.elb.amazonaws.com/agent/healthCheck</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="0aeaf398-c5e0-45c5-9d56-4a31fa532058" name="Valid HTTP Status Codes"><con:settings/><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="f631109f-d372-4e62-8166-e3b4f6ba3787" discardOkResults="true" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="C1227423-Validate REST response for HealthCheck API" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetAgentServiceHealthCheck_Request" id="235ccd3c-cab6-4420-94b3-8168f200b76e"><con:settings/><con:config service="REST Service 5" resourcePath="/agent/healthCheck" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetAgentServiceHealthCheck_Request" id="56820f17-01eb-4677-a24f-d5843da1c95e" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#TestSuite#ServerHost}</con:endpoint><con:request/><con:originalUri>http://internal-continuum-agent-service-elb-int-1915575479.us-east-1.elb.amazonaws.com/agent/healthCheck</con:originalUri><con:assertion type="Valid HTTP Status Codes" id="a2f5ec92-a7fd-4d38-b179-aa9a1325b5af" name="Valid HTTP Status Codes"><con:settings/><con:configuration><codes>200</codes></con:configuration></con:assertion><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Step2_Validate JSON Response Format" id="538c4182-67e7-4b0b-be3c-3d72a2055643"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${Step1_GetAgentServiceHealthCheck_Request#Response}' ) 
+if(response != "")
+{
+def jsonResponse = new JsonSlurper().parseText(response)
+
+log.info("Verifying HealthCheck API Response")
+
+	assert jsonResponse.containsKey("timeStampUTC"), "timeStampUTC not found in response"
+	assert jsonResponse.containsKey("name"), "name not found in response"
+	assert jsonResponse.containsKey("type"), "type not found in response"
+	assert jsonResponse.containsKey("serviceName"), "serviceName not found in response"
+	assert jsonResponse.containsKey("serviceProvider"), "serviceProvider not found in response"
+	assert jsonResponse.containsKey("serviceVersion"), "serviceVersion not found in response"
+	assert jsonResponse.containsKey("buildNumber"), "buildNumber not found in response"
+	assert jsonResponse.containsKey("networkInterfaces"), "networkInterfaces not found in response"
+	assert jsonResponse.containsKey("status"), "status not found in response"
+	assert jsonResponse.containsKey("startTime"), "StartTime not found in response"
+	assert jsonResponse.containsKey("cpuPercentage"), "cpuPercentage not found in response"
+	assert jsonResponse.containsKey("numOfOSThreads"), "numOfOSThreads not found in response"
+	assert jsonResponse.containsKey("memoryPercentage"), "MemoryPercentage not found in response"
+
+log.info("Verified HealthCheck API Response")
+}
+	</script></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>235ccd3c-cab6-4420-94b3-8168f200b76e</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:properties><con:property><con:name>ServerHost</con:name><con:value>https://agent.service.itsupport247.net</con:value></con:property></con:properties><con:reportParameters/></con:testSuite><con:testSuite id="d54632b9-b4bf-4249-8d89-020ca844a3c3" name="HealthCheck API Response Data Validation TestSuite"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:testCase id="c5cc4c16-369c-4dcc-b275-0c1eb58d54eb" discardOkResults="true" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="C1227424-Validate &quot;timeStampUTC&quot; field" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate_timeStampUTC_Field" id="12897d45-fc73-42c6-a2fc-203fb5118ce5"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+import java.text.SimpleDateFormat
+import org.joda.time.format.ISODateTimeFormat
+import org.joda.time.DateTime
+def response = context.expand( '${#[HealthCheck API Response Format Validation TestSuite#C1227422-Validate REST endpoint for HealthCheck API#Step1_GetAgentServiceHealthCheck_Request]#Response}' )
+if(response != "")
+{
+log.info("Verifying timeStampUTC field in JSON response")
+def jsonResponse = new JsonSlurper().parseText(response)
+def timeStampUTC = jsonResponse.timeStampUTC
+assert jsonResponse.containsKey('timeStampUTC'), "timeStampUTC field not found"
+assert timeStampUTC.trim() != "", "timeStampUTC field is empty"
+def dateTimeFormatStr = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
+ assert(ISODateTimeFormat.dateTimeParser().parseDateTime(timeStampUTC)),"timeStampUTC is not in format: " + dateTimeFormatStr
+ log.info("Verified timeStampUTC field in JSON Heartbeat response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+
+</script></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>afe2cfa1-924d-48a4-9707-1af558a9b856</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="1aed6800-27f0-4584-a8fb-7a24b8fde460" discardOkResults="true" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="C1227425-Validate &quot;name&quot; field" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate_name_Field" id="9cf8282a-f4af-4123-952f-f25d65f70fa9"><con:settings/><con:config><script>import groovy.json.JsonSlurper 
+def response = context.expand( '${#[HealthCheck API Response Format Validation TestSuite#C1227422-Validate REST endpoint for HealthCheck API#Step1_GetAgentServiceHealthCheck_Request]#Response}' )
+if(response != "")
+{
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+//def name = context.expand( '${#TestSuite#name}' )
+log.info("Verifying name field in JSON response")
+assert (jsonResponse.name != null)
+assert (jsonResponse.name != "")
+assert jsonResponse.containsKey("name"), "Name property not found in JSON response"
+assert(jsonResponse.name == "AgentServiceSolution"),"Name property is not same as AgentServiceSolution"
+log.info("Verified name field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}</script></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>8e2ba8d7-fbfb-4706-97bc-13ceda687994</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="8beb9087-c77e-4272-a08c-3d32b01152fb" discardOkResults="true" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="C1227426-Validate &quot;type&quot; field" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate_type_Field" id="a7f98750-e1d2-41cf-9ccb-81bb14c01bc9"><con:settings/><con:config><script>import groovy.json.JsonSlurper 
+def response = context.expand( '${#[HealthCheck API Response Format Validation TestSuite#C1227422-Validate REST endpoint for HealthCheck API#Step1_GetAgentServiceHealthCheck_Request]#Response}' )
+if(response != "")
+{
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+//def type = context.expand( '${#TestSuite#type}' )
+log.info("Verifying type field in JSON response")
+assert (jsonResponse.type != null)
+assert (jsonResponse.type != "")
+assert jsonResponse.containsKey("type"), "type property not found in JSON response"
+assert(jsonResponse.type == "HealthCheck"),"type property is not same as Version"
+log.info("Verified type field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}</script></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>f4375b56-745f-44b4-8068-157115cff1c9</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="5bc0b0fd-4d47-411e-80ba-30b1761ab11b" discardOkResults="true" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="C1227427-Validate &quot;serviceName&quot; field" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate &quot;serviceName&quot; field" id="c8995c23-013c-4f4c-922c-0825d9588dec"><con:settings/><con:config><script>import groovy.json.JsonSlurper 
+def response = context.expand( '${#[HealthCheck API Response Format Validation TestSuite#C1227422-Validate REST endpoint for HealthCheck API#Step1_GetAgentServiceHealthCheck_Request]#Response}' )
+if(response != "")
+{
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+//def serviceName = context.expand( '${#TestSuite#serviceName}' )
+log.info("Verifying serviceName field in JSON response")
+assert (jsonResponse.serviceName != null)
+assert (jsonResponse.serviceName != "")
+assert jsonResponse.containsKey("serviceName"), "serviceName property not found in JSON response"
+assert(jsonResponse.serviceName == "Agent Micro-Service"),"serviceName property is not same as Agent Micro-Service"
+log.info("Verified serviceName field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}</script></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>61c55e26-8399-453e-9457-d87921630740</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="951b1b82-1cd0-40c2-917b-a6c70ccc0254" discardOkResults="true" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="C1227428-Validate &quot;serviceProvider&quot; field" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate &quot;serviceProvider&quot; field" id="e3b012a4-ccbd-4650-a066-9f04035ad42e"><con:settings/><con:config><script>import groovy.json.JsonSlurper 
+def response = context.expand( '${#[HealthCheck API Response Format Validation TestSuite#C1227422-Validate REST endpoint for HealthCheck API#Step1_GetAgentServiceHealthCheck_Request]#Response}' )
+if(response != "")
+{
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+//def serviceProvider = context.expand( '${#TestSuite#serviceProvider}' )
+log.info("Verifying serviceProvider field in JSON response")
+assert (jsonResponse.serviceProvider != null)
+assert (jsonResponse.serviceProvider != "")
+assert jsonResponse.containsKey("serviceProvider"), "serviceProvider property not found in JSON response"
+assert(jsonResponse.serviceProvider == "Continuum LLC"),"serviceProvider property is not same as Agent Micro-Service"
+log.info("Verified serviceProvider field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}</script></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>221e0219-1882-40bb-b7f3-b9d09de77a30</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="d6c13c17-b0ef-4ee6-b957-b50399a8ff33" discardOkResults="true" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="C1227429-Validate &quot;serviceVersion&quot; field" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate &quot;serviceVersion&quot; field" id="f7e6e972-b153-4840-b2bd-cd9363d20bd4"><con:settings/><con:config><script>import groovy.json.JsonSlurper 
+def response = context.expand( '${#[HealthCheck API Response Format Validation TestSuite#C1227422-Validate REST endpoint for HealthCheck API#Step1_GetAgentServiceHealthCheck_Request]#Response}' )
+if(response != "")
+{
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+//def serviceVersion = context.expand( '${#TestSuite#serviceVersion}' )
+
+log.info("Verifying serviceVersion field in JSON response")
+assert (jsonResponse.serviceVersion != null)
+assert (jsonResponse.serviceVersion != "")
+assert jsonResponse.containsKey("serviceVersion"), "serviceVersion property not found in JSON response"
+
+
+
+//def agentServiceConfig_fileContent = new File('//opt//continuum//config//ctm_agentmicroservice_cfg.json').text
+
+//def fileContentAsJsonObject = slurper.parseText agentServiceConfig_fileContent
+//log.info(fileContentAsJsonObject)
+//def Major = fileContentAsJsonObject.Version.Major.toString()
+//def Minor = fileContentAsJsonObject.Version.Minor.toString()
+//def Patch = fileContentAsJsonObject.Version.Patch.toString()
+//def val = Major+"."+Minor+"."+Patch
+//log.info(def string = jsonResponse.serviceVersion
+//def sub[] = string.substring(string.indexOf("."))
+//String servversion = jsonResponse.serviceVersion as String
+
+//assert (servversion == val),"serviceVersion does not match with Major.Minor.Patch"
+log.info("Verified serviceVersion field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}</script></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>d804981e-38e6-48a6-b946-9e05764183c4</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="bff4ac87-2248-42d1-90cb-a24c68b25f37" discardOkResults="true" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="C1230586-Validate &quot;buildNumber&quot; field" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate &quot;buildNumber&quot; field" id="06627bd8-08e0-4fba-969e-fced9362038b"><con:settings/><con:config><script>import groovy.json.JsonSlurper 
+def response = context.expand( '${#[HealthCheck API Response Format Validation TestSuite#C1227422-Validate REST endpoint for HealthCheck API#Step1_GetAgentServiceHealthCheck_Request]#Response}' )
+if(response != "")
+{
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+//def buildNumber = context.expand( '${#TestSuite#buildNumber}' )
+//log.info(buildNumber)
+log.info("Verifying buildNumber field in JSON response")
+assert (jsonResponse.buildNumber != null)
+//assert (jsonResponse.buildNumber != "")
+assert jsonResponse.containsKey("buildNumber"), "buildNumber property not found in JSON response"
+
+log.info("Verified buildNumber field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}</script></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>86947373-1705-47fb-8618-0b62bcc6b9a8</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="ef6f82e8-ec0a-4408-9592-23fa2178dae0" discardOkResults="true" failOnError="false" failTestCaseOnErrors="true" keepSession="false" name="C1230587-Validate networkInterfaces field" searchProperties="true" timeout="0" wsrmEnabled="false" wsrmVersion="1.0" wsrmAckTo="" amfAuthorisation="false" amfEndpoint="" amfLogin="" amfPassword=""><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="groovy" name="Step2_Validate &quot;networkInterfaces&quot; field" id="60940e60-da71-4253-bbd8-8aa736ff1f75"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${#[HealthCheck API Response Format Validation TestSuite#C1227422-Validate REST endpoint for HealthCheck API#Step1_GetAgentServiceHealthCheck_Request]#Response}' )
+if(response != "")
+{
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+assert (jsonResponse.networkInterfaces != null)
+assert (jsonResponse.networkInterfaces != "")
+assert jsonResponse.containsKey("networkInterfaces"), "networkInterfaces property not found in JSON response"
+def jsonResponse1 = new JsonSlurper().parseText(response).networkInterfaces
+
+assert jsonResponse1.size() > 0, "Response is empty"
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:savedRecentRuns>1</con:savedRecentRuns><con:requirements/><con:properties/><con:wssContainer/><con:databaseConnectionContainer/><con:oAuth2ProfileContainer/><con:reporting><con:reportTemplates/><con:xmlTemplates/><con:xmlTemplates/><con:parameters/><con:parameters/></con:reporting><con:reporting/><con:authRepository/><con:tags/></con:soapui-project>

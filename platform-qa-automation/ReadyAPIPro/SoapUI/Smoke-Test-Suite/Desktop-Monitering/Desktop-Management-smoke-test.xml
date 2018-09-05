@@ -1,0 +1,1214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="f7f465a8-757c-40f9-9e49-cbe3eb15ab14" activeEnvironment="Default environment" name="Smoke-Test" lastOpened="2017-04-11T16:11:21.586+05:30" resourceRoot="" soapui-version="6.0.0" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:RestService" id="a711a6f8-92f8-45e6-af17-570a0b85aae0" wadlVersion="http://wadl.dev.java.net/2009/02" name="" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints/><con:resource name="Asset-Service" path="/Asset-Service" id="2dae7f98-07e7-44d3-9024-696a21dd6ebf"><con:settings/><con:parameters/><con:method name="Asset-Service" id="c9df5d08-a05a-4243-a0fe-6934e9437c52" method="GET"><con:settings/><con:parameters/><con:request name="GET" id="607ab4c7-6f04-420d-b5e2-bd3b74aff7e7" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:request/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="6cabf1ea-6ec3-43d6-92a0-7eb5b3df741e" wadlVersion="http://wadl.dev.java.net/2009/02" name="REST Service 1" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints/><con:resource name="/asset/v1/endpoint/1" path="" id="1d9762f4-ce18-47dd-bddd-f7b54d344779"><con:settings/><con:parameters/><con:method name="GET" id="97f56efa-734c-4460-93d1-baf44b85fb30" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:ns="http://localhost/asset/v1/endpoint/1">ns:Response</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType xsi:nil="true"/><con:status>0</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>text/plain; charset=utf-8</con:mediaType><con:status>500</con:status><con:params/><con:element>data</con:element></con:representation><con:request name="GET Request" id="d3c56964-bfe4-42d3-88ff-e75673a7e34c" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://localhost:8084</con:endpoint><con:request/><con:originalUri>http://localhost/asset/v1/endpoint/1</con:originalUri><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/><con:parameterOrder/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="0745cd85-710b-482f-bd1c-2a9f05f9aae8" wadlVersion="http://wadl.dev.java.net/2009/02" name="REST Service 2" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints/><con:resource name="/asset/version" path="/asset/version" id="7f514f21-e86d-4633-a63d-b7c04dd46d6b"><con:settings/><con:parameters/><con:method name="GET" id="ec462bdc-38d5-496d-9b2e-4b52ac59e288" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:ver="http://internal-continuum-asset-service-elb-int-782930276.us-east-1.elb.amazonaws.com/asset/version">ver:Response</con:element></con:representation><con:request name="GET Request" id="8056b958-2790-46cd-843c-b80f49ce3e07" mediaType="application/json"><con:settings/><con:endpoint>http://internal-continuum-asset-service-elb-int-782930276.us-east-1.elb.amazonaws.com</con:endpoint><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="c3ffd613-1224-4aec-8428-78ceff43b5a9" wadlVersion="http://wadl.dev.java.net/2009/02" name="REST Service 3" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints/><con:resource name="/asset/version" path="/asset/version" id="085346ea-883b-4736-a36b-8717f714f657"><con:settings/><con:parameters/><con:method name="GET" id="6d9a519e-5ff0-4ec4-9675-220c917951fd" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:ver="http://internal-continuum-asset-service-elb-int-782930276.us-east-1.elb.amazonaws.com/asset/version">ver:Response</con:element></con:representation><con:request name="GET Request" id="3a965f7b-3775-4055-9718-e9f512e69f8a" mediaType="application/json"><con:settings/><con:endpoint>http://internal-continuum-asset-service-elb-int-782930276.us-east-1.elb.amazonaws.com</con:endpoint><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="c7a8ebd5-23c4-485d-9270-1652c1fa3374" wadlVersion="http://wadl.dev.java.net/2009/02" name="REST Service 4" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints/><con:resource name="/performance/version" path="/performance/version" id="99a52075-0371-4ce6-adfc-6aee0594b0e8"><con:settings/><con:parameters/><con:method name="GET" id="c13bcfcb-57a3-4ca7-977f-7efba337c64b" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:ver="http://internal-continuum-perf-service-elb-int-1199294839.us-east-1.elb.amazonaws.com/performance/version">ver:Response</con:element></con:representation><con:request name="GET Request" id="606d8b24-0953-46dd-8866-7a72f9e93896" mediaType="application/json"><con:settings/><con:endpoint>http://internal-continuum-perf-service-elb-int-1199294839.us-east-1.elb.amazonaws.com</con:endpoint><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="ea7ffdac-a933-40bd-a823-5017ce4d7414" wadlVersion="http://wadl.dev.java.net/2009/02" name="REST Service 5" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints/><con:resource name="/asset/healthCheck" path="/asset/healthCheck" id="52aca3c5-447e-4fae-8db1-d7ff2f8d14ee"><con:settings/><con:parameters/><con:method name="GET" id="05ced811-94d5-4bb1-a490-45fae3d24ab3" method="GET"><con:settings/><con:parameters/><con:representation type="FAULT"><con:mediaType>text/plain; charset=utf-8</con:mediaType><con:status>404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:heal="http://internal-continuum-asset-service-elb-int-782930276.us-east-1.elb.amazonaws.com/asset/asset/healthCheck">heal:Response</con:element></con:representation><con:request name="GET Request" id="3822f877-35d0-4cd6-90cc-b36b306d08dd" mediaType="application/json"><con:settings/><con:endpoint>http://internal-continuum-asset-service-elb-int-782930276.us-east-1.elb.amazonaws.com</con:endpoint><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="9e730bbf-b8ac-4861-92fc-762c8ea9ab55" wadlVersion="http://wadl.dev.java.net/2009/02" name="REST Service 6" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints/><con:resource name="/performance/healthCheck" path="/performance/healthCheck" id="41f5e247-5535-4aa4-ac47-f169ca349355"><con:settings/><con:parameters/><con:method name="GET" id="7b9fb362-9161-40de-87fd-7375cfa9a4c1" method="GET"><con:settings/><con:parameters/><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/><con:element xmlns:heal="http://internal-continuum-perf-service-elb-int-1199294839.us-east-1.elb.amazonaws.com/performance/healthCheck">heal:Response</con:element></con:representation><con:request name="GET Request" id="7cda8296-ff08-480a-82a0-4851eb576b1b" mediaType="application/json"><con:settings/><con:endpoint>http://internal-continuum-perf-service-elb-int-1199294839.us-east-1.elb.amazonaws.com</con:endpoint><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:parameters/></con:request></con:method></con:resource></con:interface><con:interface xsi:type="con:RestService" id="f55f3176-6a80-494c-a206-54d6ea305e82" wadlVersion="http://wadl.dev.java.net/2009/02" name="REST Service 7" type="rest" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart=""/><con:endpoints/><con:resource name="/agent/v1/f6d990e6-bf7e-4f50-b465-66564dd8502c/execute" path="/agent/v1/{endpointid}/execute" id="915fc5f9-74f7-4ac0-a22e-f845537db374"><con:settings/><con:parameters><con:parameter><con:name>endpointid</con:name><con:value/><con:style>TEMPLATE</con:style><con:default/><con:description xsi:nil="true"/></con:parameter></con:parameters><con:method name="POST" id="6eab2ba5-2bbb-4b0c-8531-285e11b1ffd8" method="POST"><con:settings/><con:parameters/><con:representation type="REQUEST"><con:mediaType>application/json</con:mediaType><con:params/></con:representation><con:representation type="RESPONSE"><con:mediaType>application/json</con:mediaType><con:status>200</con:status><con:params/></con:representation><con:representation type="REQUEST"><con:mediaType>application/x-www-form-urlencoded</con:mediaType><con:params/></con:representation><con:representation type="FAULT"><con:mediaType>text/plain; charset=utf-8</con:mediaType><con:status>400 404</con:status><con:params/><con:element>data</con:element></con:representation><con:representation type="FAULT"><con:mediaType>application/json</con:mediaType><con:status>400</con:status><con:params/></con:representation><con:request name="POST Request" id="f7376b67-7c50-47a4-8bab-3c211579ca03" mediaType="application/x-www-form-urlencoded" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://internal-Continuum-Agent-Service-ELB-Int-1915575479.us-east-1.elb.amazonaws.com</con:endpoint><con:request>{
+"name": "perf memory Schedule",
+"type": "schedule",
+"timestampUTC": "2017-01-11T12:24:53.489110938Z",
+"version": "2.0",
+"task": "/schedule/performance/performance/memory",
+"path": "/performance/performance/memory",
+"message" : "{  \"task\": \"/schedule/performance/performance/memory\", \"executeNow\": \"false\",  \"schedule\" : \"@every 20s\"}"
+}</con:request><con:originalUri>http://internal-Continuum-Agent-Service-ELB-Int-1915575479.us-east-1.elb.amazonaws.com/agent/v1/f6d990e6-bf7e-4f50-b465-66564dd8502c/execute</con:originalUri><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters><entry key="endpointid" value="${#TestSuite#endpointID}" xmlns="http://eviware.com/soapui/config"/></con:parameters><con:parameterOrder><con:entry>endpointid</con:entry></con:parameterOrder></con:request></con:method></con:resource></con:interface><con:testSuite id="3bc1057f-8243-47ca-8155-187f7ff9b056" name="Asset API Response Format Validation TestSuite"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:testCase id="d226f64c-437d-4253-adfc-14836078ffd4" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C1349783-Validate REST endpoint for Asset API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetAssetInfo_Request" id="c36ccf51-7d87-4c70-9bb2-7dd8edc63b63"><con:settings/><con:config service="REST Service 1" resourcePath="" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetAssetInfo_Request" id="d3c56964-bfe4-42d3-88ff-e75673a7e34c" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#ServerHost}</con:endpoint><con:request/><con:originalUri>http://localhost/asset/v1/endpoint/1</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="78e27f3e-1428-4203-8f51-0b38663c3a55" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C1349784-Validate REST response for Asset API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetAssetInfo_Request" id="6bcd98e8-4b51-446b-bbe7-29add95036f6"><con:settings/><con:config service="REST Service 1" resourcePath="" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetAssetInfo_Request" id="d3c56964-bfe4-42d3-88ff-e75673a7e34c" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#ServerHost}</con:endpoint><con:request/><con:originalUri>http://localhost/asset/v1/endpoint/1</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Step2_Validate JSON Response Format" id="6acac2c5-afab-4d17-a180-e7bedb6061f2"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+
+def response = context.expand( '${Step1_GetAssetInfo_Request#Response}' ) 
+def jsonResponse = new JsonSlurper().parseText(response)
+
+log.info("Verifying Response")
+	assert jsonResponse != null, "API Response is null"
+	assert jsonResponse.size() == 13,"Asset API size not equal to 13"
+	assert jsonResponse.containsKey("createTimeUTC"), "createTimeUTC not found in response"
+	assert jsonResponse.containsKey("createdBy"), "createdBy not found in response"
+	assert jsonResponse.containsKey("name"), "name not found in response"
+	assert jsonResponse.containsKey("type"), "type not found in response"
+	assert jsonResponse.containsKey("baseBoard"), "baseBoard not found in response"
+	assert jsonResponse.containsKey("bios"), "bios not found in response"
+	assert jsonResponse.containsKey("drives"), "drives not found in response"
+	assert jsonResponse.containsKey("memory"), "memory not found in response"
+	assert jsonResponse.containsKey("networks"), "networks not found in response"
+	assert jsonResponse.containsKey("os"), "os not found in response"
+	assert jsonResponse.containsKey("processors"), "processors not found in response"
+	assert jsonResponse.containsKey("raidController"), "raidController not found in response"
+	assert jsonResponse.containsKey("system"), "system not found in response"
+log.info("Verified Response successfully!")</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:testSuite id="1dad1ca0-8516-4752-b47c-b15c46ed18e3" name="Asset API Response Data Validation TestSuite"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:testCase id="f0248bc8-b84a-4ee8-bed8-60b10854cc5c" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C1349785-Verify &quot;name&quot; field data in REST response for Asset API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetAssetInfo_Request" id="41ff350f-0825-4f98-9e9d-8a35cf2d7a32"><con:settings/><con:config service="REST Service 1" resourcePath="" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetAssetInfo_Request" id="d3c56964-bfe4-42d3-88ff-e75673a7e34c" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#ServerHost}</con:endpoint><con:request/><con:originalUri>http://localhost/asset/v1/endpoint/1</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="properties" name="Step2_Get value for name from properties" id="17bc0d05-8760-4f05-a329-54b78b94dd92"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>name</con:name><con:value>asset</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="groovy" name="Step3_Validate field data" id="680d5be0-bfeb-48e8-8a2a-c4088d48e69b"><con:settings/><con:config><script>nameProperty = context.expand( '${Step2_Get value for name from properties#name}')
+import groovy.json.JsonSlurper 
+def response = context.expand( '${Step1_GetAssetInfo_Request#Response}' ).toString()
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+log.info("Verifying name field in JSON response")
+
+
+ assert jsonResponse.containsKey("name"), "Name property not found in JSON response"
+/* assert jsonResponse.name == nameProperty, "Name property in JSON response is incorrect"
+ assert jsonResponse.name != null, "name property in JSON response is null"
+ assert jsonResponse.name != "", "name field is empty" */
+
+ log.info("Asset field value might be empty as of now since its yet to be implemented.")
+ 
+log.info("Verified name field in JSON response")</script></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>17bc0d05-8760-4f05-a329-54b78b94dd92</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="ed390152-dfc2-4095-9d57-28150e487cac" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C1349786-Verify &quot;type&quot; field data in REST response for Asset API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetAssetInfo_Request" id="6c092a1e-e5de-47e5-ba5e-4ee33ae503ba"><con:settings/><con:config service="REST Service 1" resourcePath="" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetAssetInfo_Request" id="d3c56964-bfe4-42d3-88ff-e75673a7e34c" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#ServerHost}</con:endpoint><con:request/><con:originalUri>http://localhost/asset/v1/endpoint/1</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="properties" name="Step2_Get value for type from properties" id="401729bc-102e-4e39-a83b-a221f4cc4a42"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>type</con:name><con:value>assetCollection</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="groovy" name="Step3_Validate field data" id="1883e863-439a-4983-abc4-cdafe61b15e4"><con:settings/><con:config><script>typeProperty = context.expand( '${Step2_Get value for type from properties#type}')
+import groovy.json.JsonSlurper 
+def response = context.expand( '${Step1_GetAssetInfo_Request#Response}' ).toString()
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+log.info("Verifying type field in JSON response")
+
+assert jsonResponse.containsKey("type"), "Type property not found in JSON response"
+assert jsonResponse.type == typeProperty, "Type property in JSON response is incorrect"
+assert jsonResponse.type != null, "type property in JSON response is null"
+assert jsonResponse.type != "", "type field is empty"
+
+log.info("Verified type field in JSON response")</script></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>401729bc-102e-4e39-a83b-a221f4cc4a42</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="aec9532c-0fcb-485c-a39d-1d97e625f850" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C1349787-Verify &quot;createdBy&quot; field data in REST response for Asset API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetAssetInfo_Request" id="d1391ea5-07aa-4f2e-a7ae-e5a957a640a5"><con:settings/><con:config service="REST Service 1" resourcePath="" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetAssetInfo_Request" id="d3c56964-bfe4-42d3-88ff-e75673a7e34c" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#ServerHost}</con:endpoint><con:request/><con:originalUri>http://localhost/asset/v1/endpoint/1</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="properties" name="Step2_Get value for createdBy from properties" id="45fadba1-dc96-4761-984b-5e8dec731735"><con:settings/><con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:properties><con:property><con:name>createdBy</con:name><con:value>/continuum/agent/plugin/asset</con:value></con:property></con:properties></con:config></con:testStep><con:testStep type="groovy" name="Validate field data" id="88dc459e-7ac0-43d9-a138-29f9dde22de3"><con:settings/><con:config><script>createdByProperty = context.expand( '${Step2_Get value for createdBy from properties#createdBy}')
+import groovy.json.JsonSlurper 
+def response = context.expand( '${Step1_GetAssetInfo_Request#Response}' ).toString()
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+log.info("Verifying createdBy field in JSON response")
+
+ assert jsonResponse.containsKey("createdBy"), "createdBy property not found in JSON response"
+ assert jsonResponse.createdBy == createdByProperty, "createdBy property in JSON response is incorrect"
+ assert jsonResponse.createdBy != null, "createdBy property in JSON response is null"
+ assert jsonResponse.createdBy != "", " createdBy field is empty"
+log.info("Verified createdBy field in JSON response")</script></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>45fadba1-dc96-4761-984b-5e8dec731735</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase id="654bed3d-b867-41fd-a6b8-88850e943631" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C1349788-Verify &quot;createTimeUTC&quot; field data in REST response for Asset API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetAssetInfo_Request" id="399c7d44-3878-4b7e-8fbc-b13dd8b64b20"><con:settings/><con:config service="REST Service 1" resourcePath="" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetAssetInfo_Request" id="d3c56964-bfe4-42d3-88ff-e75673a7e34c" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#ServerHost}</con:endpoint><con:request/><con:originalUri>http://localhost/asset/v1/endpoint/1</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="474ad880-d6a1-4607-9fb8-a18532892693" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C1349789-Verify &quot;baseBoard&quot; field data in REST response for Asset API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetAssetInfo_Request" id="a1a532a1-8646-4c19-9643-b50e37351e88"><con:settings/><con:config service="REST Service 1" resourcePath="" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetAssetInfo_Request" id="d3c56964-bfe4-42d3-88ff-e75673a7e34c" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#ServerHost}</con:endpoint><con:request/><con:originalUri>http://localhost/asset/v1/endpoint/1</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Step2_Validate field data" id="40dfbabc-51a6-46a5-8e34-0db90d233895" disabled="true"><con:settings/><con:config><script>import groovy.json.JsonSlurper 
+def response = context.expand( '${Step1_GetAssetInfo_Request#Response}' ).toString()
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+log.info("Verifying baseBoard field in JSON response")
+
+assert jsonResponse.baseBoard.containsKey("product"), "product property not found in JSON response"
+assert jsonResponse.baseBoard.containsKey("manufacturer"), "manufacturer property not found in JSON response"
+assert jsonResponse.baseBoard.containsKey("model"), " model property not found in JSON response"
+assert jsonResponse.baseBoard.containsKey("serialNumber"), " serialNumber property not found in JSON response"
+assert jsonResponse.baseBoard.containsKey("version"), " version property not found in JSON response"
+assert jsonResponse.baseBoard.containsKey("name"), " name property not found in JSON response"
+assert jsonResponse.baseBoard.containsKey("installDate"), " installDate property not found in JSON response"
+assert jsonResponse.baseBoard.product != null, " product property in JSON response is null"
+assert jsonResponse.baseBoard.manufacturer != null, " manufacturer property in JSON response is null"
+assert jsonResponse.baseBoard.model != null, " model property in JSON response is null"
+assert jsonResponse.baseBoard.serialNumber != null, " serialNumber property in JSON response is null"
+assert jsonResponse.baseBoard.version != null, " version property in JSON response is null"
+assert jsonResponse.baseBoard.name != null, " name property in JSON response is null"
+assert jsonResponse.baseBoard.installDate != null, " installDate property in JSON response is null"
+
+assert jsonResponse.baseBoard.product != "", " product property in JSON response is empty"
+log.info(" No data returned for the whole asset group on VM")
+assert jsonResponse.baseBoard.manufacturer != "", " manufacturer property in JSON response is empty"
+assert jsonResponse.baseBoard.model != "", " model property in JSON response is empty"
+assert jsonResponse.baseBoard.serialNumber != "", " serialNumber property in JSON response is empty"
+assert jsonResponse.baseBoard.version != "", " version property in JSON response is empty"
+assert jsonResponse.baseBoard.name != "", " name property in JSON response is empty"
+assert jsonResponse.baseBoard.installDate != "", " installDate property in JSON response is empty"
+
+log.info("Verified baseBoard field in JSON response")</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="d4f18357-2e56-40f5-9475-f2d610170cd2" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C1349790-Verify &quot;drives&quot; field data in REST response for Asset API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetAssetInfo_Request" id="acbaeb52-ef2f-4c72-bc9a-58f853b54812"><con:settings/><con:config service="REST Service 1" resourcePath="" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetAssetInfo_Request" id="d3c56964-bfe4-42d3-88ff-e75673a7e34c" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#ServerHost}</con:endpoint><con:request/><con:originalUri>http://localhost/asset/v1/endpoint/1</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Step2_Validate field data" id="98acb760-4001-40dd-b271-feffaca7aed1" disabled="true"><con:settings/><con:config><script>import groovy.json.JsonSlurper 
+def response = context.expand( '${Step1_GetAssetInfo_Request#Response}' ).toString()
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+log.info("Verifying drives field in JSON response")
+
+assert jsonResponse.drives.size()!= 0, "No drives found on endpoint"
+
+for (int i = 0; i &lt; jsonResponse.drives.size(); i++) {
+	 def jsonObj = jsonResponse.drives[i]
+	 if(jsonObj.manufacturer != null || jsonObj.manufacturer =="" )
+	 log.info("Validated Manufacturer")
+	 if(jsonObj.partitions != null || jsonObj.manufacturer ==null )
+	 log.info("Validated partitions")
+assert jsonObj.containsKey("product"), "product property not found in JSON response"
+assert jsonObj.containsKey("manufacturer"), "manufacturer property not found in JSON response"
+assert jsonObj.containsKey("mediaType"), " mediaType property not found in JSON response"
+assert jsonObj.containsKey("logicalName"), " logicalName property not found in JSON response"
+assert jsonObj.containsKey("serialNumber"), " serialNumber property not found in JSON response"
+assert jsonObj.containsKey("partitions"), " partitions property not found in JSON response"
+assert jsonObj.containsKey("sizeBytes"), " sizeBytes property not found in JSON response"
+
+	
+assert jsonObj.product != null, " product property in JSON response is null"
+//assert jsonObj.manufacturer != null, " manufacturer property in JSON response is null"
+//assert jsonObj.mediaType != null, " mediaType property in JSON response is null"
+log.info("MediaType value might be empty since its not implemented yet")
+assert jsonObj.logicalName != null, " logicalName property in JSON response is null"
+assert jsonObj.serialNumber != null, " serialNumber property in JSON response is null"
+//assert jsonObj.partitions != null, " partitions property in JSON response is null"
+assert jsonObj.sizeBytes != null, " sizeBytes property in JSON response is null"
+
+assert jsonObj.product != "", " product property in JSON response is empty"
+//assert jsonObj.manufacturer != "", " manufacturer property in JSON response is empty"
+//assert jsonObj.mediaType != "", "  mediaType property in JSON response is empty"
+assert jsonObj.logicalName != "", " logicalName property in JSON response is empty"
+assert jsonObj.serialNumber != "", " serialNumber property in JSON response is empty"
+//assert jsonObj.partitions != "", " partitions property in JSON response is empty"
+assert jsonObj.sizeBytes != "", "  sizeBytes property in JSON response is empty"
+//assert jsonObj.sizeBytes !=0, "  sizeBytes property in JSON response is zero"
+}
+log.info("Verified drives field in JSON response")</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="63964da3-a1cb-401f-9027-f45101b44a16" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C1349791-Verify &quot;memory&quot; field data in REST response for Asset API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetAssetInfo_Request" id="48818499-5fc9-4a21-a4be-4d30d26e9654"><con:settings/><con:config service="REST Service 1" resourcePath="" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetAssetInfo_Request" id="d3c56964-bfe4-42d3-88ff-e75673a7e34c" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#ServerHost}</con:endpoint><con:request/><con:originalUri>http://localhost/asset/v1/endpoint/1</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Step2_Validate field data" id="4c616130-26d7-4e73-81ab-97a9e8d207b3"><con:settings/><con:config><script>import groovy.json.JsonSlurper 
+def response = context.expand( '${Step1_GetAssetInfo_Request#Response}' ).toString()
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+log.info("Verifying memory field in JSON response")
+
+assert jsonResponse.memory.containsKey("totalPhysicalMemoryBytes"), " totalPhysicalMemoryBytes property not found in JSON response"
+assert jsonResponse.memory.containsKey("totalVirtualMemoryBytes"), " totalVirtualMemoryBytes property not found in JSON response"
+assert jsonResponse.memory.containsKey("availableVirtualMemoryBytes"), " availableVirtualMemoryBytes property not found in JSON response"
+assert jsonResponse.memory.containsKey("availablePhysicalMemoryBytes"), " availablePhysicalMemoryBytes not found in JSON response"
+assert jsonResponse.memory.containsKey("totalPageFileSpaceBytes"), " totalPageFileSpaceBytes property not found in JSON response"
+assert jsonResponse.memory.containsKey("availablePageFileSpaceBytes"), " availablePageFileSpaceBytes property not found in JSON response"
+
+	
+assert jsonResponse.memory.totalPhysicalMemoryBytes != null, " totalPhysicalMemoryBytes property in JSON response is null"
+assert jsonResponse.memory.totalVirtualMemoryBytes != null, " totalVirtualMemoryBytes property in JSON response is null"
+assert jsonResponse.memory.availableVirtualMemoryBytes != null, " availableVirtualMemoryBytes property in JSON response is null"
+assert jsonResponse.memory.availablePhysicalMemoryBytes != null, "availablePhysicalMemoryBytes property in JSON response is null"
+assert jsonResponse.memory.totalPageFileSpaceBytes != null, " totalPageFileSpaceBytes property in JSON response is null"
+assert jsonResponse.memory.availablePageFileSpaceBytes != null, " availablePageFileSpaceBytes property in JSON response is null"
+
+assert jsonResponse.memory.totalPhysicalMemoryBytes != "", " totalPhysicalMemoryBytes property in JSON response is empty"
+assert jsonResponse.memory.totalVirtualMemoryBytes != "", " totalVirtualMemoryBytes property in JSON response is empty"
+assert jsonResponse.memory.availableVirtualMemoryBytes != "", "  availableVirtualMemoryBytes property in JSON response is empty"
+assert jsonResponse.memory.availablePhysicalMemoryBytes != "", " availablePhysicalMemoryBytes property in JSON response is empty"
+assert jsonResponse.memory.totalPageFileSpaceBytes != "", " totalPageFileSpaceBytes property in JSON response is empty"
+assert jsonResponse.memory.availablePageFileSpaceBytes != "", " availablePageFileSpaceBytes property in JSON response is empty"
+
+assert jsonResponse.memory.totalPhysicalMemoryBytes !=0, " totalPhysicalMemoryBytes property in JSON response is zero"
+assert jsonResponse.memory.totalVirtualMemoryBytes !=0, " totalVirtualMemoryBytes property in JSON response is zero"
+assert jsonResponse.memory.availableVirtualMemoryBytes !=0, "  availableVirtualMemoryBytes property in JSON response is zero"
+assert jsonResponse.memory.availablePhysicalMemoryBytes !=0, " availablePhysicalMemoryBytes property in JSON response is zero"
+assert jsonResponse.memory.totalPageFileSpaceBytes !=0, " totalPageFileSpaceBytes property in JSON response is zero"
+assert jsonResponse.memory.availablePageFileSpaceBytes !=0, " availablePageFileSpaceBytes property in JSON response is zero"
+
+log.info("Verified memory field in JSON response")</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="03286a51-75a8-403b-ba4d-4a0d567b8aab" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C1349792-Verify &quot;networks&quot; field data in REST response for Asset API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetAssetInfo_Request" id="552287c0-fa66-43f8-8469-50edc077c7d2"><con:settings/><con:config service="REST Service 1" resourcePath="" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetAssetInfo_Request" id="d3c56964-bfe4-42d3-88ff-e75673a7e34c" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#ServerHost}</con:endpoint><con:request/><con:originalUri>http://localhost/asset/v1/endpoint/1</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Step2_Validate field data" id="7c0c36d9-ea7c-4972-8bf3-f66e49fe7230"><con:settings/><con:config><script>import groovy.json.JsonSlurper 
+def response = context.expand( '${Step1_GetAssetInfo_Request#Response}' ).toString()
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+
+log.info("Verifying networks field in JSON response")
+
+
+assert jsonResponse.networks.size()!= 0, "No network interfaces found on endpoint"
+
+for (int i = 0; i &lt; jsonResponse.networks.size(); i++) {
+	 def jsonObj = jsonResponse.networks[i]
+	 
+assert jsonObj.containsKey("vendor"), "vendor property not found in JSON response"
+assert jsonObj.containsKey("product"), "product property not found in JSON response"
+assert jsonObj.containsKey("dhcpEnabled"), "dhcpEnabled property not found in JSON response"
+assert jsonObj.containsKey("dhcpServer"), "dhcpServer property not found in JSON response"
+assert jsonObj.containsKey("dnsServers"), "dnsServers property not found in JSON response"
+assert jsonObj.containsKey("ipv4"), "ipv4 property not found in JSON response"
+assert jsonObj.containsKey("ipv6"), "ipv6 property not found in JSON response"
+assert jsonObj.containsKey("subnetMask"), "subnetMask property not found in JSON response"
+assert jsonObj.containsKey("defaultIPGateway"), "defaultIPGateway property not found in JSON response"
+assert jsonObj.containsKey("macAddress"), "macAddress property not found in JSON response"
+assert jsonObj.containsKey("logicalName"), "logicalName property not found in JSON response"
+
+
+//assert jsonObj.vendor != null, "vendor property in JSON response is null"
+//log.info("No data returned on VM")
+//assert jsonObj.product != null, "product property in JSON response is null"
+//assert jsonObj.dhcpEnabled != null, " dhcpEnabled property in JSON response is null"
+//assert jsonObj.dhcpServer != null, " dhcpServer property in JSON response is null"
+//assert jsonObj.dnsServers != null, " dnsServers property in JSON response is null"
+assert jsonObj.ipv4 != null, " ipv4 property in JSON response is null"
+assert jsonObj.ipv6 != null, "ipv6 property in JSON response is null"
+assert jsonObj.subnetMask != null, " subnetMask property in JSON response is null"
+//assert jsonObj.defaultIPGateway != null, " defaultIPGateway property in JSON response is null"
+assert jsonObj.macAddress != null, " macAddress property in JSON response is null"
+assert jsonObj.logicalName != null, " logicalName property in JSON response is null"
+
+
+//assert jsonObj.vendor != "", "vendor field is empty"
+//assert jsonObj.product != "", "product field is empty"
+//assert jsonObj.dhcpEnabled != "", "dhcpEnabled field is empty"
+//assert jsonObj.dhcpServer != "", " dhcpServer field is empty"
+//assert jsonObj.dnsServers != "", " dnsServers field is empty"
+assert jsonObj.ipv4 != "", " ipv4 field is empty"
+
+//log.info("ipv6 and defaultIPGateway field values are empty as both are yet to be implemented.")
+
+assert jsonObj.subnetMask != "", "subnetMask field is empty"
+//assert jsonObj.defaultIPGateway != "", " defaultIPGateway field is empty"
+if(jsonObj.ipv4 !="127.0.0.1")
+{
+assert jsonObj.macAddress != "", " macAddress field is empty"
+}
+assert jsonObj.logicalName != "", " logicalName field is empty"
+}
+log.info("Verified os field in JSON response")</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="767c634e-6a0b-4203-8470-b4c38baf2471" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C1349793-Verify &quot;os&quot; field data in REST response for Asset API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetAssetInfo_Request" id="6d4b5561-2a5f-4765-a075-b1a11582ad13"><con:settings/><con:config service="REST Service 1" resourcePath="" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetAssetInfo_Request" id="d3c56964-bfe4-42d3-88ff-e75673a7e34c" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#ServerHost}</con:endpoint><con:request/><con:originalUri>http://localhost/asset/v1/endpoint/1</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Step2_Validate field data" id="13a55633-245b-43e4-93a5-f553561581d9"><con:settings/><con:config><script>import groovy.json.JsonSlurper 
+def response = context.expand( '${Step1_GetAssetInfo_Request#Response}' ).toString()
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+
+log.info("Verifying os field in JSON response")
+
+assert jsonResponse.os.containsKey("product"), "product property not found in JSON response"
+assert jsonResponse.os.containsKey("manufacturer"), "manufacturer property not found in JSON response"
+assert jsonResponse.os.containsKey("osLanguage"), "osLanguage property not found in JSON response"
+assert jsonResponse.os.containsKey("serialNumber"), "serialNumber property not found in JSON response"
+assert jsonResponse.os.containsKey("version"), "version property not found in JSON response"
+assert jsonResponse.os.containsKey("installDate"), "installDate property not found in JSON response"
+assert jsonResponse.os.containsKey("type"), "type property not found in JSON response"
+assert jsonResponse.os.containsKey("arch"), "arch property not found in JSON response"
+
+assert jsonResponse.os.product != null, "product property in JSON response is null"
+assert jsonResponse.os.manufacturer != null, "manufacturer property in JSON response is null"
+assert jsonResponse.os.osLanguage != null, " osLanguage property in JSON response is null"
+//assert jsonResponse.os.serialNumber != null, " serialNumber property in JSON response is null"      
+//log.info("OS serial number is not relevant for Ubuntu , the field is present for Windows.")
+assert jsonResponse.os.version != null, " version property in JSON response is null"
+assert jsonResponse.os.installDate != null, " installDate property in JSON response is null"
+
+
+assert jsonResponse.os.product != "", "product field is empty"
+assert jsonResponse.os.manufacturer != "", "manufacturer field is empty"
+assert jsonResponse.os.osLanguage != "", "osLanguage field is empty"
+//assert jsonResponse.os.serialNumber != "", " serialNumber field is empty"                
+assert jsonResponse.os.version != "", " version field is empty"
+assert jsonResponse.os.installDate != "", " installDate field is empty"
+
+//log.info("OS serial number is not relevant for Ubuntu. So field value might be empty as of now.")
+
+log.info("Verified os field in JSON response")</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="57d36f42-a7ca-46d0-b019-e6bbc2ca3660" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C1349794-Verify &quot;processors&quot; field data in REST response for Asset API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetAssetInfo_Request" id="3c1e579e-039c-4226-8996-a3f75d11b037"><con:settings/><con:config service="REST Service 1" resourcePath="" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetAssetInfo_Request" id="d3c56964-bfe4-42d3-88ff-e75673a7e34c" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#ServerHost}</con:endpoint><con:request/><con:originalUri>http://localhost/asset/v1/endpoint/1</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Step2_Validate field data" id="1f3d0ab2-a902-47d1-8951-dacfdc6596a5"><con:settings/><con:config><script>import groovy.json.JsonSlurper 
+def response = context.expand( '${Step1_GetAssetInfo_Request#Response}' ).toString()
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+
+log.info("Verifying processors field in JSON response")
+assert jsonResponse.processors.size()!= 0, "No processors information found on endpoint"
+for (int i = 0; i &lt; jsonResponse.processors.size(); i++) {
+	 def jsonObj = jsonResponse.processors[i]
+	 
+assert jsonObj.containsKey("product"), "product property not found in JSON response"
+assert jsonObj.containsKey("numberOfCores"), "numberOfCores property not found in JSON response"
+assert jsonObj.containsKey("clockSpeedMhz"), "clockSpeedMhz property not found in JSON response"
+assert jsonObj.containsKey("family"), "family property not found in JSON response"
+assert jsonObj.containsKey("manufacturer"), "manufacturer property not found in JSON response"
+assert jsonObj.containsKey("processorType"), "processorType property not found in JSON response"
+assert jsonObj.containsKey("serialNumber"), "serialNumber property not found in JSON response"
+
+assert jsonObj.product != null, "product property in JSON response is null"
+assert jsonObj.numberOfCores != null, "numberOfCores property in JSON response is null"
+assert jsonObj.clockSpeedMhz != null, " clockSpeedMhz property in JSON response is null"
+assert jsonObj.family != null, " family property in JSON response is null"
+assert jsonObj.manufacturer != null, " manufacturer property in JSON response is null"
+assert jsonObj.processorType != null, " processorType property in JSON response is null"
+//assert jsonObj.serialNumber != null, " serialNumber property in JSON response is null"
+
+//log.info("serialNumber field in JSON response might be empty if endpoint is VM")
+
+assert jsonObj.product != "", "product field is empty"
+assert jsonObj.numberOfCores != "", "numberOfCores field is empty"
+assert jsonObj.clockSpeedMhz != "", "clockSpeedMhz field is empty"
+assert jsonObj.family != "", " family field is empty"
+assert jsonObj.manufacturer != "", " manufacturer field is empty"
+assert jsonObj.processorType != "", " processorType field is empty"
+//assert jsonObj.serialNumber != "", " serialNumber field is empty"
+
+//log.info("serialNumber field in JSON response might be empty if endpoint is VM")
+
+assert jsonObj.numberOfCores != 0, "numberOfCores field value is zero"
+assert jsonObj.clockSpeedMhz != 0, "clockSpeedMhz field value is zero"
+assert jsonObj.family != 0, " family field value is zero"
+}
+
+log.info("Verified processors field in JSON response")</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="0f064971-0472-4521-b5a4-b0679e07f21f" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C1349795-Verify &quot;system&quot; field data in REST response for Asset API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetAssetInfo_Request" id="2b174c4e-acac-4847-a4d5-fa5d6e0bda83"><con:settings/><con:config service="REST Service 1" resourcePath="" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetAssetInfo_Request" id="d3c56964-bfe4-42d3-88ff-e75673a7e34c" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#ServerHost}</con:endpoint><con:request/><con:originalUri>http://localhost/asset/v1/endpoint/1</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Step2_Validate field data" id="c01e96b6-f631-4e2e-b118-18cb81f88892"><con:settings/><con:config><script>import groovy.json.JsonSlurper 
+def response = context.expand( '${Step1_GetAssetInfo_Request#Response}' ).toString()
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+
+log.info("Verifying system field in JSON response")
+
+assert jsonResponse.system.containsKey("product"), "product property not found in JSON response"
+assert jsonResponse.system.containsKey("model"), "product property not found in JSON response"      
+assert jsonResponse.system.containsKey("timeZone"), "timeZone property not found in JSON response"
+assert jsonResponse.system.containsKey("timeZoneDescription"), "timeZoneDescription property not found in JSON response"
+assert jsonResponse.system.containsKey("serialNumber"), "serialNumber property not found in JSON response"
+assert jsonResponse.system.containsKey("systemName"), "systemName property not found in JSON response"
+assert jsonResponse.system.containsKey("category"), "category property not found in JSON response"    
+
+assert jsonResponse.system.product != null, "product property in JSON response is null"
+//assert jsonResponse.system.model != null, "model property in JSON response is null"     
+//log.info(" Model value might be empty as Scope is for Windows OS")
+assert jsonResponse.system.timeZone != null, " timeZone property in JSON response is null"
+assert jsonResponse.system.timeZoneDescription != null, " timeZoneDescription property in JSON response is null"
+assert jsonResponse.system.serialNumber != null, " serialNumber property in JSON response is null"
+assert jsonResponse.system.systemName != null, " systemName property in JSON response is null"
+//assert jsonResponse.system.category != null, " category property in JSON response is null"     
+//log.info("*Category might be empty field as its Not relevant and it was not present in existing Asset data model.")
+
+assert jsonResponse.system.product != "", "product field is empty"
+//assert jsonResponse.system.model != "", "model field is empty"
+assert jsonResponse.system.timeZone != "", " timeZone field is empty"
+assert jsonResponse.system.timeZoneDescription != "", " timeZoneDescription field is empty"
+assert jsonResponse.system.serialNumber != "", " serialNumber field is empty"
+assert jsonResponse.system.systemName != "", " systemName field is empty"
+//assert jsonResponse.system.category != "", " category field is empty"
+
+log.info("Verified system field in JSON response")
+</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="b777d79b-9fc6-4f59-9237-8053fda0b4e5" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C1349796-Verify &quot;raidController&quot; field data in REST response for Asset API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetAssetInfo_Request" id="4b1fe1ce-7198-412d-85c9-8da61eafd16f"><con:settings/><con:config service="REST Service 1" resourcePath="" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetAssetInfo_Request" id="d3c56964-bfe4-42d3-88ff-e75673a7e34c" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#ServerHost}</con:endpoint><con:request/><con:originalUri>http://localhost/asset/v1/endpoint/1</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Step2_Validate field data" id="daf23096-ec08-4aaf-bb51-a2793b1f29c2"><con:settings/><con:config><script>import groovy.json.JsonSlurper 
+def response = context.expand( '${Step1_GetAssetInfo_Request#Response}' ).toString()
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+def jsonObj = jsonResponse
+log.info("Verifying raidController field in JSON response")
+
+assert jsonObj.raidController.containsKey("softwareRaid"), "softwareRaid property not found in JSON response"
+assert jsonObj.raidController.containsKey("hardwareRaid"), "hardwareRaid property not found in JSON response"
+assert jsonObj.raidController.containsKey("vendor"), "vendor property not found in JSON response"
+
+
+/*
+assert jsonObj.raidController.softwareRaid != null, "softwareRaid property in JSON response is null"
+
+log.info("RAID controller data model not finalised yet and hence yet to be implemented.")
+assert jsonObj.raidController.hardwareRaid != null, "hardwareRaid property in JSON response is null"
+
+log.info("RAID controller data model not finalised yet and hence yet to be implemented.")
+assert jsonObj.raidController.vendor != null, " vendor property in JSON response is null"
+
+log.info("RAID controller data model not finalised yet and hence yet to be implemented.")
+
+
+assert jsonObj.raidController.softwareRaid != "", "softwareRaid field is empty"
+assert jsonObj.raidController.hardwareRaid != "", "hardwareRaid field is empty"
+assert jsonObj.raidController.vendor != "", " vendor field is empty"
+
+
+
+log.info("All field values might be empty as RAID controller data model not finalised yet and hence yet to be implemented.")
+*/
+log.info("Verified raidController field in JSON response")
+</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="bd547013-5845-4de6-a92b-dd169adcd9c8" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C1349797-Verify &quot;bios&quot; field data in REST response for Asset API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetAssetInfo_Request" id="c84e5fad-d464-4cfa-927a-b3a8e6893ede"><con:settings/><con:config service="REST Service 1" resourcePath="" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetAssetInfo_Request" id="d3c56964-bfe4-42d3-88ff-e75673a7e34c" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#Project#ServerHost}</con:endpoint><con:request/><con:originalUri>http://localhost/asset/v1/endpoint/1</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/><con:parameterOrder/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Step2_Validate field data" id="0401611b-cbc7-4a78-85a8-66a4ebcfd058"><con:settings/><con:config><script>import groovy.json.JsonSlurper 
+def response = context.expand( '${Step1_GetAssetInfo_Request#Response}' ).toString()
+def slurper = new JsonSlurper()
+def jsonResponse = slurper.parseText response
+
+log.info("Verifying bios field in JSON response")
+
+assert jsonResponse.bios.containsKey("product"), "product property not found in JSON response"
+assert jsonResponse.bios.containsKey("manufacturer"), "manufacturer property not found in JSON response"
+assert jsonResponse.bios.containsKey("version"), "version property not found in JSON response"
+assert jsonResponse.bios.containsKey("serialNumber"), "serialNumber property not found in JSON response"
+assert jsonResponse.bios.containsKey("smbiosVersion"), "smbiosVersion property not found in JSON response"
+
+log.info(" Product and Serial number fields might be empty. Product : NOT present in existing implementation and hence NOT required. Serial Number: Present for windows not relevant for Ubuntu(Linux)")
+
+//assert jsonResponse.bios.product != null, "product property in JSON response is null"
+assert jsonResponse.bios.manufacturer != null, "manufacturer property in JSON response is null"
+assert jsonResponse.bios.version != null, " version property in JSON response is null"
+//assert jsonResponse.bios.serialNumber != null, "serialNumber property in JSON response is null"
+assert jsonResponse.bios.smbiosVersion != null, " smbiosVersion property in JSON response is null"
+
+//assert jsonResponse.bios.product  != "", "product field is empty"
+assert jsonResponse.bios.manufacturer != "", "manufacturer field is empty"
+assert jsonResponse.bios.version != "", " version field is empty"
+//assert jsonResponse.bios.serialNumber != "", "serialNumber field is empty"
+assert jsonResponse.bios.smbiosVersion != "", " smbiosVersion field is empty"
+
+log.info("Verified bios field in JSON response")
+</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:properties/><con:reportParameters/></con:testSuite><con:testSuite id="478a2b49-ad40-4e72-aa0d-51df5db878b2" name="Performance Versioning API Validation TestSuite"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:testCase id="98a12e2c-81ee-4aa1-b28b-9331ab2ba100" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C1448269-Validate REST endpoint for Version API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetPerformanceServiceVersion_Request" id="8d6fde72-663d-46bc-9391-5c19bc6cc7e0"><con:settings/><con:config service="REST Service 4" resourcePath="/performance/version" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetPerformanceServiceVersion_Request" id="606d8b24-0953-46dd-8866-7a72f9e93896" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#TestSuite#serverHost}</con:endpoint><con:request/><con:originalUri>http://internal-continuum-perf-service-elb-int-1199294839.us-east-1.elb.amazonaws.com/performance/version</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="e6a41afd-cec1-48a3-bcc1-eb1718a8e871" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C1448271-Validate REST response" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetPerformanceServiceVersion_Request" id="3e6553b1-a79c-4f9e-9cc2-2ed8eb1811cd"><con:settings/><con:config service="REST Service 4" resourcePath="/performance/version" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetPerformanceServiceVersion_Request" id="606d8b24-0953-46dd-8866-7a72f9e93896" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#TestSuite#serverHost}</con:endpoint><con:request/><con:originalUri>http://internal-continuum-perf-service-elb-int-1199294839.us-east-1.elb.amazonaws.com/performance/version</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="REST response validations" id="0e46db30-931b-4422-a1d2-09b92e9f3378"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+import java.text.SimpleDateFormat
+import org.joda.time.format.ISODateTimeFormat
+import org.joda.time.DateTime
+def response = context.expand('${Step1_GetPerformanceServiceVersion_Request#Response}')
+if(response != "")
+{
+log.info("Verifying timeStampUTC field in JSON response")
+def jsonResponse = new JsonSlurper().parseText(response)
+def timeStampUTC = jsonResponse.timeStampUTC
+assert jsonResponse.containsKey('timeStampUTC'), "timeStampUTC field not found"
+assert timeStampUTC.trim() != "", "timeStampUTC field is empty"
+def dateTimeFormatStr = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
+ assert(ISODateTimeFormat.dateTimeParser().parseDateTime(timeStampUTC)),"timeStampUTC is not in format: " + dateTimeFormatStr
+ log.info("Verified timeStampUTC field in JSON performance version response")
+}
+
+else
+	{
+		testRunner.fail("Version API Response is null")
+	}
+
+
+
+def response1 = context.expand( '${Step1_GetPerformanceServiceVersion_Request#Response}' ).toString()
+if(response1 != "")
+{
+def slurper1 = new JsonSlurper()
+def jsonResponse1 = slurper1.parseText response1
+//def name = context.expand( '${#TestSuite#name}' )
+log.info("Verifying name field in JSON response")
+assert (jsonResponse1.name != null)
+assert (jsonResponse1.name != "")
+assert jsonResponse1.containsKey("name"), "Name property not found in JSON response"
+assert(jsonResponse1.name == "PerformanceServiceSolution"),"Name property is not same as PerformanceServiceSolution"
+log.info("Verified name field in JSON response")
+}
+else
+	{
+		testRunner.fail("Version API Response is null")
+	}
+
+
+
+def response2 = context.expand( '${Step1_GetPerformanceServiceVersion_Request#Response}' ).toString()
+if(response2 != "")
+{
+def slurper2 = new JsonSlurper()
+def jsonResponse2 = slurper2.parseText response2
+//def type = context.expand( '${#TestSuite#type}' )
+log.info("Verifying type field in JSON response")
+assert (jsonResponse2.type != null)
+assert (jsonResponse2.type != "")
+assert jsonResponse2.containsKey("type"), "type property not found in JSON response"
+assert(jsonResponse2.type == "Version"),"type property is not same as Version"
+log.info("Verified type field in JSON response")
+}
+else
+	{
+		testRunner.fail("Version API Response is null")
+	}
+
+
+
+def response3 = context.expand( '${Step1_GetPerformanceServiceVersion_Request#Response}' ).toString()
+if(response3 != "")
+{
+def slurper3 = new JsonSlurper()
+def jsonResponse3 = slurper3.parseText response3
+//def serviceName = context.expand( '${#TestSuite#serviceName}' )
+log.info("Verifying serviceName field in JSON response")
+assert (jsonResponse3.serviceName != null)
+assert (jsonResponse3.serviceName != "")
+assert jsonResponse3.containsKey("serviceName"), "serviceName property not found in JSON response"
+assert(jsonResponse3.serviceName == "Performance Micro-Service"),"serviceName property is not same as Performance Micro-Service"
+log.info("Verified serviceName field in JSON response")
+}
+else
+	{
+		testRunner.fail("Version API Response is null")
+	}
+
+
+
+def response4 = context.expand( '${Step1_GetPerformanceServiceVersion_Request#Response}' ).toString()
+if(response4 != "")
+{
+def slurper4 = new JsonSlurper()
+def jsonResponse4 = slurper4.parseText response4
+//def serviceProvider = context.expand( '${#TestSuite#serviceProvider}' )
+log.info("Verifying serviceProvider field in JSON response")
+assert (jsonResponse4.serviceProvider != null)
+assert (jsonResponse4.serviceProvider != "")
+assert jsonResponse4.containsKey("serviceProvider"), "serviceProvider property not found in JSON response"
+assert(jsonResponse4.serviceProvider == "Continuum LLC"),"serviceProvider property is not same as Asset Micro-Service"
+log.info("Verified serviceProvider field in JSON response")
+}
+else
+	{
+		testRunner.fail("Version API Response is null")
+	}
+
+def response5 = context.expand( '${Step1_GetPerformanceServiceVersion_Request#Response}' ).toString()
+if(response5 != "")
+{
+def slurper5 = new JsonSlurper()
+def jsonResponse5 = slurper5.parseText response5
+//def serviceVersion = context.expand( '${#TestSuite#serviceVersion}' )
+
+log.info("Verifying serviceVersion field in JSON response")
+assert (jsonResponse5.serviceVersion != null)
+assert (jsonResponse5.serviceVersion != "")
+assert jsonResponse5.containsKey("serviceVersion"), "serviceVersion property not found in JSON response"
+
+
+
+
+log.info("Verified serviceVersion field in JSON response.")
+}
+else
+	{
+		testRunner.fail("Version API Response is null")
+	}
+
+
+def response6 = context.expand( '${Step1_GetPerformanceServiceVersion_Request#Response}' ).toString()
+if(response6 != "")
+{
+def slurper6 = new JsonSlurper()
+def jsonResponse6 = slurper6.parseText response6
+//def buildNumber = context.expand( '${#TestSuite#buildNumber}' )
+log.info("Verifying buildNumber field in JSON response")
+assert (jsonResponse6.buildNumber != null)
+//assert (jsonResponse.buildNumber != "")
+assert jsonResponse6.containsKey("buildNumber"), "buildNumber property not found in JSON response"
+
+}
+else
+	{
+		testRunner.fail("Version API Response is null")
+	}
+
+
+</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:properties><con:property><con:name>serverHost</con:name><con:value>http://internal-continuum-perf-service-elb-int-1199294839.us-east-1.elb.amazonaws.com</con:value></con:property></con:properties><con:reportParameters/></con:testSuite><con:testSuite id="6da9e2ed-4173-484a-91f6-bb21a6339876" name="Asset healthCheck API Validation TestSuite"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:testCase id="8d29cf26-e1d9-421d-8986-982368c92f98" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C1388649-Validate REST endpoint for Health Check API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetAssetServiceHealthCheck_Request" id="e1f0ac4c-1e1b-4cab-bdf8-826fbfa539dc"><con:settings/><con:config service="REST Service 5" resourcePath="/asset/healthCheck" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetAssetServiceHealthCheck_Request" id="3822f877-35d0-4cd6-90cc-b36b306d08dd" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#TestSuite#serverHost}</con:endpoint><con:request/><con:originalUri>http://internal-continuum-asset-service-elb-int-782930276.us-east-1.elb.amazonaws.com/asset/asset/healthCheck</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="08e31499-bb04-4886-8566-0a353bf639b3" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C1388653-Validate REST response" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetAssetServiceHealthCheck_Request" id="6da7dfaf-f001-4949-8485-1e9cdb443eaf"><con:settings/><con:config service="REST Service 5" resourcePath="/asset/healthCheck" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetAssetServiceHealthCheck_Request" id="3822f877-35d0-4cd6-90cc-b36b306d08dd" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#TestSuite#serverHost}</con:endpoint><con:request/><con:originalUri>http://internal-continuum-asset-service-elb-int-782930276.us-east-1.elb.amazonaws.com/asset/asset/healthCheck</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="REST response validations" id="fd4caa99-3523-4342-ac67-0536bb8f0b2b"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+import java.text.SimpleDateFormat
+import org.joda.time.format.ISODateTimeFormat
+import org.joda.time.DateTime
+def response = context.expand('${Step1_GetAssetServiceHealthCheck_Request#Response}')
+if(response != "")
+{
+log.info("Verifying timeStampUTC field in JSON response")
+def jsonResponse = new JsonSlurper().parseText(response)
+def timeStampUTC = jsonResponse.timeStampUTC
+assert jsonResponse.containsKey('timeStampUTC'), "timeStampUTC field not found"
+assert timeStampUTC.trim() != "", "timeStampUTC field is empty"
+def dateTimeFormatStr = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
+ assert(ISODateTimeFormat.dateTimeParser().parseDateTime(timeStampUTC)),"timeStampUTC is not in format: " + dateTimeFormatStr
+ log.info("Verified timeStampUTC field in JSON asset healthcheck response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+
+
+def response1 = context.expand( '${Step1_GetAssetServiceHealthCheck_Request#Response}' ).toString()
+if(response1 != "")
+{
+def slurper1 = new JsonSlurper()
+def jsonResponse1 = slurper1.parseText response1
+
+log.info("Verifying name field in JSON response")
+assert (jsonResponse1.name != null)
+assert (jsonResponse1.name != "")
+assert jsonResponse1.containsKey("name"), "Name property not found in JSON response"
+assert(jsonResponse1.name == "AssetServiceSolution"),"Name property is not same as AssetServiceSolution"
+log.info("Verified name field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+
+
+def response2 = context.expand( '${Step1_GetAssetServiceHealthCheck_Request#Response}' ).toString()
+if(response2 != "")
+{
+def slurper2 = new JsonSlurper()
+def jsonResponse2 = slurper2.parseText response2
+
+log.info("Verifying type field in JSON response")
+assert (jsonResponse2.type != null)
+assert (jsonResponse2.type != "")
+assert jsonResponse2.containsKey("type"), "type property not found in JSON response"
+assert(jsonResponse2.type == "HealthCheck"),"type property is not same as Version"
+log.info("Verified type field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+
+def response3 = context.expand( '${Step1_GetAssetServiceHealthCheck_Request#Response}' ).toString()
+if(response3 != "")
+{
+def slurper3 = new JsonSlurper()
+def jsonResponse3 = slurper3.parseText response3
+
+log.info("Verifying serviceName field in JSON response")
+assert (jsonResponse3.serviceName != null)
+assert (jsonResponse3.serviceName != "")
+assert jsonResponse3.containsKey("serviceName"), "serviceName property not found in JSON response"
+assert(jsonResponse3.serviceName == "Asset Micro-Service"),"serviceName property is not same as Asset Micro-Service"
+log.info("Verified serviceName field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+
+
+def response4 = context.expand( '${Step1_GetAssetServiceHealthCheck_Request#Response}' ).toString()
+if(response4 != "")
+{
+def slurper4 = new JsonSlurper()
+def jsonResponse4 = slurper4.parseText response4
+
+log.info("Verifying serviceProvider field in JSON response")
+assert (jsonResponse4.serviceProvider != null)
+assert (jsonResponse4.serviceProvider != "")
+assert jsonResponse4.containsKey("serviceProvider"), "serviceProvider property not found in JSON response"
+assert(jsonResponse4.serviceProvider == "Continuum LLC"),"serviceProvider property is not same as Asset Micro-Service"
+log.info("Verified serviceProvider field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+
+
+def response5 = context.expand( '${Step1_GetAssetServiceHealthCheck_Request#Response}' ).toString()
+if(response5 != "")
+{
+def slurper5 = new JsonSlurper()
+def jsonResponse5 = slurper5.parseText response5
+
+
+log.info("Verifying serviceVersion field in JSON response")
+assert (jsonResponse5.serviceVersion != null)
+assert (jsonResponse5.serviceVersion != "")
+assert jsonResponse5.containsKey("serviceVersion"), "serviceVersion property not found in JSON response"
+
+
+
+
+log.info("Verified serviceVersion field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+
+
+def response6 = context.expand( '${Step1_GetAssetServiceHealthCheck_Request#Response}' ).toString()
+if(response6 != "")
+{
+def slurper6 = new JsonSlurper()
+def jsonResponse6 = slurper6.parseText response6
+
+log.info("Verifying buildNumber field in JSON response")
+assert (jsonResponse6.buildNumber != null)
+
+assert jsonResponse6.containsKey("buildNumber"), "buildNumber property not found in JSON response"
+
+log.info("Verified buildNumber field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+
+
+
+
+def response7 = context.expand( '${Step1_GetAssetServiceHealthCheck_Request#Response}' ).toString()
+if(response7 != "")
+{
+def slurper7 = new JsonSlurper()
+def jsonResponse7 = slurper7.parseText response7
+assert (jsonResponse7.networkInterfaces != null)
+assert (jsonResponse7.networkInterfaces != "")
+assert jsonResponse7.containsKey("networkInterfaces"), "networkInterfaces property not found in JSON response"
+def jsonResponse8 = new JsonSlurper().parseText(response7).networkInterfaces
+
+assert jsonResponse8.size() > 0, "Response is empty"
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+//
+
+
+def response9 = context.expand( '${Step1_GetAssetServiceHealthCheck_Request#Response}' ).toString()
+if(response9 != "")
+{
+def slurper9 = new JsonSlurper()
+def jsonResponse9 = slurper9.parseText response9
+
+log.info("Verifying status field in JSON response")
+assert (jsonResponse9.status != null)
+
+assert jsonResponse9.containsKey("status"), "status property not found in JSON response"
+
+log.info("Verified status field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+
+//
+
+
+def response10 = context.expand( '${Step1_GetAssetServiceHealthCheck_Request#Response}' ).toString()
+if(response10 != "")
+{
+def slurper10 = new JsonSlurper()
+def jsonResponse10 = slurper10.parseText response10
+
+log.info("Verifying startTime field in JSON response")
+assert (jsonResponse10.startTime != null)
+
+assert jsonResponse10.containsKey("startTime"), "startTime property not found in JSON response"
+
+log.info("Verified startTime field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+
+//
+
+def response11 = context.expand( '${Step1_GetAssetServiceHealthCheck_Request#Response}' ).toString()
+if(response11 != "")
+{
+def slurper11 = new JsonSlurper()
+def jsonResponse11 = slurper11.parseText response11
+
+log.info("Verifying cpuPercentage field in JSON response")
+assert (jsonResponse11.cpuPercentage != null)
+
+assert jsonResponse11.containsKey("cpuPercentage"), "cpuPercentage property not found in JSON response"
+
+log.info("Verified cpuPercentage field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+
+
+//
+
+
+def response12 = context.expand( '${Step1_GetAssetServiceHealthCheck_Request#Response}' ).toString()
+if(response12 != "")
+{
+def slurper12 = new JsonSlurper()
+def jsonResponse12 = slurper12.parseText response12
+
+log.info("Verifying numOfOSThreads field in JSON response")
+assert (jsonResponse12.numOfOSThreads != null)
+
+assert jsonResponse12.containsKey("numOfOSThreads"), "numOfOSThreads property not found in JSON response"
+
+log.info("Verified numOfOSThreads field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+
+//
+
+
+
+def response13 = context.expand( '${Step1_GetAssetServiceHealthCheck_Request#Response}' ).toString()
+if(response13 != "")
+{
+def slurper13 = new JsonSlurper()
+def jsonResponse13 = slurper13.parseText response13
+
+log.info("Verifying memoryPercentage field in JSON response")
+assert (jsonResponse13.memoryPercentage != null)
+
+assert jsonResponse13.containsKey("memoryPercentage"), "memoryPercentage property not found in JSON response"
+
+log.info("Verified memoryPercentage field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:properties><con:property><con:name>serverHost</con:name><con:value>http://internal-continuum-asset-service-elb-int-782930276.us-east-1.elb.amazonaws.com</con:value></con:property></con:properties><con:reportParameters/></con:testSuite><con:testSuite id="3aab6547-ca5f-46e8-b46a-4a00a253c76d" name="Performance healthCheck API Validation TestSuite"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:testCase id="9897d369-509c-44d8-8277-ac7b1097c4f1" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C1448266-Validate REST endpoint for Health Check API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetPerformanceServiceHealthCheck_Request" id="f99f25c9-d886-4e79-88cf-844ac4e27ee5"><con:settings/><con:config service="REST Service 6" resourcePath="/performance/healthCheck" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetPerformanceServiceHealthCheck_Request" id="7cda8296-ff08-480a-82a0-4851eb576b1b" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#TestSuite#serverHost}</con:endpoint><con:request/><con:originalUri>http://internal-continuum-perf-service-elb-int-1199294839.us-east-1.elb.amazonaws.com/performance/healthCheck</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="2ffcc26f-95a1-4b84-a3f7-b81e7dbed542" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C1448267-Validate REST response" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetPerformanceServiceHealthCheck_Request" id="d0fed314-da0a-4ec9-9f13-b7fc24f5afe5"><con:settings/><con:config service="REST Service 6" resourcePath="/performance/healthCheck" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetPerformanceServiceHealthCheck_Request" id="7cda8296-ff08-480a-82a0-4851eb576b1b" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#TestSuite#serverHost}</con:endpoint><con:request/><con:originalUri>http://internal-continuum-perf-service-elb-int-1199294839.us-east-1.elb.amazonaws.com/performance/healthCheck</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="REST response validations" id="7fb29be8-6800-402f-aa1a-cbd5d39ccc76"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+import java.text.SimpleDateFormat
+import org.joda.time.format.ISODateTimeFormat
+import org.joda.time.DateTime
+def response = context.expand('${Step1_GetPerformanceServiceHealthCheck_Request#Response}')
+if(response != "")
+{
+log.info("Verifying timeStampUTC field in JSON response")
+def jsonResponse = new JsonSlurper().parseText(response)
+def timeStampUTC = jsonResponse.timeStampUTC
+assert jsonResponse.containsKey('timeStampUTC'), "timeStampUTC field not found"
+assert timeStampUTC.trim() != "", "timeStampUTC field is empty"
+def dateTimeFormatStr = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
+ assert(ISODateTimeFormat.dateTimeParser().parseDateTime(timeStampUTC)),"timeStampUTC is not in format: " + dateTimeFormatStr
+ log.info("Verified timeStampUTC field in JSON performance healthcheck response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+
+
+def response1 = context.expand( '${Step1_GetPerformanceServiceHealthCheck_Request#Response}' ).toString()
+if(response1 != "")
+{
+def slurper1 = new JsonSlurper()
+def jsonResponse1 = slurper1.parseText response1
+
+log.info("Verifying name field in JSON response")
+assert (jsonResponse1.name != null)
+assert (jsonResponse1.name != "")
+assert jsonResponse1.containsKey("name"), "Name property not found in JSON response"
+assert(jsonResponse1.name == "PerformanceServiceSolution"),"Name property is not same as PerformanceServiceSolution"
+log.info("Verified name field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+
+
+def response2 = context.expand( '${Step1_GetPerformanceServiceHealthCheck_Request#Response}' ).toString()
+if(response2 != "")
+{
+def slurper2 = new JsonSlurper()
+def jsonResponse2 = slurper2.parseText response2
+
+log.info("Verifying type field in JSON response")
+assert (jsonResponse2.type != null)
+assert (jsonResponse2.type != "")
+assert jsonResponse2.containsKey("type"), "type property not found in JSON response"
+assert(jsonResponse2.type == "HealthCheck"),"type property is not same as Version"
+log.info("Verified type field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+
+def response3 = context.expand( '${Step1_GetPerformanceServiceHealthCheck_Request#Response}' ).toString()
+if(response3 != "")
+{
+def slurper3 = new JsonSlurper()
+def jsonResponse3 = slurper3.parseText response3
+
+log.info("Verifying serviceName field in JSON response")
+assert (jsonResponse3.serviceName != null)
+assert (jsonResponse3.serviceName != "")
+assert jsonResponse3.containsKey("serviceName"), "serviceName property not found in JSON response"
+assert(jsonResponse3.serviceName == "Performance Micro-Service"),"serviceName property is not same as Performance Micro-Service"
+log.info("Verified serviceName field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+
+
+def response4 = context.expand( '${Step1_GetPerformanceServiceHealthCheck_Request#Response}' ).toString()
+if(response4 != "")
+{
+def slurper4 = new JsonSlurper()
+def jsonResponse4 = slurper4.parseText response4
+
+log.info("Verifying serviceProvider field in JSON response")
+assert (jsonResponse4.serviceProvider != null)
+assert (jsonResponse4.serviceProvider != "")
+assert jsonResponse4.containsKey("serviceProvider"), "serviceProvider property not found in JSON response"
+assert(jsonResponse4.serviceProvider == "Continuum LLC"),"serviceProvider property is not same as Performance Micro-Service"
+log.info("Verified serviceProvider field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+
+
+def response5 = context.expand( '${Step1_GetPerformanceServiceHealthCheck_Request#Response}' ).toString()
+if(response5 != "")
+{
+def slurper5 = new JsonSlurper()
+def jsonResponse5 = slurper5.parseText response5
+
+
+log.info("Verifying serviceVersion field in JSON response")
+assert (jsonResponse5.serviceVersion != null)
+assert (jsonResponse5.serviceVersion != "")
+assert jsonResponse5.containsKey("serviceVersion"), "serviceVersion property not found in JSON response"
+
+
+
+
+log.info("Verified serviceVersion field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+
+
+def response6 = context.expand( '${Step1_GetPerformanceServiceHealthCheck_Request#Response}' ).toString()
+if(response6 != "")
+{
+def slurper6 = new JsonSlurper()
+def jsonResponse6 = slurper6.parseText response6
+
+log.info("Verifying buildNumber field in JSON response")
+assert (jsonResponse6.buildNumber != null)
+
+assert jsonResponse6.containsKey("buildNumber"), "buildNumber property not found in JSON response"
+
+log.info("Verified buildNumber field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+
+
+
+
+def response7 = context.expand( '${Step1_GetPerformanceServiceHealthCheck_Request#Response}' ).toString()
+if(response7 != "")
+{
+def slurper7 = new JsonSlurper()
+def jsonResponse7 = slurper7.parseText response7
+assert (jsonResponse7.networkInterfaces != null)
+assert (jsonResponse7.networkInterfaces != "")
+assert jsonResponse7.containsKey("networkInterfaces"), "networkInterfaces property not found in JSON response"
+def jsonResponse8 = new JsonSlurper().parseText(response7).networkInterfaces
+
+assert jsonResponse8.size() > 0, "Response is empty"
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+//
+
+
+def response9 = context.expand( '${Step1_GetPerformanceServiceHealthCheck_Request#Response}' ).toString()
+if(response9 != "")
+{
+def slurper9 = new JsonSlurper()
+def jsonResponse9 = slurper9.parseText response9
+
+log.info("Verifying status field in JSON response")
+assert (jsonResponse9.status != null)
+
+assert jsonResponse9.containsKey("status"), "status property not found in JSON response"
+
+log.info("Verified status field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+
+//
+
+
+def response10 = context.expand( '${Step1_GetPerformanceServiceHealthCheck_Request#Response}' ).toString()
+if(response10 != "")
+{
+def slurper10 = new JsonSlurper()
+def jsonResponse10 = slurper10.parseText response10
+
+log.info("Verifying startTime field in JSON response")
+assert (jsonResponse10.startTime != null)
+
+assert jsonResponse10.containsKey("startTime"), "startTime property not found in JSON response"
+
+log.info("Verified startTime field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+
+//
+
+def response11 = context.expand( '${Step1_GetPerformanceServiceHealthCheck_Request#Response}' ).toString()
+if(response11 != "")
+{
+def slurper11 = new JsonSlurper()
+def jsonResponse11 = slurper11.parseText response11
+
+log.info("Verifying cpuPercentage field in JSON response")
+assert (jsonResponse11.cpuPercentage != null)
+
+assert jsonResponse11.containsKey("cpuPercentage"), "cpuPercentage property not found in JSON response"
+
+log.info("Verified cpuPercentage field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+
+
+//
+
+
+def response12 = context.expand( '${Step1_GetPerformanceServiceHealthCheck_Request#Response}' ).toString()
+if(response12 != "")
+{
+def slurper12 = new JsonSlurper()
+def jsonResponse12 = slurper12.parseText response12
+
+log.info("Verifying numOfOSThreads field in JSON response")
+assert (jsonResponse12.numOfOSThreads != null)
+
+assert jsonResponse12.containsKey("numOfOSThreads"), "numOfOSThreads property not found in JSON response"
+
+log.info("Verified numOfOSThreads field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+
+//
+
+
+
+def response13 = context.expand( '${Step1_GetPerformanceServiceHealthCheck_Request#Response}' ).toString()
+if(response13 != "")
+{
+def slurper13 = new JsonSlurper()
+def jsonResponse13 = slurper13.parseText response13
+
+log.info("Verifying memoryPercentage field in JSON response")
+assert (jsonResponse13.memoryPercentage != null)
+
+assert jsonResponse13.containsKey("memoryPercentage"), "memoryPercentage property not found in JSON response"
+
+log.info("Verified memoryPercentage field in JSON response")
+}
+else
+	{
+		testRunner.fail("HealthCheck API Response is null")
+	}
+</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:properties><con:property><con:name>serverHost</con:name><con:value>http://internal-continuum-perf-service-elb-int-1199294839.us-east-1.elb.amazonaws.com</con:value></con:property></con:properties><con:reportParameters/></con:testSuite><con:testSuite id="6de1134c-cc2b-4276-972b-cd987da80d4c" name="Asset Versioning API Validation TestSuite"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:runType>SEQUENTIAL</con:runType><con:testCase id="c8b722d8-5037-4d82-8e28-a49501a9a0b0" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C1448268-Validate REST endpoint for Version API" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetAssetServiceVersion_Request" id="0ac8c82e-ccde-4868-8981-34b1343e23fe"><con:settings/><con:config service="REST Service 3" resourcePath="/asset/version" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetAssetServiceVersion_Request" id="3a965f7b-3775-4055-9718-e9f512e69f8a" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#TestSuite#serverHost}</con:endpoint><con:request/><con:originalUri>http://internal-continuum-asset-service-elb-int-782930276.us-east-1.elb.amazonaws.com/asset/version</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase id="d1d51598-1477-49d3-b016-8e7969cedb9a" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="C1448270-Validate REST response" searchProperties="true" timeout="0"><con:settings/><con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="restrequest" name="Step1_GetAssetServiceVersion_Request" id="c49fac08-2c2f-43ff-81cf-a5b4016ef0f6"><con:settings/><con:config service="REST Service 3" resourcePath="/asset/version" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="Step1_GetAssetServiceVersion_Request" id="3a965f7b-3775-4055-9718-e9f512e69f8a" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>${#TestSuite#serverHost}</con:endpoint><con:request/><con:originalUri>http://internal-continuum-asset-service-elb-int-782930276.us-east-1.elb.amazonaws.com/asset/version</con:originalUri><con:credentials><con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="REST response validations" id="6d9a7f5d-93a3-4517-8844-ae8c6d6e97d9"><con:settings/><con:config><script>import groovy.json.JsonSlurper
+import java.text.SimpleDateFormat
+import org.joda.time.format.ISODateTimeFormat
+import org.joda.time.DateTime
+def response = context.expand('${Step1_GetAssetServiceVersion_Request#Response}')
+if(response != "")
+{
+log.info("Verifying timeStampUTC field in JSON response")
+def jsonResponse = new JsonSlurper().parseText(response)
+def timeStampUTC = jsonResponse.timeStampUTC
+assert jsonResponse.containsKey('timeStampUTC'), "timeStampUTC field not found"
+assert timeStampUTC.trim() != "", "timeStampUTC field is empty"
+def dateTimeFormatStr = "yyyy-MM-dd'T'HH:mm:ss.SSS'Z'"
+ assert(ISODateTimeFormat.dateTimeParser().parseDateTime(timeStampUTC)),"timeStampUTC is not in format: " + dateTimeFormatStr
+ log.info("Verified timeStampUTC field in JSON asset version response")
+}
+
+else
+	{
+		testRunner.fail("Version API Response is null")
+	}
+
+
+
+def response1 = context.expand( '${Step1_GetAssetServiceVersion_Request#Response}' ).toString()
+if(response1 != "")
+{
+def slurper1 = new JsonSlurper()
+def jsonResponse1 = slurper1.parseText response1
+//def name = context.expand( '${#TestSuite#name}' )
+log.info("Verifying name field in JSON response")
+assert (jsonResponse1.name != null)
+assert (jsonResponse1.name != "")
+assert jsonResponse1.containsKey("name"), "Name property not found in JSON response"
+assert(jsonResponse1.name == "AssetServiceSolution"),"Name property is not same as AssetServiceSolution"
+log.info("Verified name field in JSON response")
+}
+else
+	{
+		testRunner.fail("Version API Response is null")
+	}
+
+
+
+def response2 = context.expand( '${Step1_GetAssetServiceVersion_Request#Response}' ).toString()
+if(response2 != "")
+{
+def slurper2 = new JsonSlurper()
+def jsonResponse2 = slurper2.parseText response2
+//def type = context.expand( '${#TestSuite#type}' )
+log.info("Verifying type field in JSON response")
+assert (jsonResponse2.type != null)
+assert (jsonResponse2.type != "")
+assert jsonResponse2.containsKey("type"), "type property not found in JSON response"
+assert(jsonResponse2.type == "Version"),"type property is not same as Version"
+log.info("Verified type field in JSON response")
+}
+else
+	{
+		testRunner.fail("Version API Response is null")
+	}
+
+
+
+def response3 = context.expand( '${Step1_GetAssetServiceVersion_Request#Response}' ).toString()
+if(response3 != "")
+{
+def slurper3 = new JsonSlurper()
+def jsonResponse3 = slurper3.parseText response3
+//def serviceName = context.expand( '${#TestSuite#serviceName}' )
+log.info("Verifying serviceName field in JSON response")
+assert (jsonResponse3.serviceName != null)
+assert (jsonResponse3.serviceName != "")
+assert jsonResponse3.containsKey("serviceName"), "serviceName property not found in JSON response"
+assert(jsonResponse3.serviceName == "Asset Micro-Service"),"serviceName property is not same as Asset Micro-Service"
+log.info("Verified serviceName field in JSON response")
+}
+else
+	{
+		testRunner.fail("Version API Response is null")
+	}
+
+
+
+def response4 = context.expand( '${Step1_GetAssetServiceVersion_Request#Response}' ).toString()
+if(response4 != "")
+{
+def slurper4 = new JsonSlurper()
+def jsonResponse4 = slurper4.parseText response4
+//def serviceProvider = context.expand( '${#TestSuite#serviceProvider}' )
+log.info("Verifying serviceProvider field in JSON response")
+assert (jsonResponse4.serviceProvider != null)
+assert (jsonResponse4.serviceProvider != "")
+assert jsonResponse4.containsKey("serviceProvider"), "serviceProvider property not found in JSON response"
+assert(jsonResponse4.serviceProvider == "Continuum LLC"),"serviceProvider property is not same as Asset Micro-Service"
+log.info("Verified serviceProvider field in JSON response")
+}
+else
+	{
+		testRunner.fail("Version API Response is null")
+	}
+
+def response5 = context.expand( '${Step1_GetAssetServiceVersion_Request#Response}' ).toString()
+if(response5 != "")
+{
+def slurper5 = new JsonSlurper()
+def jsonResponse5 = slurper5.parseText response5
+//def serviceVersion = context.expand( '${#TestSuite#serviceVersion}' )
+
+log.info("Verifying serviceVersion field in JSON response")
+assert (jsonResponse5.serviceVersion != null)
+assert (jsonResponse5.serviceVersion != "")
+assert jsonResponse5.containsKey("serviceVersion"), "serviceVersion property not found in JSON response"
+
+
+
+
+log.info("Verified serviceVersion field in JSON response.")
+}
+else
+	{
+		testRunner.fail("Version API Response is null")
+	}
+
+
+def response6 = context.expand( '${Step1_GetAssetServiceVersion_Request#Response}' ).toString()
+if(response6 != "")
+{
+def slurper6 = new JsonSlurper()
+def jsonResponse6 = slurper6.parseText response6
+//def buildNumber = context.expand( '${#TestSuite#buildNumber}' )
+log.info("Verifying buildNumber field in JSON response")
+assert (jsonResponse6.buildNumber != null)
+//assert (jsonResponse.buildNumber != "")
+assert jsonResponse6.containsKey("buildNumber"), "buildNumber property not found in JSON response"
+
+}
+else
+	{
+		testRunner.fail("Version API Response is null")
+	}
+
+
+</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:properties><con:property><con:name>serverHost</con:name><con:value>http://internal-continuum-asset-service-elb-int-782930276.us-east-1.elb.amazonaws.com</con:value></con:property></con:properties><con:reportParameters/></con:testSuite><con:savedRecentRuns>1</con:savedRecentRuns><con:requirements/><con:properties><con:property><con:name>ServerHost</con:name><con:value>http://internal-continuum-asset-service-elb-int-782930276.us-east-1.elb.amazonaws.com/asset/v1/endpoint/f6d990e6-bf7e-4f50-b465-66564dd8502c</con:value></con:property></con:properties><con:wssContainer/><con:databaseConnectionContainer/><con:oAuth2ProfileContainer/><con:reporting><con:reportTemplates/><con:xmlTemplates/><con:xmlTemplates/><con:parameters/><con:parameters/></con:reporting><con:reporting/><con:authRepository/><con:tags/></con:soapui-project>

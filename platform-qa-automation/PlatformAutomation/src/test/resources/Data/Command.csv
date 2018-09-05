@@ -1,0 +1,62 @@
+CheckCassandraStatus,service cassandra status
+StartPerformanceService,./platform-performance-service &
+StartAgentMicroService,./platform-agent-service &
+GetProcessID,ps -ef | grep platform-agent-core | grep -v grep | awk '{print $2}'
+StartAgentCore,./platform-agent-core &
+MemoryPerformanceScheduleConfig,"jq -r '.schedules[1]|{task,executeNow,schedule}' ctm_agent_schedule_cfg.json"
+AgentServiceProcessID,ps -ef | grep platform-agent-service | grep -v grep | awk '{print $2}'
+AgentCoreProcessID,ps -ef | grep platform-agent-core | grep -v grep | awk '{print $2}'
+GetEndPointID,cd /opt/continuum/config ; jq -r '.EndPointID' platform_agent_core_cfg.json
+GetPluginPayload,cd /opt/continuum/plugin/asset ; sudo ./platform-asset-plugin
+GetPerformancePluginPayload,cd /opt/continuum/plugin/performance ; sudo ./platform-performance-plugin
+MSIInstallCommand,cmd /c C:\\Juno-Agent\\Platform-Agent-Exe.exe /s ENV=INT
+VALIDTOKENInstall,cmd /c C:\\Juno-Agent\\Platform-Agent-Exe.exe /s ENV=INT TOKEN=TOKENID
+MSIUninstallCommand,cmd /c msiexec /x C:\\Juno-Agent\\Platform-Agent-Full.msi /quiet /qn
+GetOSName,cmd /c systeminfo | findstr /B /C:"OS Name"
+MSIInstallCommandWithInvalidToken,cmd /c C:\\Juno-Agent\\Platform-Agent-Exe.exe /s ENV=INT TOKEN=fd7d5a
+GetOSVersion,cmd /c ver
+GetHostName,cmd /c hostname
+GetmacAddress,cmd /c wmic nic where (AdapterTypeId=0) get MacAddress
+GetProcessorID,cmd /c wmic cpu get ProcessorId
+GetProcessorType,wmic cpu get processorType
+GetHardDriveSerialNumber,wmic diskdrive get serialnumber
+GetbiosSerial,wmic bios get serialnumber
+GetMemory,wmic memorychip get serialnumber
+GetMotherboardAdapterSrNo,wmic baseboard get serialnumber
+GetlogicalDiskVolumeSerialNumber,wmic /output:"C:\out.csv" logicaldisk get VolumeSerialNumber
+GetOSSerialNumber,wmic os get serialnumber
+GetCDROMSerial,wmic cdrom get SerialNumber
+InstallMSIViaEXE,cmd /c C:\\Users\\Administrator\\Desktop\\Platform-Agent-Exe.exe /s
+UninstallMSIViaEXE,cmd /c C:\\Juno-Agent2.0\\Downloads\\Platform-Agent-Exe.exe -uninstall -quiet
+StopAgentCoreService,net stop ITSPlatform
+StartAgentCoreService,net start ITSPlatform
+GetEventLogForMSI,cmd /c wevtutil qe Application /rd:true /f:text /c:1 /q:Event[EventData[Data='ITSPlatform']] | findstr /v /b /c:" "|find /v "Data[1035]"
+GetSAAZODRegistryPath64Bit,HKEY_LOCAL_MACHINE\Software\Wow6432Node\SAAZOD
+GetSAAZODRegistryPath32Bit,HKEY_LOCAL_MACHINE\SOFTWARE\SAAZOD
+GetSampleEventCommand,cmd /c eventcreate /T Information /ID 124 /L Application /SO Testing /D AutomationTesting
+GetEventLogForSample,cmd /c wevtutil qe Application /rd:true /f:text /c:1 /q:Event[EventData[Data='AutomationTesting']] | findstr /v /b /c:" "|find /v "Data[124]"
+GetAgentCoreProcessID,wmic process where (name="platform-agent-core.exe")  get processid
+GetLRPProcessID,wmic process where (name="platform-eventlog-plugin.exe")  get processid
+GetScriptingProcessID,wmic process where (name="platform-scripting-plugin.exe")  get processid
+GetEventCommand,cmd /c powershell.exe -command "Write-eventlog -LogName System -Source 'Ntfs' -EntryType Error -EventId 55 -Message 'Disk File System Error Event Via PowerShell'"
+ArtifactoryInstall,"cmd /c powershell.exe -command (new-object System.Net.WebClient).DownloadFile('http://artifact.corp.continuum.net:8081/artifactory/int-dev_platform-windows-agent-package/BuildNo/Platform-Agent-Exe.exe','C:\Users\Administrator\Desktop\Agent\Platform-Agent-Exe.exe')"
+GetEventLogForNTFS,cmd /c wevtutil qe System /rd:true /f:text /c:1 /q:"*[System[Provider[@Name='Ntfs'] and (EventID=55)]]" |findstr /v /b /c:" "|find /v "EventData[Disk File System Error Event Via PowerShell]"
+CreateEventCommand,cmd /c powershell.exe -command "Write-eventlog -LogName LM -Source 'SN' -EntryType evnT -EventId evnNo -Message 'Desc'"
+GetEventLogValidation,cmd /c wevtutil qe LN /rd:true /f:text /c:1 /q:"*[System[Provider[@Name='SN'] and (EventID=evnNo)]]"
+SecurityCommandOne,cmd /c powershell.exe -command "net.exe USER User01 'Passw0rd12' /ADD"
+SecurityCommandTwo,cmd /c powershell.exe -command "net.exe localgroup administrators User01 /add"
+SecurityCommandThree,cmd /c powershell.exe -command "net.exe user User01 /DELETE"
+EventLogJsonReader64Bit,cmd /c powershell.exe -command "Get-Content 'C:\Program Files (x86)\ITSPlatform\plugin\eventlog\eventlog_agent_plugin_cfg.json' |?{$_.Contains("'logLevel'")}"
+EventLogJsonReader32Bit,cmd /c powershell.exe -command "Get-Content 'C:\Program Files\ITSPlatform\plugin\eventlog\eventlog_agent_plugin_cfg.json' | ? {$_.Contains("'logLevel'")}"
+ClearAgentLog64Bit,cmd /c powershell.exe -command Clear-Content 'C:\Program Files (x86)\ITSPlatform\log\platform_agent_core.log'
+ClearAgentLog32Bit,cmd /c powershell.exe -command Clear-Content 'C:\Program Files\ITSPlatform\log\platform_agent_core.log'
+AgentCoreLogReaderForEvent32Bit,cmd /c powershell.exe -command "Get-Content 'C:\Program Files\ITSPlatform\log\platform_agent_core.log' |?{$_.Contains("'ExpectedOutput'")}"
+AgentCoreLogReaderForEvent64Bit,cmd /c powershell.exe -command "Get-Content 'C:\Program Files (x86)\ITSPlatform\log\platform_agent_core.log' |?{$_.Contains("'ExpectedOutput'")}"
+GetSystemManufacturer,cmd /c wmic computersystem get model
+GetUUID,cmd /c wmic csproduct get UUID
+ITSPlatformServiceStatus,cmd /c sc queryex ITSPlatform Service
+ITSPlatformManagerServiceStatus,cmd /c sc queryex ITSPlatformManager Service
+AgentCoreJsonReader64Bit,cmd /c powershell.exe -command "Get-Content 'C:\Program Files (x86)\ITSPlatform\config\platform_agent_core_cfg.json' |?{$_.Contains("'LogLevel'")}"
+AgentCoreJsonReader32Bit,cmd /c powershell.exe -command "Get-Content 'C:\Program Files\ITSPlatform\config\platform_agent_core_cfg.json' | ? {$_.Contains("'LogLevel'")}"
+DebianAgentInstallCommand,cd /home/qaadmin/ && chmod +x DebianAgentInstall.sh && bash /home/qaadmin/DebianAgentInstall.sh 
+MD5CheckSumCalculate,cmd /c cd c:\\Juno-Agent && CertUtil -hashfile 
