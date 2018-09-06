@@ -1,6 +1,6 @@
 Feature: VersionPluginToAMS Validation
 
-     @platformSanity  @swa
+     @platformSanity 
      Scenario Outline: Validation of information returned by version plugin-C3685604
       Given SSH connection establishes with remote test machine from tag
       When User read data from excel with rowIndex "<RowIndex>"
