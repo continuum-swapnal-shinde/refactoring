@@ -13,7 +13,7 @@ Feature: Agent Auto Update Feature
       |        1 | /agent/v1/partnerManifest |        200 | /agent/v1/partner/PartnerID/manifest | /agent/v1/registration |
       |        2 | /agent/v1/partnerManifest |        200 | /agent/v1/partner/PartnerID/manifest | /agent/v1/registration |
 
-  @PlatformRegression @Win7_32Bit @Win7_64Bit @Win8_32Bit @Win8_64Bit @Win10_32Bit @Win10_64Bit @Win8.1_32Bit @WinXP_32Bit @WinXP_64Bit @WinVista_32Bit @WinVista_64Bit @WinServer8_64Bit @WinServer12_64Bit @WinServer16_64Bit @WinServer12R2_64Bit
+  @PlatformRegression @swa @Win7_32Bit @Win7_64Bit @Win8_32Bit @Win8_64Bit @Win10_32Bit @Win10_64Bit @Win8.1_32Bit @WinXP_32Bit @WinXP_64Bit @WinVista_32Bit @WinVista_64Bit @WinServer8_64Bit @WinServer12_64Bit @WinServer16_64Bit @WinServer12R2_64Bit
   Scenario Outline: Validate enabling manifest for partners using invalid manifest url-C3601662
     When User send a Post request for Manifest API endpoint as "<POSTEndpoint>"
     Then User should validate the "<Statuscode>" as in response
