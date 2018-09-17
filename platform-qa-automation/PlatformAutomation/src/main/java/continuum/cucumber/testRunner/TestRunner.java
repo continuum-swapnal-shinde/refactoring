@@ -27,7 +27,7 @@ import cucumber.api.testng.TestNGCucumberRunner;
 				"html:test-report/cucumber",
 				"json:test-report/cucumber.json",
 		"rerun:target/rerun.txt" },
-		tags={"@swa"}
+		tags={"@PlatformRegression"}
 		
 		)
 public class TestRunner {
